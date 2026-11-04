@@ -2500,7 +2500,7 @@ preview	Title	Titre
 	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	Le dictionnaire orthographique pour {language} n’a pas pu être lu ; il n’est donc pas vérifié. Fichier : {file}. Raison : {reason}
 	{language} (dictionary unreadable)	{language} (dictionnaire illisible)
 	Text Size	Taille du texte
-	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Le recadrage sur la page fonctionne sur les images non pivotées : réglez d’abord la rotation sur 0°, ou utilisez les cadres de recadrage
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Le rognage sur la page fonctionne sur les images non pivotées : réglez d’abord la rotation sur 0°, ou utilisez les cadres de rognage
 	Folder path	Chemin du dossier
 	No items to show.	Aucun élément à afficher.
 	File type	Type de fichier
@@ -2518,16 +2518,12 @@ preview	Title	Titre
 	Installing… {percent}%	Installation… {percent} %
 	Install ({size})	Installer ({size})
 	Licence: {licence}. Source: {source}	Licence : {licence}. Source : {source}
-	Installing turns on downloading of fonts and Language packs from GitHub.	L’installation active le téléchargement des polices et des modules de langue depuis GitHub.
-	Language packs come from a test source: {source}	Les modules de langue proviennent d’une source de test : {source}
-	Language packs	Modules de langue
-	Spelling dictionaries and hyphenation for more languages. English is built in.	Dictionnaires orthographiques et césure pour davantage de langues. L’anglais est intégré.
-	Language packs aren't available in the browser.	Les modules de langue ne sont pas disponibles dans le navigateur.
-	Language packs need the font store folder, and there is none on this computer.	Les modules de langue ont besoin du dossier de stockage des polices, et cet ordinateur n’en a pas.
+	Installing turns on downloading of fonts and Language packs from GitHub.	L’installation active le téléchargement des polices et des packs de langue depuis GitHub.
+	Language packs come from a test source: {source}	Les packs de langue proviennent d’une source de test : {source}
+	Language packs aren't available in the browser.	Les packs de langue ne sont pas disponibles dans le navigateur.
+	Language packs need the font store folder, and there is none on this computer.	Les packs de langue ont besoin du dossier de stockage des polices, et cet ordinateur n’en a pas.
 	Getting the list of languages…	Récupération de la liste des langues…
-	Show available languages	Afficher les langues disponibles
 	Get the list of languages again	Récupérer à nouveau la liste des langues
-	Downloading is off. Clicking Show available languages, Refresh or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	Le téléchargement est désactivé. Cliquer sur Afficher les langues disponibles, Actualiser ou Installer l’active : WordCraft télécharge alors des modules de langue et des polices depuis GitHub.
 	Installed	Installé
 	Install	Installer
 	The spelling and hyphenation data WordCraft uses, and their licences.	Les données d’orthographe et de césure utilisées par WordCraft, et leurs licences.
