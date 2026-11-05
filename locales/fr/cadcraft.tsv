@@ -1085,7 +1085,6 @@ menu	Modify	Modifier
 menu	View	Affichage
 	Viewport is locked	La fenêtre est verrouillée
 	Viewport scale	Échelle de la fenêtre
-	Volume	Volume
 	Zoom Dynamic	Zoom dynamique
 	Zoom Realtime	Zoom en temps réel
 	Zoom sensitivity	Sensibilité du zoom
