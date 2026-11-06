@@ -380,7 +380,7 @@
 	Model Space (in viewport)	Espace objet (dans la fenêtre)
 	Modeling	Modélisation
 	MText	Texte multiligne
-	Multileader	Repère multiple
+	Multileader	Ligne de repère multiple
 	Multileader style	Style de repère multiple
 	Multileader Style...	Style de repère multiple...
 	Multiline	Multiligne
@@ -966,12 +966,12 @@ menu	Draw	Dessiner
 	Isolate Objects	Isoler les objets
 	Isometric Plane	Plan isométrique
 	Isometric snap	Accrochage isométrique
-	Jogged	Avec raccourci
-	Jogged Linear	Linéaire avec raccourci
+	Jogged	Coudée
+	Jogged Linear	Linéaire coudée
 	Keep the system cursor visible over the drawing area	Garder le curseur système visible sur la zone de dessin
 	Largest array	Plus grand réseau
 	Layout paper	Papier de la présentation
-	Leaders Only	Repères uniquement
+	Leaders Only	Lignes de repère uniquement
 	Left device button: zoom extents. Right device button: calibrate.	Bouton gauche du périphérique : zoom étendu. Bouton droit du périphérique : calibrer.
 	Lines of Command History	Lignes de l'historique des commandes
 	Loaded	Chargé
@@ -1096,8 +1096,8 @@ menu	View	Affichage
 	Block to create or edit	Bloc à créer ou modifier
 	Bottom left	En bas à gauche
 	Bottom right	En bas à droite
-	Boundaries	Frontières
-	Boundaries picked: {n}	Frontières sélectionnées : {n}
+	Boundaries	Contours
+	Boundaries picked: {n}	Contours sélectionnés : {n}
 	CADCraft	CADCraft
 	Click the ruler to add a tab stop, right-click to remove one	Cliquez sur la règle pour ajouter un taquet de tabulation, faites un clic droit pour en supprimer un
 	Click to set new origin	Cliquez pour définir une nouvelle origine
@@ -1110,7 +1110,7 @@ menu	View	Affichage
 	Create separate hatches	Créer des hachures séparées
 	Crossing selection color:	Couleur de la sélection par croisement :
 	Curved	Courbe
-	Default to boundary extents	Par défaut, étendue de la frontière
+	Default to boundary extents	Par défaut, étendue du contour
 	Drag Dynamic Grip	Faire glisser la poignée dynamique
 	Dynamic Block Data	Données de bloc dynamique
 	Dynamic Block Grips	Poignées de bloc dynamique
