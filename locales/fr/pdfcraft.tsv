@@ -4177,7 +4177,7 @@ review-suggestion	Replacement text	Texte de remplacement
 	Format lines	Formater les lignes
 	Gray images	Images en niveaux de gris
 	Hairlines	Traits fins
-	Highest version	Version la plus récente
+	Highest version	Version la plus élevée
 	Image resolution	Résolution de l'image
 	its alternate text, actual text or expansion has no language (Lang)	son texte alternatif, texte réel ou expansion n'a pas de langue (Lang)
 	its ID is another Note's too	son ID est aussi celui d'une autre Note
@@ -4424,7 +4424,7 @@ review-suggestion	Replacement text	Texte de remplacement
 	The edited text is set in {font} instead of its own font.	Le texte édité est en {font} au lieu de sa propre police.
 	the page flattening model is not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds it)	le modèle d'aplatissement de page n'est pas installé (réinstallez PdfCraft, ou définissez PDFCRAFT_MODELS sur le dossier qui le contient)
 	The text's own font can't show {chars}, so the edited text is set in {font}.	La police propre au texte ne peut pas afficher {chars} ; le texte modifié est donc composé en {font}.
-	thick	fort
+	thick	épais
 	This document has no guides to save	Ce document n'a pas de repères à enregistrer
 	Tint Strength	Intensité de la teinte
 	JPEG 2000 pictures need PDF 1.5, newer than {} allows	Les images JPEG 2000 nécessitent PDF 1.5, une version plus récente que celle autorisée par {}
@@ -4491,17 +4491,17 @@ review-suggestion	Replacement text	Texte de remplacement
 	Page X	Page X
 	Page Y	Page Y
 	Remove measurement viewport	Supprimer la fenêtre de mesure
-	Rounded	Rounded
-	Square kilometres	Square kilometres
-	Square metres	Square metres
-	Square miles	Square miles
+	Rounded	Arrondi
+	Square kilometres	Kilomètres carrés
+	Square metres	Mètres carrés
+	Square miles	Milles carrés
 	Square US survey feet	Pieds d'arpentage américains carrés
-	Thousands separator	Thousands separator
-	Truncated	Truncated
-	Unit prefix	Unit prefix
-	Unit suffix	Unit suffix
+	Thousands separator	Séparateur des milliers
+	Truncated	Tronqué
+	Unit prefix	Préfixe d'unité
+	Unit suffix	Suffixe d'unité
 	US survey feet	Pieds d'arpentage américains
-	Vertical coordinates	Vertical coordinates
+	Vertical coordinates	Coordonnées verticales
 	Page templates	Modèles de page
 	Print pages	Pages à imprimer
 	(page {p})	(page {p})
