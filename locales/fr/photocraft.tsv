@@ -2569,8 +2569,8 @@ cameraRaw	Aqua	Aqua
 	Artboard from Layers	Plan de travail à partir des calques
 	Artboards to Files	Plans de travail vers fichiers
 	Artboards to PDF	Plans de travail vers PDF
-	Ask On Mismatch	Demander en cas de décalage
-	Ask On Missing	Demander en cas de manquant
+	Ask On Mismatch	Demander en cas de profil non concordant
+	Ask On Missing	Demander en cas de profil absent
 	Ask On Paste	Demander lors du collage
 	Assign Profile	Attribuer un profil
 	At	À
@@ -2699,7 +2699,7 @@ cameraRaw	Curve	Courbe
 	Decrease Type Size by 10	Réduire la taille de la police de 10
 	Deep	Profond
 	Deep Blue	Bleu profond
-	Deep Emerald	Émeraude profond
+	Deep Emerald	Émeraude profonde
 	Deep Red	Rouge profond
 	Deep Yellow	Jaune profond
 	Default Foreground and Background Colors	Couleurs par défaut du premier plan et de l'arrière-plan
@@ -2767,8 +2767,8 @@ cameraRaw	Exposure	Exposition
 	Failed to save file	Échec de l'enregistrement du fichier
 	fallback	solution de repli
 	Fallback: {reason}	Solution de repli : {reason}
-cameraRaw	Feather	Contour progressif
-	Feather Radius	Rayon du contour progressif
+cameraRaw	Feather	Adoucissement
+	Feather Radius	Rayon d'adoucissement
 	Fiber Length	Longueur de la fibre
 	Fibers	Fibres
 	Field Blur	Flou de champ
@@ -2860,8 +2860,8 @@ cameraRaw	Highlights	Hautes lumières
 	Horizontal Distortion	Distorsion horizontale
 	Horizontal Only	Horizontal uniquement
 	Hotspot	Point chaud
-	Hsb	Hsb
-	Hsl	Hsl
+	Hsb	TSB
+	Hsl	TSL
 	Hsl Hue	Teinte TSL
 	Hsl Lum	Luminance TSL
 	Hsl Sat	Saturation TSL
@@ -3255,12 +3255,12 @@ cameraRaw	Texture	Texture
 	The file could not be saved.	Le fichier n'a pas pu être enregistré.
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Cet ajustement ({key}) est conservé tel qu'importé et ne peut pas encore être modifié.
 	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Ce calque de remplissage doit être rastérisé avant de continuer. Son contenu de remplissage ne sera plus modifiable. Rastériser le calque ?
-	This layer must be rasterized before proceeding.	Ce calque doit être pixélisé avant de continuer.
+	This layer must be rasterized before proceeding.	Ce calque doit être rastérisé avant de continuer.
 	This Layer:	Ce calque :
 	This session: {reason}	Cette session : {reason}
-	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	Ce calque de forme doit être pixélisé avant de continuer. Il ne sera plus modifiable en tant que forme. Pixéliser la forme ?
-	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	Cet objet dynamique doit être pixélisé avant de continuer. Son contenu ne sera plus modifiable. Pixéliser l'objet dynamique ?
-	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	Ce calque de texte doit être pixélisé avant de continuer. Son texte ne sera plus modifiable. Pixéliser le texte ?
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	Ce calque de forme doit être rastérisé avant de continuer. Il ne sera plus modifiable en tant que forme. Rastériser la forme ?
+	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	Cet objet intelligent doit être rastérisé avant de continuer. Son contenu ne sera plus modifiable. Rastériser l'objet intelligent ?
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	Ce calque de texte doit être rastérisé avant de continuer. Son texte ne sera plus modifiable. Rastériser le texte ?
 	Tiles	Tuiles
 	Tilt-Shift	Tilt-Shift
 	Tiny Lens	Tiny Lens
@@ -3290,7 +3290,7 @@ cameraRaw	Texture	Texture
 	Unsaved Changes	Modifications non enregistrées
 	Unsupported file format	Format de fichier non pris en charge
 	Unsupported format	Format non pris en charge
-@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	{n} objet dynamique lié mis à jour et modifié sur le disque|{n} objets dynamiques liés mis à jour et modifiés sur le disque
+@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	{n} objet intelligent lié mis à jour et modifié sur le disque|{n} objets intelligents liés mis à jour et modifiés sur le disque
 	Upper	Haut
 	Use Custom Color	Utiliser une couleur personnalisée
 	Use File › Open to open an image.	Utilisez Fichier › Ouvrir pour ouvrir une image.
@@ -3305,7 +3305,7 @@ cameraRaw	Texture	Texture
 cameraRaw	Vibrance	Vibrance
 	Video Frames to Layers	Images vidéo vers calques
 	Vignette Amount	Intensité de la vignette
-	Vignette Feather	Contour progressif de la vignette
+	Vignette Feather	Adoucissement de la vignette
 	Vignette Highlights	Hautes lumières de la vignette
 	Vignette Midpoint	Point milieu de la vignette
 	Vignette Roundness	Arrondi de la vignette
