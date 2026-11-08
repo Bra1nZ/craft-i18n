@@ -1,0 +1,99 @@
+# The Weblate round trip (ADR 0006). `main`'s catalogs go out as PO files on the `weblate` branch,
+# which Weblate translates; what Weblate commits there comes back as the `weblate/sync` pull
+# request, which merges itself once CI passes.
+#
+# The base of both directions is the last export commit (author EXPORT_NAME): a translation that
+# differs from it is Weblate's change. Pushes made with GITHUB_TOKEN start no workflow, so the
+# export's own push never triggers an import. The import uses WEBLATE_BOT_TOKEN (a bot account or
+# GitHub App token with contents and pull-request write) because a pull request opened with
+# GITHUB_TOKEN would get no CI run, and so could never auto-merge.
+name: Weblate
+
+on:
+  push:
+    branches: [main, weblate]
+  workflow_dispatch:
+
+concurrency:
+  group: weblate
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  EXPORT_NAME: craft-i18n export
+  EXPORT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+jobs:
+  export:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Check out the weblate branch and the last export
+        run: |
+          mkdir "$RUNNER_TEMP/base"
+          if git ls-remote --exit-code --heads origin weblate >/dev/null; then
+            git fetch -q origin weblate
+            git worktree add -q --detach "$RUNNER_TEMP/po" origin/weblate
+            sha=$(git log origin/weblate --author="$EXPORT_NAME" -1 --format=%H)
+            if [ -n "$sha" ]; then git archive "$sha" | tar -x -C "$RUNNER_TEMP/base"; fi
+          else
+            git worktree add -q --orphan -b weblate "$RUNNER_TEMP/po"
+          fi
+      - name: Export
+        run: python3 tools/weblate_bridge.py export "$RUNNER_TEMP/po" --base "$RUNNER_TEMP/base"
+      - name: Push to weblate
+        working-directory: ${{ runner.temp }}/po
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          git -c user.name="$EXPORT_NAME" -c user.email="$EXPORT_EMAIL" \
+            commit -q -m "Export from main@${GITHUB_SHA::8}"
+          # Fails if Weblate pushed meanwhile; the next push to main exports again.
+          git push -q origin HEAD:refs/heads/weblate
+
+  import:
+    if: github.ref == 'refs/heads/weblate' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.WEBLATE_BOT_TOKEN }}
+      - name: Check out the weblate branch and the last export
+        run: |
+          git fetch -q origin weblate
+          git worktree add -q --detach "$RUNNER_TEMP/po" origin/weblate
+          sha=$(git log origin/weblate --author="$EXPORT_NAME" -1 --format=%H)
+          if [ -z "$sha" ]; then echo "::error::no export commit on weblate"; exit 1; fi
+          mkdir "$RUNNER_TEMP/base"
+          git archive "$sha" | tar -x -C "$RUNNER_TEMP/base"
+      - name: Import
+        run: |
+          git switch -q -c weblate/sync
+          python3 tools/weblate_bridge.py import "$RUNNER_TEMP/po" --base "$RUNNER_TEMP/base" \
+            --changes "$RUNNER_TEMP/changes.json"
+      - name: Open or update the pull request
+        env:
+          GH_TOKEN: ${{ secrets.WEBLATE_BOT_TOKEN }}
+        run: |
+          if git diff --quiet -- locales; then echo "nothing to import"; exit 0; fi
+          python3 tools/weblate_bridge.py pr-body "$RUNNER_TEMP/changes.json" > "$RUNNER_TEMP/body.md"
+          git add locales
+          git -c user.name="craft-i18n Weblate sync" -c user.email="$EXPORT_EMAIL" \
+            commit -q -m "Translations from Weblate (weblate@$(git rev-parse --short origin/weblate))"
+          git push -q --force origin HEAD:refs/heads/weblate/sync
+          if gh pr view weblate/sync --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            gh pr edit weblate/sync --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --base main --head weblate/sync --title "Translations from Weblate" \
+              --body-file "$RUNNER_TEMP/body.md"
+          fi
+          gh pr merge weblate/sync --auto --squash
