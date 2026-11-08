@@ -390,6 +390,7 @@ def pr_body(changes):
                    "`main` keeps its text; the next export puts it back in Weblate. A Reviewer can "
                    "suggest Weblate's wording again if it is still better.\n\n")
         out += [_line(c) for c in conflicts]
+    corrections = [c for c in changes if c["component"] == "common"]
     if corrections:
         out.append("\n## Corrections to shared strings (ADR 0003)\n\n"
                    "Each was accepted by the locale's Reviewer in Weblate as a Correction.\n\n")
