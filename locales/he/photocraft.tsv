@@ -4342,8 +4342,6 @@ navigator	Zoom	תקריב
 	↑↓ navigate   ↵ run   esc close	↑↓ ניווט   ↵ הפעלה   esc סגירה
 	✓ Color Indicates Masked Areas	✓ הצבע מציין אזורים ממוסכים
 	✓ Color Indicates Selected Areas	✓ הצבע מציין אזורים נבחרים
-@plural	{n} item|{n} items	{n} פריט|{n} פריטים|{n} פריטים
-@plural	{n} Layer|{n} Layers	{n} שכבה|{n} שכבות|{n} שכבות
 @plural	{n} layer|{n} layers	{n} שכבה|{n} שכבות|{n} שכבות
 @plural	Group · {n} layer|Group · {n} layers	קבוצה · {n} שכבה|קבוצה · {n} שכבות|קבוצה · {n} שכבות
 @plural	{n} sample|{n} samples	{n} דוגמה|{n} דוגמאות|{n} דוגמאות
