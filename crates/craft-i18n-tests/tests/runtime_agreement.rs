@@ -190,7 +190,7 @@ fn tokenize(mut rest: &str) -> Vec<Token> {
                 .iter()
                 .find(|o| rest.starts_with(**o))
                 .unwrap_or_else(|| panic!("bad token at {rest:?}"));
-            out.push(Token::Op(*op));
+            out.push(Token::Op(op));
             rest = &rest[op.len()..];
         }
         rest = rest.trim_start();
