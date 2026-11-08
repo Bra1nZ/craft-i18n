@@ -2,8 +2,8 @@
 
 Contributors who don't use git suggest translations in a Weblate instance we host ourselves. Other
 contributors vote on Suggestions, and a Reviewer for the locale accepts or declines them. Accepted
-text reaches `locales/` only as a pull request, which a converter opens and which merges once CI is
-green. The TSV catalogs on `main` stay the only source of truth (ADR 0001). Weblate works on PO
+text reaches `locales/` only as a pull request, which a converter opens and a maintainer approves
+and merges once CI is green. The TSV catalogs on `main` stay the only source of truth (ADR 0001). Weblate works on PO
 files that the converter regenerates from `main` onto a `weblate` mirror branch, and nothing it
 writes lands on `main` except through that PR.
 
@@ -50,6 +50,9 @@ because they would break the clean-room rule. Weblate keeps only this project's 
 - **Pontoon**: rejected. It is built around Mozilla's workflow, and we couldn't confirm it supports
   voting on Suggestions.
 - **Auto-accept at N votes**: rejected, see above.
+- **Auto-merge the sync PR on green CI**: not for now. CI checks the catalog format, not that the
+  text was accepted in Weblate, and `main` doesn't require reviews yet. To revisit together with
+  AutoCraft's merge queue.
 - **Weblate commits straight to `main`**: rejected. It would skip the CI checker and the review of
   shared rows.
 - **GitHub issue forms or a shared spreadsheet**: rejected. Neither has real voting or a Reviewer
