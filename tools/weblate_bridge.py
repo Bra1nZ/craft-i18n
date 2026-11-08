@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Bridge between the TSV catalogs in `locales/` and the PO files Weblate edits (ADR 0006).
 
-    tools/weblate_bridge.py export <po-dir> --base <base-dir>
-    tools/weblate_bridge.py import <po-dir> --base <base-dir> [--changes FILE]
+    tools/weblate_bridge.py export <po-dir> --base <base-dir> [--root DIR]
+    tools/weblate_bridge.py import <po-dir> --base <base-dir> [--root DIR] [--changes FILE]
     tools/weblate_bridge.py pr-body <changes FILE>
 
 `<po-dir>` is a checkout of the `weblate` branch: `<component>/<component>.pot` and
-`<component>/<locale>.po` per component. `<base-dir>` holds the same files as the last export
-wrote them (an empty directory before the first one). A Weblate change is a translation that
-differs from the base, so a translation changed on `main` is never reverted by Weblate's stale copy.
+`<component>/<locale>.po` per component. `<base-dir>` holds `main`'s translations as of the last
+export and nothing else: `export <base-dir> --base <missing-dir> --root <tree of that main commit>`
+(an empty directory before the first export). It must not be the export's own output, which also
+carries Weblate changes not yet merged; those would then look unchanged and never be imported.
+A Weblate change is a translation that differs from the base, so a translation changed on `main` is
+never reverted by Weblate's stale copy. `--root` (default: this checkout) is the repository whose
+`locales/` and `tools/plural_forms.tsv` are read and, on import, written.
 
 - export: writes `main`'s translations, with Weblate's changes on top, into `<po-dir>`. A file
   whose entries didn't change isn't rewritten, so Weblate's own formatting stays put.
@@ -416,6 +420,7 @@ def main(argv=None):
         p = sub.add_parser(name)
         p.add_argument("po_dir", type=Path)
         p.add_argument("--base", type=Path, required=True)
+        p.add_argument("--root", type=Path, default=ROOT)
         if name == "import":
             p.add_argument("--changes", type=Path)
     p = sub.add_parser("pr-body")
@@ -426,9 +431,9 @@ def main(argv=None):
         sys.stdout.write(pr_body(json.loads(args.changes.read_text(encoding="utf-8"))))
         return 0
     if args.cmd == "export":
-        problems, listed = export(args.po_dir, args.base, ROOT), []
+        problems, listed = export(args.po_dir, args.base, args.root), []
     else:
-        problems, listed = import_(args.po_dir, args.base, ROOT)
+        problems, listed = import_(args.po_dir, args.base, args.root)
     for p in problems:
         print(p, file=sys.stderr)
     if problems:

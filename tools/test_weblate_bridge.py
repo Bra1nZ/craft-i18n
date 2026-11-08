@@ -44,8 +44,9 @@ class Bridge(unittest.TestCase):
 
     def export(self):
         self.assertEqual(wb.export(self.po, self.base, self.root), [])
+        # As the workflow does: the next base is main as exported, without Weblate's pending changes.
         shutil.rmtree(self.base)
-        shutil.copytree(self.po, self.base)  # as the workflow does: this export is the next base
+        self.assertEqual(wb.export(self.base, self.tmp / "none", self.root), [])
 
     def po_file(self, component, locale):
         return (self.po / component / f"{locale}.po").read_text(encoding="utf-8")
@@ -140,6 +141,20 @@ class Bridge(unittest.TestCase):
         self.assertEqual(wb.export(self.po, self.base, self.root), [])
         self.assertIn('msgstr "Öffne"', self.po_file("common", "de"))
         self.assertIn('msgstr "Halbfett"', self.po_file("wordcraft", "de"))
+
+    def test_a_pending_translation_survives_unrelated_exports(self):
+        self.export()
+        self.set_po("common", "de", 'msgstr "Öffnen"', 'msgstr "Öffne"')
+        self.write("de", "wordcraft", ("", "Open", "Aufmachen"), ("", "Bold", "Halbfett"))
+        self.export()
+        self.export()
+        self.assertIn('msgstr "Öffne"', self.po_file("common", "de"))
+        problems, listed = wb.import_(self.po, self.base, self.root)
+        self.assertEqual(problems, [])
+        self.assertEqual([(c["old"], c["new"]) for c in listed], [("Öffnen", "Öffne")])
+        self.assertIn("\tÖffne\n", self.tsv("de", "common"))
+        self.export()  # after the sync PR merges, nothing is pending
+        self.assertEqual(wb.import_(self.po, self.base, self.root), ([], []))
 
     def test_fuzzy_and_bad_plurals(self):
         self.export()
