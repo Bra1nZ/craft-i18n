@@ -256,7 +256,7 @@ def render_entry(key, value, nplurals, flags):
 
 def semantic(text):
     """A PO file's entries without formatting, to tell a real change from a reformat."""
-    return sorted((e["ctx"], e["id"], e["plural"], sorted(e["strs"].items()), sorted(e["flags"]))
+    return sorted((repr(e["ctx"]), e["id"], repr(e["plural"]), sorted(e["strs"].items()), sorted(e["flags"]))
                   for e in parse_po(text) if e["id"] != "")
 
 
