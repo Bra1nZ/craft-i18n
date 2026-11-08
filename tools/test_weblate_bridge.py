@@ -120,6 +120,19 @@ class Bridge(unittest.TestCase):
         self.export()
         self.assertIn('msgstr "Halbfett"', self.po_file("wordcraft", "de"))
 
+    def test_a_row_changed_on_both_sides_keeps_main(self):
+        self.export()
+        self.set_po("wordcraft", "de", 'msgstr "Fett"', 'msgstr "Dick"')
+        self.write("de", "wordcraft", ("", "Open", "Aufmachen"), ("", "Bold", "Halbfett"))
+        problems, listed = wb.import_(self.po, self.base, self.root)
+        self.assertEqual(problems, [])
+        self.assertEqual([(c["new"], c.get("conflict")) for c in listed], [("Dick", True)])
+        self.assertIn("\tHalbfett\n", self.tsv("de", "wordcraft"))
+        self.assertIn("Not imported", wb.pr_body(listed))
+        self.assertNotIn("No translation changes", wb.pr_body(listed))
+        self.assertEqual(wb.export(self.po, self.base, self.root), [])
+        self.assertIn('msgstr "Halbfett"', self.po_file("wordcraft", "de"))
+
     def test_export_keeps_weblate_changes_not_yet_merged(self):
         self.export()
         self.set_po("common", "de", 'msgstr "Öffnen"', 'msgstr "Öffne"')

@@ -205,7 +205,8 @@ def po_values(path, nplurals, problems):
 
 
 def weblate_changes(po_dir, base_dir, root, problems):
-    """{(component, locale): {key: translation}} Weblate changed since the last export."""
+    """{(component, locale): {key: (translation at the last export or None, Weblate's)}} for every
+    translation Weblate changed since the last export."""
     table = plural_table(root)
     out = {}
     for component in COMPONENTS:
@@ -214,7 +215,7 @@ def weblate_changes(po_dir, base_dir, root, problems):
             n = table.get(locale, (0, ""))[0]
             now = po_values(path, n, problems)
             base = po_values(base_dir / component / path.name, n, problems)
-            changed = {k: v for k, v in now.items() if base.get(k) != v}
+            changed = {k: (base.get(k), v) for k, v in now.items() if base.get(k) != v}
             if changed:
                 out[(component, locale)] = changed
     return out
@@ -276,7 +277,13 @@ def export(po_dir, base_dir, root):
         for locale in locales(root):
             n = table[locale][0]
             values = dict(cats.get((locale, component), {}))
-            values.update(changes.get((component, locale), {}))
+            for key, (was, new) in changes.get((component, locale), {}).items():
+                # A row changed on main since the export wins; import lists the conflict.
+                if values.get(key) == was:
+                    values[key] = new
+                elif values.get(key) != new:
+                    print(f"{component}/{locale}.po: {key} changed on main and in Weblate; "
+                          "keeping main's", file=sys.stderr)
             path = d / f"{locale}.po"
             existing = parse_po(path.read_text(encoding="utf-8")) if path.exists() else []
             old = {entry_key(e, [], ""): (e["flags"], "|".join(tsv_column(e["strs"][i], [], "")
@@ -352,13 +359,17 @@ def import_(po_dir, base_dir, root):
             continue
         current = cats.get((locale, component), {})
         updates = {}
-        for key, value in rows.items():
-            if key[0] == ID or (component != "common" and key in shared):
+        for key, (was, value) in rows.items():
+            if key[0] == ID or (component != "common" and key in shared) or current.get(key) == value:
                 continue
-            if current.get(key) != value:
-                updates[key] = value
-                listed.append({"component": component, "locale": locale, "context": key[0],
-                               "source": key[1], "old": current.get(key), "new": value})
+            change = {"component": component, "locale": locale, "context": key[0], "source": key[1],
+                      "old": current.get(key), "new": value}
+            if current.get(key) != was:
+                # Changed on main since the export: a newer correction beats an older Suggestion.
+                listed.append(change | {"conflict": True})
+                continue
+            updates[key] = value
+            listed.append(change)
         if updates:
             path = root / "locales" / locale / f"{component}.tsv"
             edit_catalog(path, updates, language_name(root, locale), locale, COMPONENTS[component])
@@ -372,7 +383,13 @@ def pr_body(changes):
     if not changes:
         return "No translation changes.\n"
     out = ["Translations accepted in Weblate (ADR 0006). Merges itself when CI passes.\n"]
-    corrections = [c for c in changes if c["component"] == "common"]
+    conflicts = [c for c in changes if c.get("conflict")]
+    changes = [c for c in changes if not c.get("conflict")]
+    if conflicts:
+        out.append("\n## Not imported: changed on `main` since the export\n\n"
+                   "`main` keeps its text; the next export puts it back in Weblate. A Reviewer can "
+                   "suggest Weblate's wording again if it is still better.\n\n")
+        out += [_line(c) for c in conflicts]
     if corrections:
         out.append("\n## Corrections to shared strings (ADR 0003)\n\n"
                    "Each was accepted by the locale's Reviewer in Weblate as a Correction.\n\n")
@@ -419,7 +436,11 @@ def main(argv=None):
         text = json.dumps(listed, ensure_ascii=False, indent=1) + "\n"
         if args.changes:
             args.changes.write_text(text, encoding="utf-8")
-        print(f"{len(listed)} translations changed", file=sys.stderr)
+        for c in listed:
+            if c.get("conflict"):  # an Actions annotation, seen even when nothing else changed
+                print(f"::warning::{c['locale']}/{c['component']}: {c['source']!r} changed on main "
+                      "and in Weblate; not imported")
+        print(f"{sum(not c.get('conflict') for c in listed)} translations changed", file=sys.stderr)
     return 0
 
 
