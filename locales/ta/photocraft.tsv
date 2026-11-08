@@ -1313,7 +1313,6 @@ cameraData	Date Taken	எடுத்த தேதி
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	திருத்து › விசைப்பலகை குறுக்குவழிகள் › அனைத்தையும் இயல்புநிலைக்கு மீட்டமை என்பது இறக்குமதியைச் செயல்தவிர்க்கும்.
 	Edit › Paste	திருத்து › ஒட்டு
 @id	edit.purge.undo	செயல்தவிர் வரலாறு
-@id	edit.stroke	கோடிடு
 @id	edit.transform.scale	அளவு மாற்று
 	Edits	திருத்தங்கள்
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	ஒரு அடுக்கின் கலப்பு முறை, ஒளிபுகாமை அல்லது தெரிவுநிலை போன்ற முழு ஆவணத்தையும் மாற்றும் திருத்தங்கள் அனைத்தையும் மறுவரைவு செய்கின்றன.

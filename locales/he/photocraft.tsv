@@ -1337,7 +1337,6 @@ cameraData	Date Taken	תאריך צילום
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	עריכה › קיצורי מקלדת › אפס הכול לברירת המחדל מבטל ייבוא.
 	Edit › Paste	עריכה › הדבק
 @id	edit.purge.undo	בטל (Purge)
-@id	edit.stroke	קו מתאר
 @id	edit.transform.scale	קנה מידה
 	Edits	עריכות
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	עריכות שמשנות את כל המסמך, כגון מצב המיזוג, האטימות או מצב התצוגה של שכבה, מציירות אותו מחדש במלואו.

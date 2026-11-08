@@ -1042,7 +1042,6 @@ cameraRaw	Detail	세부 정보
 	Edit › Paste	편집 › 붙여넣기
 @id	edit.clear	지우기
 @id	edit.purge.undo	실행 취소 기록
-@id	edit.stroke	획
 @id	edit.transform.scale	크기 조절
 	Edits	편집
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	레이어의 혼합 모드, 불투명도, 표시 여부처럼 문서 전체를 바꾸는 편집은 문서 전체를 다시 그립니다.

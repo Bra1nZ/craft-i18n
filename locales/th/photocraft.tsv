@@ -1402,7 +1402,6 @@ cameraRaw	Developing {name}	กำลังพัฒนา {name}
 	Edit › Paste	แก้ไข › วาง
 @id	edit.clear	ชัดเจน
 @id	edit.purge.undo	เลิกทำ
-@id	edit.stroke	โรคหลอดเลือดสมอง
 @id	edit.transform.scale	สเกล
 	Edits	แก้ไข
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	การแก้ไขที่เปลี่ยนแปลงทั้งเอกสาร เช่น โหมดผสมผสานของเลเยอร์ ความทึบ หรือการมองเห็น ให้วาดใหม่ทั้งหมด

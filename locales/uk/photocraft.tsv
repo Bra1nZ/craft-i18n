@@ -1083,7 +1083,7 @@ cameraData	Date Taken	Дата зйомки
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	Редагування › Сполучення клавіш › «Скинути все до стандартних» скасовує імпорт.
 	Edit › Paste	Редагування › Вставити
 @id	edit.purge.undo	Історія скасувань
-@id	edit.stroke	Обвести
+@id	edit.stroke	Обвести…
 @id	edit.transform.scale	Масштабувати
 	Edits	Правки
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	Зміни, що впливають на весь документ, як-от режим накладання, непрозорість чи видимість шару, перемальовують його повністю.
