@@ -1,21 +1,16 @@
-# The Weblate round trip (ADR 0006). `main`'s catalogs go out as PO files on the `weblate` branch,
-# which Weblate translates; what Weblate commits there comes back as the `weblate/sync` pull
-# request, which a maintainer approves and merges (no auto-merge for now; to revisit with
-# AutoCraft's merge queue).
+# The Weblate export (ADR 0006). `main`'s catalogs go out as PO files on the `weblate` branch, which
+# Weblate translates. The way back (tools/weblate_bridge.py import, then the `weblate/sync` pull
+# request a maintainer merges) is not here: it runs outside Actions, under AutoCraft's GitHub App, so
+# this repository holds no write token.
 #
-# The base of both directions is `main` as of the last export, re-rendered from the commit named in
-# that export's message, never the export's own output (which also holds Weblate changes not yet
-# merged). The import runs from `main` on a schedule: the `weblate` branch holds only PO files, and
-# GitHub runs push workflows only from the pushed branch. It uses WEBLATE_BOT_TOKEN (a bot account or
-# GitHub App token with contents and pull-request write) because a pull request opened with
-# GITHUB_TOKEN would get no CI run.
+# The base is `main` as of the last export, re-rendered from the commit named in that export's
+# message (tools/weblate_base.sh), never the export's own output, which also holds Weblate changes
+# not yet merged.
 name: Weblate
 
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -27,12 +22,11 @@ permissions:
 
 env:
   EXPORT_NAME: craft-i18n export
-  SYNC_NAME: craft-i18n Weblate sync
   BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
 
 jobs:
   export:
-    if: github.event_name == 'push'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -62,60 +56,3 @@ jobs:
           # Fails if Weblate pushed meanwhile; the next push to main exports again.
           git push -q origin HEAD:refs/heads/weblate
 
-  import:
-    if: github.event_name != 'push'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: main
-          fetch-depth: 0
-          token: ${{ secrets.WEBLATE_BOT_TOKEN }}
-      - name: Check out the weblate branch and build the base
-        run: |
-          if ! git ls-remote --exit-code --heads origin weblate >/dev/null; then
-            echo "no weblate branch yet"; exit 0
-          fi
-          git fetch -q origin weblate
-          git worktree add -q --detach "$RUNNER_TEMP/po" origin/weblate
-          mkdir "$RUNNER_TEMP/base"
-          tools/weblate_base.sh origin/weblate "$RUNNER_TEMP/base"
-      - name: Import
-        run: |
-          [ -d "$RUNNER_TEMP/po" ] || exit 0
-          git switch -q -c weblate/sync
-          python3 tools/weblate_bridge.py import "$RUNNER_TEMP/po" --base "$RUNNER_TEMP/base" \
-            --changes "$RUNNER_TEMP/changes.json"
-      - name: Open or update the pull request
-        env:
-          GH_TOKEN: ${{ secrets.WEBLATE_BOT_TOKEN }}
-        run: |
-          [ -d "$RUNNER_TEMP/po" ] || exit 0
-          if git diff --quiet -- locales; then echo "nothing to import"; exit 0; fi
-          python3 tools/weblate_bridge.py pr-body "$RUNNER_TEMP/changes.json" > "$RUNNER_TEMP/body.md"
-          git add locales
-          git -c user.name="$SYNC_NAME" -c user.email="$BOT_EMAIL" \
-            commit -q -m "Translations from Weblate (weblate@$(git rev-parse --short origin/weblate))"
-          open=$(gh pr view weblate/sync --json state --jq .state 2>/dev/null || true)
-          if [ "$open" = OPEN ]; then
-            # Keep what people added to the open PR (ATTRIBUTION.md entries, fixes): replay their
-            # commits on the fresh import. A conflict stops here and leaves the PR as it is.
-            git fetch -q origin weblate/sync
-            for c in $(git log --reverse --no-merges --format='%H %an' origin/main..origin/weblate/sync |
-                       awk -v bot="$SYNC_NAME" 'substr($0, 42) != bot {print $1}'); do
-              if ! git -c user.name="$SYNC_NAME" -c user.email="$BOT_EMAIL" cherry-pick --empty=drop "$c"; then
-                echo "::error::$c on weblate/sync no longer applies; rebase it by hand"; exit 1
-              fi
-            done
-            if [ "$(git rev-parse HEAD^{tree})" = "$(git rev-parse origin/weblate/sync^{tree})" ]; then
-              echo "weblate/sync is up to date"; exit 0
-            fi
-          fi
-          git push -q --force origin HEAD:refs/heads/weblate/sync
-          if [ "$open" = OPEN ]; then
-            gh pr edit weblate/sync --body-file "$RUNNER_TEMP/body.md"
-          else
-            gh pr create --base main --head weblate/sync --title "Translations from Weblate" \
-              --body-file "$RUNNER_TEMP/body.md"
-          fi
