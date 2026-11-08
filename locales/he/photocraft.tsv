@@ -1434,6 +1434,8 @@ cameraData	Date Taken	תאריך צילום
 	Export/Import Presets…	ייצוא/ייבוא ערכות קבועות מראש…
 	Exported contents to {path}	התוכן יוצא אל {path}
 	Exported presets to {path}	ערכות קבועות מראש יוצאו אל {path}
+@plural	Exported {n} style to {file}|Exported {n} styles to {file}	יוצא {n} סגנון אל {file}|יוצאו {n} סגנונות אל {file}|יוצאו {n} סגנונות אל {file}
+@plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	יוצאה {n} דוגמית צבע אל {file}|יוצאו {n} דוגמיות צבע אל {file}|יוצאו {n} דוגמיות צבע אל {file}
 	Exported {path}	יוצא {path}
 	Exported {path} ({size})	יוצא {path} ‏({size})
 	Exporting…	מייצא…
@@ -1785,6 +1787,7 @@ cameraRaw	Green	ירוק
 	Group name	שם קבוצה
 	Group with	קבץ עם
 	Group · {n} layer	קבוצה · {n} שכבה
+@plural	Group · {n} layer|Group · {n} layers	קבוצה · {n} שכבה|קבוצה · {n} שכבות|קבוצה · {n} שכבות
 	Groups	קבוצות
 	Group…	קבוצה…
 	Grout Width	רוחב רובה (Grout)
@@ -1941,7 +1944,13 @@ cameraRaw	Hue	גוון
 	Import Styles…	ייבוא סגנונות…
 	Import Swatches…	ייבוא דוגמיות…
 	Imported	יובא
+@plural	Imported {n} brush from {file}|Imported {n} brushes from {file}	יובאה {n} מברשת מתוך {file}|יובאו {n} מברשות מתוך {file}|יובאו {n} מברשות מתוך {file}
+@plural	Imported {n} brush from {group}|Imported {n} brushes from {group}	יובאה {n} מברשת מתוך {group}|יובאו {n} מברשות מתוך {group}|יובאו {n} מברשות מתוך {group}
+@plural	Imported {n} gradient from {file}|Imported {n} gradients from {file}	יובא {n} מעבר צבעים מתוך {file}|יובאו {n} מעברי צבעים מתוך {file}|יובאו {n} מעברי צבעים מתוך {file}
+@plural	Imported {n} pattern from {file}|Imported {n} patterns from {file}	יובאה {n} תבנית מתוך {file}|יובאו {n} תבניות מתוך {file}|יובאו {n} תבניות מתוך {file}
 	Imported {n} shortcuts from {file}. Click OK to keep them.	יובאו {n} קיצורים מתוך {file}. לחץ על אישור כדי לשמור אותם.
+@plural	Imported {n} style from {file}|Imported {n} styles from {file}	יובא {n} סגנון מתוך {file}|יובאו {n} סגנונות מתוך {file}|יובאו {n} סגנונות מתוך {file}
+@plural	Imported {n} swatch from {file}|Imported {n} swatches from {file}	יובאה {n} דוגמית צבע מתוך {file}|יובאו {n} דוגמיות צבע מתוך {file}|יובאו {n} דוגמיות צבע מתוך {file}
 	Importing {what} from {file}…	מייבא {what} מתוך {file}…
 	Importing…	מייבא…
 	Impressionist	אימפרסיוניסטי
@@ -2109,8 +2118,8 @@ fontWeight	Italic	נטוי
 	Layer Properties	מאפייני שכבה
 	Layer Style	סגנון שכבה
 	Layer Styles	סגנונות שכבה
-	Layer via Copy	שכבה דרך העתקה
-	Layer via Cut	שכבה דרך גזירה
+	Layer Via Copy	שכבה דרך העתקה
+	Layer Via Cut	שכבה דרך גזירה
 	Layers	שכבות
 	Layers Panel Options	אפשרויות פאנל שכבות
 	Layers to Files	שכבות לקבצים
@@ -2239,6 +2248,7 @@ cameraRaw	Lights	בהירים
 	Loaded Camera Raw settings from {file}	נטענו הגדרות Camera Raw מתוך {file}
 	Loaded Camera Raw settings from {file} ({n} not supported)	נטענו הגדרות Camera Raw מתוך {file} ({n} לא נתמכות)
 	Loaded contours from {file}	נטענו קווי מתאר מתוך {file}
+@plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	נטענה {n} פעולה מתוך {file}|נטענו {n} פעולות מתוך {file}|נטענו {n} פעולות מתוך {file}
 	Loading fonts…	טוען גופנים…
 	Loading…	טוען…
 	Load…	טען…
@@ -2899,6 +2909,7 @@ cameraRaw	Orange	כתום
 	Play Once	הפעל פעם אחת
 	Play selection	הפעל בחירה
 	Playback Options…	אפשרויות הפעלה…
+@plural	Played {n} step|Played {n} steps	הופעל {n} שלב|הופעלו {n} שלבים|הופעלו {n} שלבים
 	Please wait…	המתן בבקשה…
 	Plug-ins	תוספים
 	Plug-ins…	תוספים…
@@ -3360,8 +3371,11 @@ cameraRaw	Roughness	גסות
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	שמור את העבודה שלך והפעל את PhotoCraft מחדש כדי לנסות שוב את האצת ה-GPU. עיבוד ה-CPU ימשיך לפעול להפעלה זו.
 	Saved a copy as {path}	נשמר עותק בשם {path}
 	Saved contours to {file}	נשמרו קווי מתאר אל {file}
+@plural	Saved for Web: {n} file|Saved for Web: {n} files	נשמר לאינטרנט: {n} קובץ|נשמרו לאינטרנט: {n} קבצים|נשמרו לאינטרנט: {n} קבצים
 	Saved Multichannel	נשמר כרב-ערוצי
 	Saved {name}	{name} נשמר
+@plural	Saved {n} action to {file}|Saved {n} actions to {file}	נשמרה {n} פעולה אל {file}|נשמרו {n} פעולות אל {file}|נשמרו {n} פעולות אל {file}
+@plural	Saved {n} color to {file}|Saved {n} colors to {file}	נשמר {n} צבע אל {file}|נשמרו {n} צבעים אל {file}|נשמרו {n} צבעים אל {file}
 	Saved {path}; image assets: {n} in {dir}	{path} נשמר; נכסי תמונה: {n} ב-{dir}
 	Save…	שמור…
 	Saving brush presets… Keep this tab open until saving finishes.	שומר ערכות מברשת קבועות מראש… השאר כרטיסייה זו פתוחה עד לסיום השמירה.
@@ -3909,6 +3923,7 @@ cameraRaw	Temperature	טמפרטורה
 	Texture Each Tip	מרקם לכל קצה
 	Texturizer	יוצר מרקם (Texturizer)
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	לשכבה הפעילה אין פיקסלים כאן — הפעל דגימת כל השכבות או בחר שכבה עם פיקסלים
+@plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	לקבוצת המברשות "{group}" כבר יש {n} מברשת שלך.|לקבוצת המברשות "{group}" כבר יש {n} מברשות שלך.|לקבוצת המברשות "{group}" כבר יש {n} מברשות שלך.
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	הקנבס מוצג כ-sRGB. בחר פרופיל צג בעריכה › הגדרות צבע.
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	הקנבס ב-{display} מוצג כ-sRGB. בחר פרופיל צג בעריכה › הגדרות צבע.
 	The current gradient (pick one in Window › Gradients)	מעבר הצבעים הנוכחי (בחר אחד בחלון › מעברי צבעים)
@@ -3927,6 +3942,7 @@ cameraRaw	Temperature	טמפרטורה
 	The frame is unavailable	המסגרת אינה זמינה
 	The GPU compositor is still being prepared	מרכיב ה-GPU עדיין בהכנה
 	The GPU compositor wasn't used: {reason}	מרכיב ה-GPU לא נוצל: {reason}
+@plural	The gradient group “{group}” already exists ({n} gradient).|The gradient group “{group}” already exists ({n} gradients).	קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעבר צבעים).|קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעברי צבעים).|קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעברי צבעים).
 	The gradient the Gradient tool paints with	מעבר הצבעים שבו צובע כלי מעבר הצבעים
 	The History Brush source was deleted: set a new source in the History panel	מקור מברשת ההיסטוריה נמחק: הגדר מקור חדש בחלונית ההיסטוריה
 	The keyboard shortcut set was not imported: {error}	ערכת קיצורי המקלדת לא יובאה: {error}
@@ -4114,6 +4130,7 @@ cameraRaw	Tint	טינט
 	Update layer comp (visibility, position and appearance)	עדכן קומפ שכבות (מצב תצוגה, מיקום ומראה)
 	Update Modified Content	עדכן תוכן ששונה
 	Update the current brush with these settings	עדכן את המברשת הנוכחית עם הגדרות אלה
+@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	עודכן {n} אובייקט חכם מקושר שהשתנה בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק
 	Updates	עדכונים
 	Updates have not been checked yet.	העדכונים לא נבדקו עדיין.
 	Upper	עליון
@@ -4321,8 +4338,21 @@ navigator	Zoom	תקריב
 	{name} options	אפשרויות {name}
 	{name} Properties	מאפייני {name}
 	{name} was changed by another app after it was opened or saved here.	{name} השתנה על ידי יישום אחר לאחר שנפתח או נשמר כאן.
+@plural	{n} action file loaded|{n} action files loaded	נטען {n} קובץ פעולות|נטענו {n} קובצי פעולות|נטענו {n} קובצי פעולות
+@plural	{n} action|{n} actions	{n} פעולה|{n} פעולות|{n} פעולות
 	{n} commands are not in PhotoCraft.	{n} פקודות אינן קיימות ב-PhotoCraft.
+@plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	לא ניתן היה לטעון {n} קובץ: {errors}|לא ניתן היה לטעון {n} קבצים: {errors}|לא ניתן היה לטעון {n} קבצים: {errors}
+@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} שכבה שתועדה בקומפ זה נמחקה. עדכן את הקומפ, או מחק את האזהרה.|{n} שכבות שתועדו בקומפ זה נמחקו. עדכן את הקומפ, או מחק את האזהרה.|{n} שכבות שתועדו בקומפ זה נמחקו. עדכן את הקומפ, או מחק את האזהרה.
+@plural	{n} layer|{n} layers	{n} שכבה|{n} שכבות|{n} שכבות
 	{n} of {max} sample points	{n} מתוך {max} נקודות דגימה
+@plural	{n} plane|{n} planes	{n} מישור|{n} מישורים|{n} מישורים
+@plural	{n} preset|{n} presets	{n} ערכה קבועה מראש|{n} ערכות קבועות מראש|{n} ערכות קבועות מראש
+@plural	{n} sample point removed|{n} sample points removed	{n} נקודת דגימה הוסרה|{n} נקודות דגימה הוסרו|{n} נקודות דגימה הוסרו
+@plural	{n} sample|{n} samples	{n} דוגמה|{n} דוגמאות|{n} דוגמאות
+@plural	{n} slice|{n} slices	{n} פרוסה|{n} פרוסות|{n} פרוסות
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	ל-{n} שלב אין עדיין מקביל ב-PhotoCraft|ל-{n} שלבים אין עדיין מקביל ב-PhotoCraft|ל-{n} שלבים אין עדיין מקביל ב-PhotoCraft
+@plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	{n} שלב בלי מקביל ב-Photoshop הושמט|{n} שלבים בלי מקביל ב-Photoshop הושמטו|{n} שלבים בלי מקביל ב-Photoshop הושמטו
+@plural	{n} step|{n} steps	{n} שלב|{n} שלבים|{n} שלבים
 	{ok} written to {dir}	{ok} נכתבו אל {dir}
 	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: הנתיב אינו Unicode תקין; שנה את שם הקובץ ופתח אותו מחדש.
 	{path}: the path is not valid Unicode; save under another name.	{path}: הנתיב אינו Unicode תקין; שמור בשם אחר.
@@ -4333,6 +4363,9 @@ navigator	Zoom	תקריב
 	{shortcut} is reserved by the system and can't be assigned.	{shortcut} שמור למערכת ולא ניתן להקצות אותו.
 	{size} (was {old})	{size} (היה {old})
 	{verb} {mask} {layer}	{verb} {mask} {layer}
+@plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} ‏(+{n} אזהרת ערכת מברשת נוספת)|{warning} ‏(+{n} אזהרות ערכת מברשת נוספות)|{warning} ‏(+{n} אזהרות ערכת מברשת נוספות)
+@plural	{what} with {n} warning|{what} with {n} warnings	{what} עם {n} אזהרה|{what} עם {n} אזהרות|{what} עם {n} אזהרות
+@plural	{what}: {n} Image Assets output failed|{what}: {n} Image Assets outputs failed	{what}: {n} פלט נכסי תמונה נכשל|{what}: {n} פלטי נכסי תמונה נכשלו|{what}: {n} פלטי נכסי תמונה נכשלו
 	{w} px x {h} px ({ppi} ppi)	{w} פיקס' x {h} פיקס' ‏({ppi} ppi)
 	{w} {unit} x {h} {unit} ({ppi} ppi)	{w} {unit} x {h} {unit} ‏({ppi} ppi)
 	{zoom}%	{zoom}%
@@ -4342,36 +4375,3 @@ navigator	Zoom	תקריב
 	↑↓ navigate   ↵ run   esc close	↑↓ ניווט   ↵ הפעלה   esc סגירה
 	✓ Color Indicates Masked Areas	✓ הצבע מציין אזורים ממוסכים
 	✓ Color Indicates Selected Areas	✓ הצבע מציין אזורים נבחרים
-@plural	{n} layer|{n} layers	{n} שכבה|{n} שכבות|{n} שכבות
-@plural	Group · {n} layer|Group · {n} layers	קבוצה · {n} שכבה|קבוצה · {n} שכבות|קבוצה · {n} שכבות
-@plural	{n} sample|{n} samples	{n} דוגמה|{n} דוגמאות|{n} דוגמאות
-@plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	יוצאה {n} דוגמית צבע אל {file}|יוצאו {n} דוגמיות צבע אל {file}|יוצאו {n} דוגמיות צבע אל {file}
-@plural	Imported {n} brush from {group}|Imported {n} brushes from {group}	יובאה {n} מברשת מתוך {group}|יובאו {n} מברשות מתוך {group}|יובאו {n} מברשות מתוך {group}
-@plural	Imported {n} swatch from {file}|Imported {n} swatches from {file}	יובאה {n} דוגמית צבע מתוך {file}|יובאו {n} דוגמיות צבע מתוך {file}|יובאו {n} דוגמיות צבע מתוך {file}
-@plural	Played {n} step|Played {n} steps	הופעל {n} שלב|הופעלו {n} שלבים|הופעלו {n} שלבים
-@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	עודכן {n} אובייקט חכם מקושר שהשתנה בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק
-@plural	Saved for Web: {n} file|Saved for Web: {n} files	נשמר לאינטרנט: {n} קובץ|נשמרו לאינטרנט: {n} קבצים|נשמרו לאינטרנט: {n} קבצים
-@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} שכבה שתועדה בקומפ זה נמחקה. עדכן את הקומפ, או מחק את האזהרה.|{n} שכבות שתועדו בקומפ זה נמחקו. עדכן את הקומפ, או מחק את האזהרה.|{n} שכבות שתועדו בקומפ זה נמחקו. עדכן את הקומפ, או מחק את האזהרה.
-@plural	{n} plane|{n} planes	{n} מישור|{n} מישורים|{n} מישורים
-@plural	{n} preset|{n} presets	{n} ערכה קבועה מראש|{n} ערכות קבועות מראש|{n} ערכות קבועות מראש
-@plural	{n} sample point removed|{n} sample points removed	{n} נקודת דגימה הוסרה|{n} נקודות דגימה הוסרו|{n} נקודות דגימה הוסרו
-@plural	{n} slice|{n} slices	{n} פרוסה|{n} פרוסות|{n} פרוסות
-@plural	{n} step|{n} steps	{n} שלב|{n} שלבים|{n} שלבים
-@plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} ‏(+{n} אזהרת ערכת מברשת נוספת)|{warning} ‏(+{n} אזהרות ערכת מברשת נוספות)|{warning} ‏(+{n} אזהרות ערכת מברשת נוספות)
-@plural	{what} with {n} warning|{what} with {n} warnings	{what} עם {n} אזהרה|{what} עם {n} אזהרות|{what} עם {n} אזהרות
-@plural	Imported {n} brush from {file}|Imported {n} brushes from {file}	יובאה {n} מברשת מתוך {file}|יובאו {n} מברשות מתוך {file}|יובאו {n} מברשות מתוך {file}
-@plural	Imported {n} gradient from {file}|Imported {n} gradients from {file}	יובא {n} מעבר צבעים מתוך {file}|יובאו {n} מעברי צבעים מתוך {file}|יובאו {n} מעברי צבעים מתוך {file}
-@plural	Imported {n} pattern from {file}|Imported {n} patterns from {file}	יובאה {n} תבנית מתוך {file}|יובאו {n} תבניות מתוך {file}|יובאו {n} תבניות מתוך {file}
-@plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	נטענה {n} פעולה מתוך {file}|נטענו {n} פעולות מתוך {file}|נטענו {n} פעולות מתוך {file}
-@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	ל-{n} שלב אין עדיין מקביל ב-PhotoCraft|ל-{n} שלבים אין עדיין מקביל ב-PhotoCraft|ל-{n} שלבים אין עדיין מקביל ב-PhotoCraft
-@plural	Saved {n} action to {file}|Saved {n} actions to {file}	נשמרה {n} פעולה אל {file}|נשמרו {n} פעולות אל {file}|נשמרו {n} פעולות אל {file}
-@plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	{n} שלב בלי מקביל ב-Photoshop הושמט|{n} שלבים בלי מקביל ב-Photoshop הושמטו|{n} שלבים בלי מקביל ב-Photoshop הושמטו
-@plural	{n} action|{n} actions	{n} פעולה|{n} פעולות|{n} פעולות
-@plural	Saved {n} color to {file}|Saved {n} colors to {file}	נשמר {n} צבע אל {file}|נשמרו {n} צבעים אל {file}|נשמרו {n} צבעים אל {file}
-@plural	Imported {n} style from {file}|Imported {n} styles from {file}	יובא {n} סגנון מתוך {file}|יובאו {n} סגנונות מתוך {file}|יובאו {n} סגנונות מתוך {file}
-@plural	Exported {n} style to {file}|Exported {n} styles to {file}	יוצא {n} סגנון אל {file}|יוצאו {n} סגנונות אל {file}|יוצאו {n} סגנונות אל {file}
-@plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	לקבוצת המברשות "{group}" כבר יש {n} מברשת שלך.|לקבוצת המברשות "{group}" כבר יש {n} מברשות שלך.|לקבוצת המברשות "{group}" כבר יש {n} מברשות שלך.
-@plural	The gradient group “{group}” already exists ({n} gradient).|The gradient group “{group}” already exists ({n} gradients).	קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעבר צבעים).|קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעברי צבעים).|קבוצת מעברי הצבעים "{group}" כבר קיימת ({n} מעברי צבעים).
-@plural	{n} action file loaded|{n} action files loaded	נטען {n} קובץ פעולות|נטענו {n} קובצי פעולות|נטענו {n} קובצי פעולות
-@plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	לא ניתן היה לטעון {n} קובץ: {errors}|לא ניתן היה לטעון {n} קבצים: {errors}|לא ניתן היה לטעון {n} קבצים: {errors}
-@plural	{what}: {n} Image Assets output failed|{what}: {n} Image Assets outputs failed	{what}: {n} פלט נכסי תמונה נכשל|{what}: {n} פלטי נכסי תמונה נכשלו|{what}: {n} פלטי נכסי תמונה נכשלו

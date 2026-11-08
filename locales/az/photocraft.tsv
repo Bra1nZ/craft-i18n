@@ -1,4 +1,4 @@
-# az (az) interface catalog for PhotoCraft.
+# Azərbaycanca (az) interface catalog for PhotoCraft.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -2253,8 +2253,8 @@ fontWeight	Italic	Kursiv
 	Layer Properties	Layer Xüsusiyyətləri
 	Layer Style	Qat üslubu
 	Layer Styles	Qat Üslubları
-	Layer via Copy	Kopya vasitəsilə qat
-	Layer via Cut	Kəsərək qat yarat
+	Layer Via Copy	Kopya vasitəsilə qat
+	Layer Via Cut	Kəsərək qat yarat
 @id	layer.layerMask.apply	Tətbiq et
 	Layers	Qatlar
 	Layers Panel Options	Laylar Panel Seçimləri

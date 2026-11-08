@@ -1876,8 +1876,8 @@ fontWeight	Italic	Курсив
 	Layer Properties	Свойства слоя
 	Layer Style	Стиль слоя
 	Layer Styles	Стили слоя
-	Layer via Copy	Скопировать на новый слой
-	Layer via Cut	Вырезать на новый слой
+	Layer Via Copy	Скопировать на новый слой
+	Layer Via Cut	Вырезать на новый слой
 @id	layer.layerMask.apply	Применить
 	Layers Panel Options	Параметры панели «Слои»
 	Layers to Files	Слои в файлы

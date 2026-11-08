@@ -1986,8 +1986,8 @@ fontWeight	Italic	Kursivoitu
 	Layer Properties	Tason ominaisuudet
 	Layer Style	Tasotyyli
 	Layer Styles	Tasotyylit
-	Layer via Copy	Taso kopioimalla
-	Layer via Cut	Taso leikkaamalla
+	Layer Via Copy	Taso kopioimalla
+	Layer Via Cut	Taso leikkaamalla
 @id	layer.layerMask.apply	Käytä tasomaskia
 	Layers Panel Options	Tasot-paneelin asetukset
 	Layers to Files	Tasot tiedostoiksi
