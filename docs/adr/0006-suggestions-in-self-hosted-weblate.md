@@ -15,13 +15,21 @@ preference on a `common.tsv` row and points the contributor to an app override. 
 themselves are not offered in Weblate for now. On a platform PR, the Reviewer's acceptance in
 Weblate is the confirmation ADR 0003 asks for, and the PR lists every corrected shared row.
 
+Contributors log in with GitHub or Discord, and before their first Suggestion they accept the
+contribution licence (MIT OR Apache-2.0) and the clean-room rule.
+
+The converter records the export each import is measured against. It never lets Weblate
+overwrite a string whose translation changed on `main` since that export: the import refuses that
+row and lists it for a maintainer.
+
 Every external machine translation service and every shared translation memory is switched off,
 because they would break the clean-room rule. Weblate keeps only this project's own memory.
 
 ## Consequences
 
-- One more public service to run. Dylan owns it, the wider team is backup, and
-  `docs/weblate-runbook.md` covers patching, backups, restore tests, TLS and spam.
+- One more public service to run. Dylan owns it and the wider team is backup. A runbook
+  (`docs/weblate-runbook.md`, written before launch) covers patching, backups, restore tests, TLS
+  and spam.
 - Only catalogs whose source of truth is here are offered: `common` and apps after cutover. An app
   joins Weblate at its cutover, so Weblate never competes with `tools/sync_app.py`.
 - Locales without a Reviewer still collect Suggestions and Votes. Maintainers accept only obvious
@@ -33,7 +41,7 @@ because they would break the clean-room rule. Weblate keeps only this project's 
 
 ## Considered options
 
-- **Move the catalogs to PO**: rejected. It would rewrite 222 catalogs, reverse ADR 0001, replace
+- **Move the catalogs to PO**: rejected. It would rewrite every catalog, reverse ADR 0001, replace
   the TSV parser in `craft-libs/crates/i18n/src/catalog.rs` and move every app's runtime pin, and
   apps that haven't cut over would have to convert too. The converter gets Weblate PO's plurals and
   context without any of that.
