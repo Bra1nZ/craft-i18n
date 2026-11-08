@@ -382,7 +382,7 @@ def import_(po_dir, base_dir, root):
 def pr_body(changes):
     if not changes:
         return "No translation changes.\n"
-    out = ["Translations accepted in Weblate (ADR 0006). Merges itself when CI passes.\n"]
+    out = ["Translations accepted in Weblate (ADR 0006). A maintainer approves and merges once CI passes.\n"]
     conflicts = [c for c in changes if c.get("conflict")]
     changes = [c for c in changes if not c.get("conflict")]
     if conflicts:

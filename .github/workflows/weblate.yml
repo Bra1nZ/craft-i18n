@@ -1,12 +1,13 @@
 # The Weblate round trip (ADR 0006). `main`'s catalogs go out as PO files on the `weblate` branch,
 # which Weblate translates; what Weblate commits there comes back as the `weblate/sync` pull
-# request, which merges itself once CI passes.
+# request, which a maintainer approves and merges (no auto-merge for now; to revisit with
+# AutoCraft's merge queue).
 #
 # The base of both directions is the last export commit (author EXPORT_NAME): a translation that
 # differs from it is Weblate's change. Pushes made with GITHUB_TOKEN start no workflow, so the
 # export's own push never triggers an import. The import uses WEBLATE_BOT_TOKEN (a bot account or
 # GitHub App token with contents and pull-request write) because a pull request opened with
-# GITHUB_TOKEN would get no CI run, and so could never auto-merge.
+# GITHUB_TOKEN would get no CI run.
 name: Weblate
 
 on:
@@ -96,4 +97,3 @@ jobs:
             gh pr create --base main --head weblate/sync --title "Translations from Weblate" \
               --body-file "$RUNNER_TEMP/body.md"
           fi
-          gh pr merge weblate/sync --auto --squash
