@@ -1992,6 +1992,8 @@ cameraData	Model	Model
 	Move to	Şuraya taşı:
 	Move to New Window	Yeni Pencereye Taşı
 	Move Tool	Taşıma Aracı
+	Move Toolbar to the Left	Araç çubuğunu sola taşı
+	Move Toolbar to the Right	Araç çubuğunu sağa taşı
 	Movie Prime	Film Prime
 	Multichannel	Çok Kanallı
 	Multiple Flames Along Path	Yol Boyunca Çoklu Alevler
