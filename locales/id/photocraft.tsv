@@ -133,12 +133,9 @@
 	Adjustment Preview	Pratinjau Penyesuaian
 	Adjustment visible	Penyesuaian terlihat
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe Every-line Composer
-	Adobe PDF Presets…	Preset Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Kompatibel dengan Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe Single-line Composer
 	Advanced Blending	Blending Lanjutan
 	Advanced Controls	Kontrol Lanjutan
 	Adwaita	Adwaita
@@ -394,12 +391,6 @@ fontWeight	Bold	Tebal
 	Camera Data	Data Kamera
 	Camera Make	Merek Kamera
 	Camera Model	Model Kamera
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Default Camera Raw
-	Camera Raw Filter ({layer})	Filter Camera Raw ({layer})
-	Camera Raw Filter…	Filter Camera Raw…
-	Camera Raw isn't open	Camera Raw tidak terbuka
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Batal (Esc)
 	Cancel any current edits (Esc)	Batalkan semua pengeditan saat ini (Esc)
 	Cancel current crop operation  (Esc)	Batalkan operasi crop saat ini  (Esc)
@@ -1587,9 +1578,9 @@ cameraRaw	Lights	Nada Terang
 	Load settings from a Camera Raw .xmp file	Muat pengaturan dari berkas .xmp Camera Raw
 	Load Settings…	Muat Pengaturan…
 	Load the brush after each stroke	Muat kuas setelah setiap goresan
-	Loaded Camera Raw settings from {file}	Pengaturan Camera Raw dimuat dari {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Pengaturan Camera Raw dimuat dari {file} ({n} tidak didukung)
 	Loaded contours from {file}	Kontur dimuat dari {file}
+	Loaded RAW Develop settings from {file}	Pengaturan Pengembangan RAW dimuat dari {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Pengaturan Pengembangan RAW dimuat dari {file} ({n} tidak didukung)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} tindakan dimuat dari {file}
 	Loading fonts…	Memuat font…
 	Load…	Muat…
@@ -1898,7 +1889,6 @@ cameraData	Model	Model
 	Open documents as tabs	Buka dokumen sebagai tab
 	Open Document…	Buka…
 	Open EXR Parts…	Buka bagian EXR…
-	Open in camera raw	Buka di Camera Raw
 	Open paths use centered strokes	Jalur terbuka menggunakan goresan tengah
 	open source	sumber terbuka
 	Open the release page to choose an installer for your system.	Buka halaman rilis untuk memilih penginstal bagi sistem Anda.
@@ -2159,7 +2149,15 @@ cameraData	Model	Model
 	Rasterize Type Layer	Rasterisasi Layer Teks
 	Rate	Rate
 	Raw Data	Data Raw
+	RAW Defaults	Default RAW
+	RAW Defaults…	Default RAW…
 	Raw Defaults…	Default Raw…
+	RAW Develop	Pengembangan RAW
+	RAW Develop ({name})	Pengembangan RAW ({name})
+	RAW Develop Filter	Filter Pengembangan RAW
+	RAW Develop Filter ({layer})	Filter Pengembangan RAW ({layer})
+	RAW Develop Filter…	Filter Pengembangan RAW…
+	RAW Develop isn't open	Pengembangan RAW tidak terbuka
 	Reading…	Membaca…
 	Real-Time Refinement	Penyempurnaan Waktu Nyata
 	Recent file count	Jumlah berkas terbaru
@@ -2353,10 +2351,10 @@ fontWeight	Regular	Reguler
 	Save these settings as a Camera Raw .xmp file	Simpan pengaturan ini sebagai berkas .xmp Camera Raw
 	Save these shortcuts as a .kys file	Simpan pintasan ini sebagai file .kys
 	Save these shortcuts as a new set	Simpan pintasan ini sebagai set baru
-	Saved Camera Raw settings to {file}	Pengaturan Camera Raw disimpan ke {file}
 	Saved contours to {file}	Kontur disimpan ke {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Disimpan untuk Web: {n} file
 	Saved Multichannel	Multichannel Tersimpan
+	Saved RAW Develop settings to {file}	Pengaturan Pengembangan RAW disimpan ke {file}
 	Saved {name}	Tersimpan: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} tindakan disimpan ke {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} warna disimpan ke {file}

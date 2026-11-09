@@ -156,12 +156,9 @@
 	Adjustment visible	Ajustare vizibilă
 	Adjustments	Ajustări
 	Adobe	Adobe
-	Adobe Every-line Composer	Compozitor Adobe multilinie
-	Adobe PDF Presets…	Presetări Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatibil cu Adobe RGB (1998)
-	Adobe Single-line Composer	Compozitor Adobe cu o linie
 	Adobe-rgb-compat	Compatibil Adobe RGB
 	Advanced	Avansat
 	Advanced Blending	Fuziune avansată
@@ -544,14 +541,6 @@ fontWeight	Bold	Bold
 	Camera Data	Date cameră
 	Camera Make	Producător cameră
 	Camera Model	Model cameră
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Valori implicite Camera Raw
-	Camera Raw Filter	Filtru Camera Raw
-	Camera Raw Filter ({layer})	Filtru Camera Raw ({layer})
-	Camera Raw Filter…	Filtru Camera Raw…
-	Camera Raw isn't open	Camera Raw nu este deschis
-	Camera Raw…	Camera Raw…
 	Cancel	Anulare
 	Cancel (Esc)	Anulare (Esc)
 	Cancel any current edits (Esc)	Anulare editări curente (Esc)
@@ -2339,9 +2328,9 @@ cameraRaw	Lights	Luminile
 	Load settings from a Camera Raw .xmp file	Încărcare setări dintr-un fișier .xmp Camera Raw
 	Load Settings…	Încărcare setări…
 	Load the brush after each stroke	Încărcare pensula după fiecare tușă
-	Loaded Camera Raw settings from {file}	Setări Camera Raw încărcate din {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Setări Camera Raw încărcate din {file} ({n} nesuportate)
 	Loaded contours from {file}	S-au încărcat contururile din {file}
+	Loaded RAW Develop settings from {file}	Setări Developare RAW încărcate din {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Setări Developare RAW încărcate din {file} ({n} nesuportate)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	S-a încărcat {n} acțiune din {file}|S-au încărcat {n} acțiuni din {file}|S-au încărcat {n} de acțiuni din {file}
 	Loading fonts…	Se încarcă fonturile…
 	Loading…	Se încarcă…
@@ -2802,7 +2791,6 @@ layerLabel	No Color	Fără culoare
 	Open File	Deschidere fișier
 	Open Folder	Deschidere folder
 	Open Image	Deschidere imagine
-	Open in camera raw	Deschidere în Camera Raw
 	Open paths use centered strokes	Traseele deschise folosesc trasee centrate
 	Open Recent	Deschidere recente
 	Open Recent is unavailable on the web	Deschidere recente nu este disponibilă pe web
@@ -3215,8 +3203,16 @@ cameraRaw	Purple	Violeți
 	Rate	Viteză
 	Ratio	Raport
 	Raw Data	Date brute
+	RAW Defaults	Valori implicite RAW
 	Raw Defaults	Valori implicite Raw
+	RAW Defaults…	Valori implicite RAW…
 	Raw Defaults…	Valori implicite Raw…
+	RAW Develop	Developare RAW
+	RAW Develop ({name})	Developare RAW ({name})
+	RAW Develop Filter	Filtru Developare RAW
+	RAW Develop Filter ({layer})	Filtru Developare RAW ({layer})
+	RAW Develop Filter…	Filtru Developare RAW…
+	RAW Develop isn't open	Developare RAW nu este deschis
 	Reading	Se citește
 	Reading…	Se citește…
 	Ready	Pregătit
@@ -3514,6 +3510,7 @@ cameraRaw	Roughness	Rugozitate
 	Saved contours to {file}	S-au salvat contururile în {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Salvat pentru web: {n} fișier|Salvat pentru web: {n} fișiere|Salvat pentru web: {n} de fișiere
 	Saved Multichannel	Multicanal salvat
+	Saved RAW Develop settings to {file}	Setările de developare RAW au fost salvate în {file}
 	Saved {name}	S-a salvat {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	S-a salvat {n} acțiune în {file}|S-au salvat {n} acțiuni în {file}|S-au salvat {n} de acțiuni în {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	S-a salvat {n} culoare în {file}|S-au salvat {n} culori în {file}|S-au salvat {n} de culori în {file}

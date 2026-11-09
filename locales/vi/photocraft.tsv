@@ -149,7 +149,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Tất cả các lớp
 	All Layers No Adjustments	Mọi lớp không điều chỉnh
 	All shortcuts reset to PhotoCraft defaults.	Đã đặt lại mọi phím tắt về mặc định PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Tất cả phím tắt đã được đặt lại về mặc định Photoshop.
 	All User Slices	Mọi lát cắt người dùng
 	Allow agent control	Cho phép agent điều khiển
 	Allow Continue	Cho phép tiếp tục
@@ -401,14 +400,6 @@ fontWeight	Bold	Đậm
 	Calibration	Hiệu chuẩn
 	Camera Calibration	Hiệu chuẩn máy ảnh
 	Camera Data	Dữ liệu máy ảnh
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Mặc định Camera Raw
-	Camera Raw Filter	Bộ lọc Camera Raw
-	Camera Raw Filter ({layer})	Bộ lọc Camera Raw ({layer})
-	Camera Raw Filter…	Bộ lọc Camera Raw…
-	Camera Raw isn't open	Camera Raw chưa mở
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Hủy (Esc)
 	Cancel any current edits (Esc)	Hủy chỉnh sửa hiện tại (Esc)
 	Cancel current crop operation  (Esc)	Hủy thao tác cắt hiện tại  (Esc)
@@ -831,7 +822,6 @@ cameraData	Date Taken	Ngày chụp
 	Default Foreground and Background Colors (D)	Màu trước và màu sau mặc định (D)
 	Default Leaves	Lá mặc định
 	Default PhotoCraft Size	Kích thước mặc định của PhotoCraft
-	Default Photoshop Size	Kích thước Photoshop mặc định
 	Default printer	Máy in mặc định
 	Default restored.	Đã khôi phục mặc định.
 	Define	Định nghĩa
@@ -1675,9 +1665,9 @@ cameraRaw	Lights	Vùng sáng vừa
 	Load settings from a Camera Raw .xmp file	Tải cài đặt từ tệp .xmp Camera Raw
 	Load Settings…	Tải cài đặt…
 	Load the brush after each stroke	Nạp sơn cho cọ sau mỗi nét vẽ
-	Loaded Camera Raw settings from {file}	Đã tải cài đặt Camera Raw từ {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Đã tải cài đặt Camera Raw từ {file} ({n} không được hỗ trợ)
 	Loaded contours from {file}	Đã tải đường viền từ {file}
+	Loaded RAW Develop settings from {file}	Đã tải cài đặt Xử lý RAW từ {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Đã tải cài đặt Xử lý RAW từ {file} ({n} không được hỗ trợ)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Đã nạp {n} hành động từ {file}
 	Loading fonts…	Đang tải phông chữ…
 	Load…	Tải…
@@ -1994,7 +1984,6 @@ cameraData	Model	Kiểu máy
 	Open documents as tabs	Mở tài liệu dưới dạng thẻ
 	Open Document…	Mở…
 	Open EXR Parts…	Mở các phần EXR…
-	Open in camera raw	Mở trong camera raw
 	Open paths use centered strokes	Đường dẫn mở dùng nét căn giữa
 	open source	mã nguồn mở
 	Open the release page to choose an installer for your system.	Mở trang phát hành để chọn bộ cài đặt cho hệ thống của bạn.
@@ -2283,8 +2272,16 @@ cameraRaw	Radius	Bán kính
 	Rate	Tốc độ
 	Ratio	Tỉ lệ
 	Raw Data	Dữ liệu thô
+	RAW Defaults	Mặc định RAW
 	Raw Defaults	Mặc định Raw
-	Raw Defaults…	Mặc định Camera Raw…
+	RAW Defaults…	Mặc định RAW…
+	Raw Defaults…	Mặc định RAW…
+	RAW Develop	Xử lý RAW
+	RAW Develop ({name})	Xử lý RAW ({name})
+	RAW Develop Filter	Bộ lọc Xử lý RAW
+	RAW Develop Filter ({layer})	Bộ lọc Xử lý RAW ({layer})
+	RAW Develop Filter…	Bộ lọc Xử lý RAW…
+	RAW Develop isn't open	Xử lý RAW chưa mở
 	Reading	Đang đọc
 	Reading…	Đang đọc…
 	Real-Time Refinement	Tinh chỉnh theo thời gian thực
@@ -2500,9 +2497,9 @@ cameraRaw	Saturation	Độ bão hòa
 	Save these shortcuts as a .kys file	Lưu các phím tắt này thành tệp .kys
 	Save these shortcuts as a new set	Lưu các phím tắt này thành bộ mới
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Lưu vào tệp SVG đã mở. Mỗi lần lưu thay đổi tạo một bước hoàn tác trong PhotoCraft.
-	Saved Camera Raw settings to {file}	Đã lưu cài đặt Camera Raw vào {file}
 	Saved contours to {file}	Đã lưu đường viền vào {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Lưu cho web: {n} tệp
+	Saved RAW Develop settings to {file}	Đã lưu cài đặt Xử lý RAW vào {file}
 	Saved {name}	Đã lưu {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Đã lưu {n} hành động vào {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Đã lưu {n} màu vào {file}

@@ -135,12 +135,9 @@
 	Adjustment Properties	色調補正のプロパティ
 	Adjustment visible	色調補正を表示
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe 全行コンポーザー
-	Adobe PDF Presets…	Adobe PDF プリセット…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998) 互換
-	Adobe Single-line Composer	Adobe 1 行コンポーザー
 	Advanced Blending	高度な合成
 	Advanced Controls	詳細コントロール
 	Adwaita	Adwaita
@@ -430,14 +427,6 @@ fontWeight	Bold	太字
 	Camera Data	カメラデータ
 	Camera Make	カメラのメーカー
 	Camera Model	カメラのモデル
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw の既定値
-	Camera Raw Filter	Camera Raw フィルター
-	Camera Raw Filter ({layer})	Camera Raw フィルター ({layer})
-	Camera Raw Filter…	Camera Raw フィルター…
-	Camera Raw isn't open	Camera Raw は開いていません
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	キャンセル(Esc)
 	Cancel any current edits (Esc)	現在の編集をキャンセル(Esc)
 	Cancel current crop operation  (Esc)	現在の切り抜きをキャンセル(Esc)
@@ -1773,9 +1762,9 @@ cameraRaw	Lights	明部
 	Load settings from a Camera Raw .xmp file	Camera Raw の .xmp ファイルから設定を読み込む
 	Load Settings…	設定を読み込み…
 	Load the brush after each stroke	ストロークごとにブラシに補充
-	Loaded Camera Raw settings from {file}	{file} から Camera Raw の設定を読み込みました
-	Loaded Camera Raw settings from {file} ({n} not supported)	{file} から Camera Raw の設定を読み込みました（未対応: {n}）
 	Loaded contours from {file}	{file} からカーブを読み込みました
+	Loaded RAW Develop settings from {file}	{file} から RAW現像 の設定を読み込みました
+	Loaded RAW Develop settings from {file} ({n} not supported)	{file} から RAW現像 の設定を読み込みました（未対応: {n}）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file} からアクション {n} 個を読み込みました
 	Loading fonts…	フォントを読み込み中…
 	Load…	読み込み…
@@ -2107,7 +2096,6 @@ cameraData	Model	モデル
 	Open documents as tabs	ドキュメントをタブで開く
 	Open Document…	開く…
 	Open EXR Parts…	EXRパートを開く…
-	Open in camera raw	Camera Raw で開く
 	Open paths use centered strokes	開いたパスの線は中央に配置されます
 	open source	オープンソース
 	Open the release page to choose an installer for your system.	リリースページでお使いのシステム用のインストーラーを選択してください。
@@ -2394,8 +2382,16 @@ cameraData	Model	モデル
 	Rate	速度
 	Ratio	縦横比
 	Raw Data	Raw データ
+	RAW Defaults	RAWの既定値
 	Raw Defaults	RAW の既定値
+	RAW Defaults…	RAWの既定値…
 	Raw Defaults…	RAW の既定値…
+	RAW Develop	RAW現像
+	RAW Develop ({name})	RAW現像 ({name})
+	RAW Develop Filter	RAW現像 フィルター
+	RAW Develop Filter ({layer})	RAW現像 フィルター ({layer})
+	RAW Develop Filter…	RAW現像 フィルター…
+	RAW Develop isn't open	RAW現像 は開いていません
 	Reading	読み取り
 	Reading…	読み込み中…
 	Real-Time Refinement	リアルタイム調整
@@ -2617,10 +2613,10 @@ fontWeight	Regular	標準
 	Save these settings as a Camera Raw .xmp file	この設定を Camera Raw の .xmp ファイルとして保存
 	Save these shortcuts as a .kys file	これらのショートカットを .kys ファイルとして保存
 	Save these shortcuts as a new set	これらのショートカットを新規セットとして保存
-	Saved Camera Raw settings to {file}	Camera Raw の設定を {file} に保存しました
 	Saved contours to {file}	カーブを {file} に保存しました
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Web 用に保存: {n} ファイル
 	Saved Multichannel	保存済みマルチチャンネル
+	Saved RAW Develop settings to {file}	RAW現像 の設定を {file} に保存しました
 	Saved {name}	{name} を保存しました
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file} にアクション {n} 個を保存しました
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file} に {n} 色を保存しました

@@ -137,12 +137,9 @@
 	Adjustment Properties	Propiedades del ajuste
 	Adjustment visible	Ajuste visible
 	Adobe	Adobe
-	Adobe Every-line Composer	Compositor multilínea de Adobe
-	Adobe PDF Presets…	Ajustes preestablecidos de Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatible con Adobe RGB (1998)
-	Adobe Single-line Composer	Compositor de línea única de Adobe
 	Advanced Blending	Fusión avanzada
 	Advanced Controls	Controles avanzados
 	Adwaita	Adwaita
@@ -447,14 +444,6 @@ fontWeight	Bold	Negrita
 	Camera Data	Datos de cámara
 	Camera Make	Fabricante de la cámara
 	Camera Model	Modelo de cámara
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Valores predeterminados de Camera Raw
-	Camera Raw Filter	Filtro de Camera Raw
-	Camera Raw Filter ({layer})	Filtro de Camera Raw ({layer})
-	Camera Raw Filter…	Filtro de Camera Raw…
-	Camera Raw isn't open	Camera Raw no está abierto
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Cancelar (Esc)
 	Cancel any current edits (Esc)	Cancelar las ediciones actuales (Esc)
 	Cancel current crop operation  (Esc)	Cancelar la operación de recorte actual  (Esc)
@@ -1846,9 +1835,9 @@ cameraRaw	Lights	Claros
 	Load settings from a Camera Raw .xmp file	Cargar ajustes desde un archivo .xmp de Camera Raw
 	Load Settings…	Cargar ajustes…
 	Load the brush after each stroke	Cargar el pincel después de cada trazo
-	Loaded Camera Raw settings from {file}	Ajustes de Camera Raw cargados desde {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Ajustes de Camera Raw cargados desde {file} ({n} no compatibles)
 	Loaded contours from {file}	Contornos cargados de {file}
+	Loaded RAW Develop settings from {file}	Ajustes de Revelado RAW cargados desde {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Ajustes de Revelado RAW cargados desde {file} ({n} no compatibles)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Se cargó {n} acción de {file}|Se cargaron {n} acciones de {file}
 	Loading fonts…	Cargando fuentes…
 	Loading…	Cargando…
@@ -2215,7 +2204,6 @@ layerLabel	No Color	Sin color
 	Open File	Abrir archivo
 	Open Folder	Abrir carpeta
 	Open Image	Abrir imagen
-	Open in camera raw	Abrir en Camera Raw
 	Open paths use centered strokes	Los trazados abiertos usan trazos centrados
 	Open Recent is unavailable on the web	Abrir recientes no está disponible en la web
 	open source	código abierto
@@ -2527,8 +2515,16 @@ cameraRaw	Purple	Morados
 	Rasterize Type Layer	Rasterizar capa de texto
 	Rate	Velocidad
 	Raw Data	Datos sin procesar
+	RAW Defaults	Valores predeterminados de RAW
 	Raw Defaults	Valores predeterminados de Raw
+	RAW Defaults…	Valores predeterminados de RAW…
 	Raw Defaults…	Valores predeterminados de Raw…
+	RAW Develop	Revelado RAW
+	RAW Develop ({name})	Revelado RAW ({name})
+	RAW Develop Filter	Filtro de Revelado RAW
+	RAW Develop Filter ({layer})	Filtro de Revelado RAW ({layer})
+	RAW Develop Filter…	Filtro de Revelado RAW…
+	RAW Develop isn't open	Revelado RAW no está abierto
 	Reading	Leyendo
 	Reading…	Leyendo…
 	Real-Time Refinement	Perfeccionamiento en tiempo real
@@ -2762,10 +2758,10 @@ cameraRaw	Roughness	Rugosidad
 	Save these shortcuts as a new set	Guardar estos métodos abreviados como un conjunto nuevo
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Guarde su trabajo y reinicie PhotoCraft para volver a intentar la aceleración por GPU. La interpretación por CPU seguirá activa durante esta sesión.
 	Saved a copy as {path}	Se guardó una copia como {path}
-	Saved Camera Raw settings to {file}	Ajustes de Camera Raw guardados en {file}
 	Saved contours to {file}	Contornos guardados en {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Guardado para Web: {n} archivo|Guardado para Web: {n} archivos
 	Saved Multichannel	Multicanal guardado
+	Saved RAW Develop settings to {file}	Ajustes de Revelado RAW guardados en {file}
 	Saved {name}	Guardado: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Se guardó {n} acción en {file}|Se guardaron {n} acciones en {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Se guardó {n} color en {file}|Se guardaron {n} colores en {file}

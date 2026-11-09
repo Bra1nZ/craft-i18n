@@ -154,12 +154,9 @@
 	Adjustment visible	התאמה גלויה
 	Adjustments	התאמות
 	Adobe	Adobe
-	Adobe Every-line Composer	מרכיב כל השורות של Adobe
-	Adobe PDF Presets…	ערכות PDF של Adobe…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	תואם Adobe RGB (1998)
-	Adobe Single-line Composer	מרכיב שורה בודדת של Adobe
 	Adobe-rgb-compat	תואם Adobe RGB
 	Advanced Blending	מיזוג מתקדם
 	Advanced Controls	פקדים מתקדמים
@@ -531,14 +528,6 @@ fontWeight	Bold	מודגש
 	Camera Data	נתוני מצלמה
 	Camera Make	יצרן מצלמה
 	Camera Model	דגם מצלמה
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ‏({name})
-	Camera Raw Defaults	ברירות מחדל של Camera Raw
-	Camera Raw Filter	מסנן Camera Raw
-	Camera Raw Filter ({layer})	מסנן Camera Raw ‏({layer})
-	Camera Raw Filter…	מסנן Camera Raw…
-	Camera Raw isn't open	Camera Raw אינו פתוח
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	ביטול (Esc)
 	Cancel any current edits (Esc)	בטל עריכות נוכחיות (Esc)
 	Cancel current crop operation  (Esc)	בטל פעולת חיתוך נוכחית  (Esc)
@@ -2245,9 +2234,9 @@ cameraRaw	Lights	בהירים
 	Load settings from a Camera Raw .xmp file	טען הגדרות מקובץ ‎.xmp של Camera Raw
 	Load Settings…	טען הגדרות…
 	Load the brush after each stroke	טען את המברשת לאחר כל משיכה
-	Loaded Camera Raw settings from {file}	נטענו הגדרות Camera Raw מתוך {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	נטענו הגדרות Camera Raw מתוך {file} ({n} לא נתמכות)
 	Loaded contours from {file}	נטענו קווי מתאר מתוך {file}
+	Loaded RAW Develop settings from {file}	נטענו הגדרות פיתוח RAW מתוך {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	נטענו הגדרות פיתוח RAW מתוך {file} ({n} לא נתמכות)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	נטענה {n} פעולה מתוך {file}|נטענו {n} פעולות מתוך {file}|נטענו {n} פעולות מתוך {file}
 	Loading fonts…	טוען גופנים…
 	Loading…	טוען…
@@ -2686,7 +2675,6 @@ layerLabel	No Color	בלי צבע
 	Open File	פתח קובץ
 	Open Folder	פתח תיקייה
 	Open Image	פתח תמונה
-	Open in camera raw	פתח ב-Camera Raw
 	Open paths use centered strokes	נתיבים פתוחים משתמשים בקווי מתאר ממורכזים
 	Open Recent	פתח אחרונים
 	Open Recent is unavailable on the web	פתח אחרונים אינו זמין בגרסת האינטרנט
@@ -3085,8 +3073,16 @@ cameraRaw	Purple	סגול
 	Rate	קצב
 	Ratio	יחס
 	Raw Data	נתוני Raw
+	RAW Defaults	ברירות מחדל RAW
 	Raw Defaults	ברירות מחדל ל-Raw
+	RAW Defaults…	ברירות מחדל RAW…
 	Raw Defaults…	ברירות מחדל ל-Raw…
+	RAW Develop	פיתוח RAW
+	RAW Develop ({name})	פיתוח RAW ‏({name})
+	RAW Develop Filter	מסנן פיתוח RAW
+	RAW Develop Filter ({layer})	מסנן פיתוח RAW ‏({layer})
+	RAW Develop Filter…	מסנן פיתוח RAW…
+	RAW Develop isn't open	פיתוח RAW אינו פתוח
 	Reading	קורא
 	Reading…	קורא…
 	Ready	מוכן
@@ -3373,6 +3369,7 @@ cameraRaw	Roughness	גסות
 	Saved contours to {file}	נשמרו קווי מתאר אל {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	נשמר לאינטרנט: {n} קובץ|נשמרו לאינטרנט: {n} קבצים|נשמרו לאינטרנט: {n} קבצים
 	Saved Multichannel	נשמר כרב-ערוצי
+	Saved RAW Develop settings to {file}	הגדרות פיתוח RAW נשמרו ב־{file}
 	Saved {name}	{name} נשמר
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	נשמרה {n} פעולה אל {file}|נשמרו {n} פעולות אל {file}|נשמרו {n} פעולות אל {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	נשמר {n} צבע אל {file}|נשמרו {n} צבעים אל {file}|נשמרו {n} צבעים אל {file}

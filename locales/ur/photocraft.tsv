@@ -156,12 +156,9 @@
 	Adjustment visible	ایڈجسٹمنٹ نظر آتی ہے
 	Adjustments	ایڈجسٹمنٹس
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe ایوری لائن کمپوزر
-	Adobe PDF Presets…	Adobe PDF پری سیٹس…
 	Adobe rgb	Adobe rgb
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998) مطابق
-	Adobe Single-line Composer	Adobe سنگل لائن کمپوزر
 	Adobe-rgb-compat	Adobe-rgb-مطابق
 	Advanced	ایڈوانسڈ
 	Advanced Blending	ایڈوانسڈ امتزاج
@@ -544,14 +541,6 @@ fontWeight	Bold	بولڈ
 	Camera Data	کیمرہ ڈیٹا
 	Camera Make	کیمرہ میک
 	Camera Model	کیمرہ ماڈل
-	Camera Raw	کیمرہ را
-	Camera Raw ({name})	کیمرہ را ({name})
-	Camera Raw Defaults	کیمرہ را ڈیفالٹس
-	Camera Raw Filter	کیمرہ را فلٹر
-	Camera Raw Filter ({layer})	کیمرہ را فلٹر ({layer})
-	Camera Raw Filter…	کیمرہ را فلٹر…
-	Camera Raw isn't open	کیمرہ را کھلا نہیں ہے
-	Camera Raw…	کیمرہ را…
 	Cancel	منسوخ کریں
 	Cancel (Esc)	منسوخ کریں (Esc)
 	Cancel any current edits (Esc)	کوئی بھی موجودہ ترمیم منسوخ کریں (Esc)
@@ -2339,9 +2328,9 @@ cameraRaw	Lights	روشن حصے
 	Load settings from a Camera Raw .xmp file	کیمرہ را .xmp فائل سے ترتیبات لوڈ کریں
 	Load Settings…	ترتیبات لوڈ کریں…
 	Load the brush after each stroke	ہر اسٹروک کے بعد برش لوڈ کریں
-	Loaded Camera Raw settings from {file}	{file} سے کیمرہ را ترتیبات لوڈ ہو گئیں
-	Loaded Camera Raw settings from {file} ({n} not supported)	{file} سے کیمرہ را ترتیبات لوڈ ہو گئیں ({n} سپورٹڈ نہیں)
 	Loaded contours from {file}	{file} سے کونٹورز لوڈ ہو گئے
+	Loaded RAW Develop settings from {file}	{file} سے RAW ڈیولپمنٹ ترتیبات لوڈ ہو گئیں
+	Loaded RAW Develop settings from {file} ({n} not supported)	{file} سے RAW ڈیولپمنٹ ترتیبات لوڈ ہو گئیں ({n} سپورٹڈ نہیں)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file} سے {n} ایکشن لوڈ ہوا|{file} سے {n} ایکشنز لوڈ ہوئے
 	Loading fonts…	فونٹس لوڈ ہو رہے ہیں…
 	Loading…	لوڈ ہو رہا ہے…
@@ -2802,7 +2791,6 @@ layerLabel	No Color	بلا رنگ
 	Open File	فائل کھولیں
 	Open Folder	فولڈر کھولیں
 	Open Image	تصویر کھولیں
-	Open in camera raw	کیمرہ را میں کھولیں
 	Open paths use centered strokes	کھلے پاتھ درمیان میں لکیر استعمال کرتے ہیں
 	Open Recent	حالیہ کھولیں
 	Open Recent is unavailable on the web	ویب پر حالیہ کھولیں دستیاب نہیں
@@ -3215,8 +3203,16 @@ cameraRaw	Purple	جامنی
 	Rate	شرح
 	Ratio	تناسب
 	Raw Data	را ڈیٹا
+	RAW Defaults	RAW ڈیفالٹس
 	Raw Defaults	را ڈیفالٹس
+	RAW Defaults…	RAW ڈیفالٹس…
 	Raw Defaults…	را ڈیفالٹس…
+	RAW Develop	RAW ڈیولپمنٹ
+	RAW Develop ({name})	RAW ڈیولپمنٹ ({name})
+	RAW Develop Filter	RAW ڈیولپمنٹ فلٹر
+	RAW Develop Filter ({layer})	RAW ڈیولپمنٹ فلٹر ({layer})
+	RAW Develop Filter…	RAW ڈیولپمنٹ فلٹر…
+	RAW Develop isn't open	RAW ڈیولپمنٹ کھلا نہیں ہے
 	Reading	پڑھا جا رہا ہے
 	Reading…	پڑھا جا رہا ہے…
 	Ready	تیار
@@ -3514,6 +3510,7 @@ cameraRaw	Roughness	کھردرا پن
 	Saved contours to {file}	کونٹورز {file} میں محفوظ ہو گئے
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	ویب کے لیے محفوظ: {n} فائل|ویب کے لیے محفوظ: {n} فائلیں
 	Saved Multichannel	محفوظ شدہ ملٹی چینل
+	Saved RAW Develop settings to {file}	RAW ڈیولپمنٹ کی ترتیبات {file} میں محفوظ ہو گئیں
 	Saved {name}	{name} محفوظ ہو گیا
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} ایکشن {file} میں محفوظ ہوا|{n} ایکشنز {file} میں محفوظ ہوئے
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file} میں {n} رنگ محفوظ ہوا|{file} میں {n} رنگ محفوظ ہوئے

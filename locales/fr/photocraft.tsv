@@ -138,12 +138,9 @@
 	Adjustment visible	Ajustement visible
 	Adjustments	Ajustements
 	Adobe	Adobe
-	Adobe Every-line Composer	Composeur multiligne Adobe
-	Adobe PDF Presets…	Préréglages Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatible Adobe RGB (1998)
-	Adobe Single-line Composer	Composeur ligne par ligne Adobe
 	Adobe-rgb-compat	Adobe RGB (compatible)
 	Advanced Blending	Fusion avancée
 	Advanced Controls	Commandes avancées
@@ -177,7 +174,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Toutes les classes
 	All Layers No Adjustments	Tous les calques sans ajustements
 	All shortcuts reset to PhotoCraft defaults.	Tous les raccourcis ont été réinitialisés aux valeurs par défaut de PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Tous les raccourcis ont été réinitialisés aux valeurs par défaut de Photoshop.
 	All User Slices	Toutes les tranches utilisateur
 	Allow agent control	Autoriser le pilotage par des agents
 	Allow Continue	Autoriser la poursuite
@@ -463,14 +459,6 @@ fontWeight	Bold	Gras
 	Camera Data	Données de l'appareil photo
 	Camera Make	Marque de l'appareil photo
 	Camera Model	Modèle d'appareil photo
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Valeurs par défaut de Camera Raw
-	Camera Raw Filter	Filtre Camera Raw
-	Camera Raw Filter ({layer})	Filtre Camera Raw ({layer})
-	Camera Raw Filter…	Filtre Camera Raw…
-	Camera Raw isn't open	Camera Raw n'est pas ouvert
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Annuler (Échap)
 	Cancel any current edits (Esc)	Annuler les modifications en cours (Échap)
 	Cancel current crop operation  (Esc)	Annuler le recadrage en cours  (Échap)
@@ -957,7 +945,6 @@ cameraData	Date Taken	Date de prise de vue
 	Default Foreground and Background Colors (D)	Couleurs par défaut (D)
 	Default Leaves	Feuilles par défaut
 	Default PhotoCraft Size	Taille PhotoCraft par défaut
-	Default Photoshop Size	Taille Photoshop par défaut
 	Default printer	Imprimante par défaut
 	Default restored.	Valeurs par défaut rétablies.
 	Defaults	Valeurs par défaut
@@ -1953,9 +1940,9 @@ cameraRaw	Lights	Tons clairs
 	Load settings from a Camera Raw .xmp file	Charger les paramètres d’un fichier .xmp Camera Raw
 	Load Settings…	Charger les paramètres…
 	Load the brush after each stroke	Charger le pinceau après chaque trait
-	Loaded Camera Raw settings from {file}	Paramètres Camera Raw chargés depuis {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Paramètres Camera Raw chargés depuis {file} ({n} non pris en charge)
 	Loaded contours from {file}	Contours chargés depuis {file}
+	Loaded RAW Develop settings from {file}	Paramètres Développement RAW chargés depuis {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Paramètres Développement RAW chargés depuis {file} ({n} non pris en charge)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} action chargée depuis {file}|{n} actions chargées depuis {file}
 	Loading fonts…	Chargement des polices…
 	Loading…	Chargement…
@@ -2339,7 +2326,6 @@ layerLabel	No Color	Aucune couleur
 	Open File	Ouvrir un fichier
 	Open Folder	Ouvrir un dossier
 	Open Image	Ouvrir une image
-	Open in camera raw	Ouvrir dans Camera Raw
 	Open paths use centered strokes	Les tracés ouverts utilisent des contours centrés
 	Open Recent is unavailable on the web	La commande Ouvrir un fichier récent n'est pas disponible sur le Web
 	open source	code source ouvert
@@ -2667,8 +2653,16 @@ cameraRaw	Radius	Rayon
 	Rate	Vitesse
 	Ratio	Proportions
 	Raw Data	Données brutes
+	RAW Defaults	Valeurs par défaut RAW
 	Raw Defaults	Valeurs Raw par défaut
+	RAW Defaults…	Valeurs par défaut RAW…
 	Raw Defaults…	Valeurs Raw par défaut…
+	RAW Develop	Développement RAW
+	RAW Develop ({name})	Développement RAW ({name})
+	RAW Develop Filter	Filtre Développement RAW
+	RAW Develop Filter ({layer})	Filtre Développement RAW ({layer})
+	RAW Develop Filter…	Filtre Développement RAW…
+	RAW Develop isn't open	Développement RAW n'est pas ouvert
 	Reading	Lecture
 	Reading…	Lecture…
 	Real-Time Refinement	Amélioration en temps réel
@@ -2911,10 +2905,10 @@ cameraRaw	Saturation	Saturation
 	Save these shortcuts as a new set	Enregistrer ces raccourcis comme nouveau jeu
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Enregistrez votre travail et redémarrez PhotoCraft pour réessayer l'accélération GPU. Le rendu CPU reste actif pour cette session.
 	Saved a copy as {path}	Copie enregistrée sous {path}
-	Saved Camera Raw settings to {file}	Réglages Camera Raw enregistrés dans {file}
 	Saved contours to {file}	Contours enregistrés dans {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Enregistré pour le Web : {n} fichier|Enregistré pour le Web : {n} fichiers
 	Saved Multichannel	Multicanal enregistré
+	Saved RAW Develop settings to {file}	Réglages Développement RAW enregistrés dans {file}
 	Saved {name}	Enregistré : {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} action enregistrée dans {file}|{n} actions enregistrées dans {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} couleur enregistrée dans {file}|{n} couleurs enregistrées dans {file}

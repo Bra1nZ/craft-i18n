@@ -409,12 +409,6 @@ fontWeight	Bold	غامق
 	Calculations…	العمليات الحسابية…
 	Calibration	المعايرة
 	Camera Data	بيانات الكاميرا
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	إعدادات Camera Raw الافتراضية
-	Camera Raw Filter ({layer})	فلتر Camera Raw ({layer})
-	Camera Raw Filter…	فلتر Camera Raw…
-	Camera Raw isn't open	Camera Raw غير مفتوح
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	إلغاء (Esc)
 	Cancel any current edits (Esc)	إلغاء أي تعديلات حالية (Esc)
 	Cancel current crop operation  (Esc)	إلغاء عملية الاقتصاص الحالية  (Esc)
@@ -1691,9 +1685,9 @@ fontWeight	Light	خفيف
 	Load settings from a Camera Raw .xmp file	تحميل الإعدادات من ملف .xmp لـ Camera Raw
 	Load Settings…	تحميل الإعدادات…
 	Load the brush after each stroke	تحميل الفرشاة بعد كل ضربة
-	Loaded Camera Raw settings from {file}	تم تحميل إعدادات Camera Raw من {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	تم تحميل إعدادات Camera Raw من {file} ({n} غير مدعومة)
 	Loaded contours from {file}	تم تحميل المحيطات من {file}
+	Loaded RAW Develop settings from {file}	تم تحميل إعدادات معالجة RAW من {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	تم تحميل إعدادات معالجة RAW من {file} ({n} غير مدعومة)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	تم تحميل {n} إجراء من {file}|تم تحميل {n} إجراء من {file}|تم تحميل {n} إجراءين من {file}|تم تحميل {n} إجراءات من {file}|تم تحميل {n} إجراءً من {file}|تم تحميل {n} إجراء من {file}
 	Loading fonts…	جارٍ تحميل الخطوط…
 	Load…	تحميل…
@@ -2024,7 +2018,6 @@ layerLabel	No Color	بلا لون
 	Open documents as tabs	فتح المستندات كعلامات تبويب
 	Open Document…	فتح…
 	Open EXR Parts…	فتح أجزاء EXR…
-	Open in camera raw	فتح في Camera Raw
 	Open paths use centered strokes	المسارات المفتوحة تستخدم حدودًا مركزية
 	open source	مفتوح المصدر
 	Open the release page to choose an installer for your system.	افتح صفحة الإصدار لاختيار برنامج التثبيت المناسب لنظامك.
@@ -2319,7 +2312,15 @@ layerLabel	No Color	بلا لون
 	Rasterize Type Layer	تنقيط طبقة النص
 	Rate	المعدل
 	Ratio	النسبة
+	RAW Defaults	إعدادات RAW الافتراضية
+	RAW Defaults…	إعدادات RAW الافتراضية…
 	Raw Defaults…	إعدادات Raw الافتراضية…
+	RAW Develop	معالجة RAW
+	RAW Develop ({name})	معالجة RAW ({name})
+	RAW Develop Filter	مرشح معالجة RAW
+	RAW Develop Filter ({layer})	فلتر معالجة RAW ({layer})
+	RAW Develop Filter…	فلتر معالجة RAW…
+	RAW Develop isn't open	معالجة RAW غير مفتوح
 	Reading…	جارٍ القراءة…
 	Real-Time Refinement	تحسين في الوقت الفعلي
 	Recent file count	عدد الملفات الأخيرة
@@ -2534,6 +2535,7 @@ fontWeight	Regular	عادي
 	Saved	تم الحفظ
 	Saved contours to {file}	تم حفظ المحيطات في {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	تم الحفظ للويب: {n} ملف|تم الحفظ للويب: {n} ملف|تم الحفظ للويب: {n} ملفان|تم الحفظ للويب: {n} ملفات|تم الحفظ للويب: {n} ملفًا|تم الحفظ للويب: {n} ملف
+	Saved RAW Develop settings to {file}	تم حفظ إعدادات معالجة RAW في {file}
 	Saved {name}	تم حفظ {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	تم حفظ {n} إجراء في {file}|تم حفظ {n} إجراء في {file}|تم حفظ {n} إجراءين في {file}|تم حفظ {n} إجراءات في {file}|تم حفظ {n} إجراءً في {file}|تم حفظ {n} إجراء في {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	تم حفظ {n} لون في {file}|تم حفظ {n} لون في {file}|تم حفظ {n} لونين في {file}|تم حفظ {n} ألوان في {file}|تم حفظ {n} لونًا في {file}|تم حفظ {n} لون في {file}

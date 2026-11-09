@@ -132,12 +132,9 @@
 	Adjustment Preview	Podgląd korekty
 	Adjustment visible	Korekta widoczna
 	Adobe	Adobe
-	Adobe Every-line Composer	Skład wielowierszowy Adobe
-	Adobe PDF Presets…	Ustawienia wstępne Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Zgodny z Adobe RGB (1998)
-	Adobe Single-line Composer	Skład jednowierszowy Adobe
 	Advanced Blending	Mieszanie zaawansowane
 	Advanced Controls	Zaawansowane ustawienia
 	Adwaita	Adwaita
@@ -431,14 +428,6 @@ fontWeight	Bold	Pogrubiony
 	Camera Data	Dane aparatu
 	Camera Make	Producent aparatu
 	Camera Model	Model aparatu
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Domyślne ustawienia Camera Raw
-	Camera Raw Filter	Filtr Camera Raw
-	Camera Raw Filter ({layer})	Filtr Camera Raw ({layer})
-	Camera Raw Filter…	Filtr Camera Raw…
-	Camera Raw isn't open	Camera Raw nie jest otwarty
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Anuluj (Esc)
 	Cancel any current edits (Esc)	Anuluj wszystkie bieżące zmiany (Esc)
 	Cancel current crop operation  (Esc)	Anuluj bieżące przycinanie  (Esc)
@@ -1767,9 +1756,9 @@ cameraRaw	Lights	Jasne tony
 	Load settings from a Camera Raw .xmp file	Wczytaj ustawienia z pliku .xmp Camera Raw
 	Load Settings…	Wczytaj ustawienia…
 	Load the brush after each stroke	Napełniaj pędzel po każdym pociągnięciu
-	Loaded Camera Raw settings from {file}	Wczytano ustawienia Camera Raw z pliku {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Wczytano ustawienia Camera Raw z pliku {file} (nieobsługiwane: {n})
 	Loaded contours from {file}	Wczytano kontury z {file}
+	Loaded RAW Develop settings from {file}	Wczytano ustawienia Wywoływanie RAW z pliku {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Wczytano ustawienia Wywoływanie RAW z pliku {file} (nieobsługiwane: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Wczytano {n} operację z {file}|Wczytano {n} operacje z {file}|Wczytano {n} operacji z {file}
 	Loading fonts…	Wczytywanie czcionek…
 	Load…	Wczytaj…
@@ -2105,7 +2094,6 @@ cameraData	Model	Model
 	Open documents as tabs	Otwieraj dokumenty jako karty
 	Open Document…	Otwórz…
 	Open EXR Parts…	Otwórz części EXR…
-	Open in camera raw	Otwórz w Camera Raw
 	Open paths use centered strokes	Otwarte ścieżki używają wyśrodkowanych obrysów
 	open source	otwarte oprogramowanie
 	Open the release page to choose an installer for your system.	Otwórz stronę wydania, aby wybrać instalator dla swojego systemu.
@@ -2394,8 +2382,16 @@ cameraRaw	Purple	Fioletowy
 	Rate	Szybkość
 	Ratio	Proporcje
 	Raw Data	Dane surowe
+	RAW Defaults	Domyślne ustawienia RAW
 	Raw Defaults	Domyślne ustawienia Raw
+	RAW Defaults…	Domyślne ustawienia RAW…
 	Raw Defaults…	Domyślne ustawienia Raw…
+	RAW Develop	Wywoływanie RAW
+	RAW Develop ({name})	Wywoływanie RAW ({name})
+	RAW Develop Filter	Filtr Wywoływanie RAW
+	RAW Develop Filter ({layer})	Filtr Wywoływanie RAW ({layer})
+	RAW Develop Filter…	Filtr Wywoływanie RAW…
+	RAW Develop isn't open	Wywoływanie RAW nie jest otwarty
 	Reading	Odczyt
 	Reading…	Odczyt…
 	Real-Time Refinement	Dopracowanie w czasie rzeczywistym
@@ -2620,10 +2616,10 @@ cameraRaw	Roughness	Chropowatość
 	Save these shortcuts as a .kys file	Zapisz te skróty jako plik .kys
 	Save these shortcuts as a new set	Zapisz te skróty jako nowy zestaw
 	Saved	Zapisano
-	Saved Camera Raw settings to {file}	Zapisano ustawienia Camera Raw w {file}
 	Saved contours to {file}	Zapisano kontury w {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Zapisano dla Internetu: {n} plik|Zapisano dla Internetu: {n} pliki|Zapisano dla Internetu: {n} plików
 	Saved Multichannel	Zapisany wielokanałowy
+	Saved RAW Develop settings to {file}	Zapisano ustawienia Wywoływanie RAW w {file}
 	Saved {name}	Zapisano: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Zapisano {n} operację do {file}|Zapisano {n} operacje do {file}|Zapisano {n} operacji do {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Zapisano {n} kolor do {file}|Zapisano {n} kolory do {file}|Zapisano {n} kolorów do {file}

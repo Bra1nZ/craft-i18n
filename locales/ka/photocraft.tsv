@@ -156,12 +156,9 @@
 	Adjustment visible	კორექცია ხილულია
 	Adjustments	კორექცია
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe-ის აბზაცის მიხედვით აწყობა
-	Adobe PDF Presets…	Adobe PDF-ის პრესეტები…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998)-თან თავსებადი
-	Adobe Single-line Composer	Adobe-ის სტრიქონის მიხედვით აწყობა
 	Adobe-rgb-compat	Adobe RGB-თავსებადი
 	Advanced	დამატებითი
 	Advanced Blending	გაფართოებული შერევა
@@ -197,7 +194,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Layers	ყველა შრე
 	All Layers No Adjustments	ყველა შრე, კორექციის გარეშე
 	All shortcuts reset to PhotoCraft defaults.	ყველა მალსახმობი დაბრუნდა PhotoCraft-ის ნაგულისხმევზე.
-	All shortcuts reset to Photoshop defaults.	ყველა მალსახმობი დაბრუნდა Photoshop-ის ნაგულისხმევზე.
 	All Slices	ყველა ნაჭერი
 	All User Slices	მომხმარებლის ყველა ნაჭერი
 	Allow agent control	აგენტის მიერ მართვის დაშვება
@@ -553,17 +549,6 @@ fontWeight	Bold	მუქი
 	Camera Data	კამერის მონაცემები
 	Camera Make	კამერის მწარმოებელი
 	Camera Model	კამერის მოდელი
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw-ის ნაგულისხმევი პარამეტრები
-	Camera Raw Filter	Camera Raw ფილტრი
-	Camera Raw Filter ({layer})	Camera Raw ფილტრი ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw ფილტრი ({layer})
-	Camera Raw Filter…	Camera Raw ფილტრი…
-	Camera Raw isn't open	Camera Raw არ არის გახსნილი
-cameraRaw	Camera Raw isn't open	Camera Raw არ არის გახსნილი
-	Camera Raw…	Camera Raw…
 	Cancel	გაუქმება
 cameraRaw	Cancel	გაუქმება
 	Cancel (Esc)	გაუქმება (Esc)
@@ -1159,7 +1144,6 @@ cameraData	Date Taken	გადაღების თარიღი
 	Default Foreground and Background Colors	ნაგულისხმევი წინა პლანისა და ფონის ფერები
 	Default Leaves	ნაგულისხმევი ფოთლები
 	Default PhotoCraft Size	ნაგულისხმევი ზომა
-	Default Photoshop Size	Photoshop-ის ნაგულისხმევი ზომა
 	Default printer	ნაგულისხმევი პრინტერი
 	Default restored.	ნაგულისხმევი აღდგენილია.
 	Defaults	ნაგულისხმევი
@@ -2401,10 +2385,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	პარამეტრე�
 	Load Settings…	პარამეტრების ჩატვირთვა…
 cameraRaw	Load Settings…	პარამეტრების ჩატვირთვა…
 	Load the brush after each stroke	ყოველი შტრიხის შემდეგ ფუნჯზე საღებავის აღება
-	Loaded Camera Raw settings from {file}	Camera Raw-ის პარამეტრები ჩაიტვირთა {file}-დან
-cameraRaw	Loaded Camera Raw settings from {file}	Camera Raw-ის პარამეტრები ჩაიტვირთა {file}-დან
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw-ის პარამეტრები ჩაიტვირთა {file}-დან (მხარდაუჭერელი: {n})
 	Loaded contours from {file}	{file}-დან ჩაიტვირთა კონტურები
+	Loaded RAW Develop settings from {file}	RAW დამუშავება-ის პარამეტრები ჩაიტვირთა {file}-დან
+cameraRaw	Loaded RAW Develop settings from {file}	RAW დამუშავება-ის პარამეტრები ჩაიტვირთა {file}-დან
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW დამუშავება-ის პარამეტრები ჩაიტვირთა {file}-დან (მხარდაუჭერელი: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file}-დან ჩაიტვირთა მოქმედება: {n}|{file}-დან ჩაიტვირთა მოქმედება: {n}
 	Loading fonts…	შრიფტები იტვირთება…
 	Loading…	იტვირთება…
@@ -2873,7 +2857,6 @@ cameraRaw	Open	გახსნა
 	Open File	ფაილის გახსნა
 	Open Folder	საქაღალდის გახსნა
 	Open Image	გამოსახულების გახსნა
-	Open in camera raw	Camera Raw-ში გახსნა
 	Open paths use centered strokes	ღია ტრაექტორიების კონტური ცენტრირებულია
 	Open Recent	ბოლოს გახსნილი ფაილების გახსნა
 	Open Recent is unavailable on the web	ბოლოს გახსნილი ფაილების გახსნა ვებში მიუწვდომელია
@@ -3297,8 +3280,19 @@ cameraRaw	Radius	რადიუსი
 liquify	Rate	სიჩქარე
 	Ratio	პროპორცია
 	Raw Data	დაუმუშავებელი მონაცემები
+	RAW Defaults	RAW-ის ნაგულისხმევი პარამეტრები
 	Raw Defaults	Raw ნაგულისხმევი პარამეტრები
+	RAW Defaults…	RAW-ის ნაგულისხმევი პარამეტრები…
 	Raw Defaults…	Raw-ის ნაგულისხმევი პარამეტრები…
+	RAW Develop	RAW დამუშავება
+	RAW Develop ({name})	RAW დამუშავება ({name})
+cameraRaw	RAW Develop ({name})	RAW დამუშავება ({name})
+	RAW Develop Filter	RAW დამუშავება ფილტრი
+	RAW Develop Filter ({layer})	RAW დამუშავება ფილტრი ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW დამუშავება ფილტრი ({layer})
+	RAW Develop Filter…	RAW დამუშავება ფილტრი…
+	RAW Develop isn't open	RAW დამუშავება არ არის გახსნილი
+cameraRaw	RAW Develop isn't open	RAW დამუშავება არ არის გახსნილი
 	Reading	იკითხება
 	Reading…	იკითხება…
 	Ready	მზადაა
@@ -3608,6 +3602,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Saved contours to {file}	{file}-ში შეინახა კონტურები
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	შენახულია ვებისთვის: ფაილი: {n}|შენახულია ვებისთვის: ფაილი: {n}
 	Saved Multichannel	შენახული მრავალარხიანი
+	Saved RAW Develop settings to {file}	RAW დამუშავების პარამეტრები შენახულია {file}-ში
 	Saved {name}	შენახულია {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file}-ში შეინახა მოქმედება: {n}|{file}-ში შეინახა მოქმედება: {n}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file}-ში შეინახა ფერი: {n}|{file}-ში შეინახა ფერი: {n}

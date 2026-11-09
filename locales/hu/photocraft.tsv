@@ -140,12 +140,9 @@
 	Adjustment Properties	Korrekció tulajdonságai
 	Adjustment visible	Korrekció látható
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe többsoros szedőmotor
-	Adobe PDF Presets…	Adobe PDF-előbeállítások…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998)-kompatibilis
-	Adobe Single-line Composer	Adobe egysoros szedőmotor
 	Advanced Blending	Speciális keverés
 	Advanced Controls	Speciális vezérlők
 	Adwaita	Adwaita
@@ -453,14 +450,6 @@ fontWeight	Bold	Félkövér
 	Camera Data	Fényképezőgép adatai
 	Camera Make	Fényképezőgép gyártója
 	Camera Model	Fényképezőgép típusa
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw-alapértékek
-	Camera Raw Filter	Camera Raw szűrő
-	Camera Raw Filter ({layer})	Camera Raw szűrő ({layer})
-	Camera Raw Filter…	Camera Raw szűrő…
-	Camera Raw isn't open	A Camera Raw nincs megnyitva
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Mégse (Esc)
 	Cancel any current edits (Esc)	Folyamatban lévő módosítások elvetése (Esc)
 	Cancel current crop operation  (Esc)	Körbevágás elvetése  (Esc)
@@ -1866,9 +1855,9 @@ cameraRaw	Lights	Világos tónusok
 	Load settings from a Camera Raw .xmp file	Beállítások betöltése Camera Raw .xmp-fájlból
 	Load Settings…	Beállítások betöltése…
 	Load the brush after each stroke	Az ecset feltöltése minden ecsetvonás után
-	Loaded Camera Raw settings from {file}	Camera Raw-beállítások betöltve innen: {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw-beállítások betöltve innen: {file} ({n} nem támogatott)
 	Loaded contours from {file}	Kontúrok betöltve: {file}
+	Loaded RAW Develop settings from {file}	RAW-előhívás-beállítások betöltve innen: {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-előhívás-beállítások betöltve innen: {file} ({n} nem támogatott)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} művelet betöltve. Forrás: {file}|{n} művelet betöltve. Forrás: {file}
 	Loading fonts…	Betűtípusok betöltése…
 	Loading…	Betöltés…
@@ -2236,7 +2225,6 @@ layerLabel	No Color	Nincs szín
 	Open File	Fájl megnyitása
 	Open Folder	Mappa megnyitása
 	Open Image	Kép megnyitása
-	Open in camera raw	Megnyitás a Camera Raw-ban
 	Open paths use centered strokes	Nyitott útvonalon a körvonal középre igazított
 	Open Recent is unavailable on the web	A legutóbbi fájlok listája a webes változatban nem érhető el
 	open source	nyílt forráskódú
@@ -2553,8 +2541,16 @@ cameraRaw	Purple	Lila
 	Rate	Ütem
 	Ratio	Arány
 	Raw Data	Nyers adatok
+	RAW Defaults	RAW-alapértékek
 	Raw Defaults	Raw-alapértékek
+	RAW Defaults…	RAW-alapértékek…
 	Raw Defaults…	Raw-alapértékek…
+	RAW Develop	RAW-előhívás
+	RAW Develop ({name})	RAW-előhívás ({name})
+	RAW Develop Filter	RAW-előhívás szűrő
+	RAW Develop Filter ({layer})	RAW-előhívás szűrő ({layer})
+	RAW Develop Filter…	RAW-előhívás szűrő…
+	RAW Develop isn't open	A RAW-előhívás nincs megnyitva
 	Reading	Beolvasás
 	Reading…	Olvasás…
 	Ready	Készen áll
@@ -2792,10 +2788,10 @@ cameraRaw	Roughness	Érdesség
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Mentse a megnyitott SVG-fájlba. Minden mentett módosítás külön visszavonási lépés lesz a PhotoCraftban.
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	A GPU-gyorsítás újrapróbálásához mentsd a munkádat, majd indítsd újra a PhotoCraftot. Ebben a munkamenetben a CPU-s megjelenítés marad aktív.
 	Saved a copy as {path}	Másolat mentve: {path}
-	Saved Camera Raw settings to {file}	Camera Raw-beállítások mentve ide: {file}
 	Saved contours to {file}	Kontúrok mentve: {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Mentés webre: {n} fájl|Mentés webre: {n} fájl
 	Saved Multichannel	Többcsatornásként mentve
+	Saved RAW Develop settings to {file}	RAW-előhívás-beállítások mentve ide: {file}
 	Saved {name}	Mentve: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} művelet mentve. Cél: {file}|{n} művelet mentve. Cél: {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} szín mentve ide: {file}|{n} szín mentve ide: {file}

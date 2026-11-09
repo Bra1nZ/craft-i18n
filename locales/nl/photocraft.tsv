@@ -135,12 +135,9 @@
 	Adjustment Properties	Eigenschappen aanpassing
 	Adjustment visible	Aanpassing zichtbaar
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe-zetmachine voor alle regels
-	Adobe PDF Presets…	Adobe PDF-voorinstellingen…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatibel met Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe-zetmachine per regel
 	Advanced Blending	Geavanceerd overvloeien
 	Advanced Controls	Geavanceerde instellingen
 	Adwaita	Adwaita
@@ -438,14 +435,6 @@ fontWeight	Bold	Vet
 	Camera Data	Cameragegevens
 	Camera Make	Cameramerk
 	Camera Model	Cameramodel
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Standaardwaarden Camera Raw
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw is niet geopend
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Annuleren (Esc)
 	Cancel any current edits (Esc)	Huidige bewerkingen annuleren (Esc)
 	Cancel current crop operation  (Esc)	Huidige bijsnijbewerking annuleren  (Esc)
@@ -1813,9 +1802,9 @@ cameraRaw	Lights	Lichte tinten
 	Load settings from a Camera Raw .xmp file	Instellingen laden uit een Camera Raw-.xmp-bestand
 	Load Settings…	Instellingen laden…
 	Load the brush after each stroke	Penseel laden na elke streek
-	Loaded Camera Raw settings from {file}	Camera Raw-instellingen geladen uit {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw-instellingen geladen uit {file} ({n} niet ondersteund)
 	Loaded contours from {file}	Contouren geladen uit {file}
+	Loaded RAW Develop settings from {file}	RAW-ontwikkeling-instellingen geladen uit {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-ontwikkeling-instellingen geladen uit {file} ({n} niet ondersteund)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} handeling geladen uit {file}|{n} handelingen geladen uit {file}
 	Loading fonts…	Lettertypen laden…
 	Loading…	Laden…
@@ -2161,7 +2150,6 @@ layerLabel	No Color	Geen kleur
 	Open File	Bestand openen
 	Open Folder	Map openen
 	Open Image	Afbeelding openen
-	Open in camera raw	Openen in Camera Raw
 	Open paths use centered strokes	Open paden gebruiken gecentreerde lijnen
 	open source	opensource
 	Open the release page to choose an installer for your system.	Open de releasepagina om een installatieprogramma voor uw systeem te kiezen.
@@ -2463,8 +2451,16 @@ cameraRaw	Purple	Paars
 	Rasterize Type Layer	Tekstlaag rasteren
 	Rate	Snelheid
 	Raw Data	Ruwe gegevens
+	RAW Defaults	RAW-standaardwaarden
 	Raw Defaults	Raw-standaardwaarden
+	RAW Defaults…	RAW-standaardwaarden…
 	Raw Defaults…	Raw-standaardwaarden…
+	RAW Develop	RAW-ontwikkeling
+	RAW Develop ({name})	RAW-ontwikkeling ({name})
+	RAW Develop Filter	RAW-ontwikkeling-filter
+	RAW Develop Filter ({layer})	RAW-ontwikkeling-filter ({layer})
+	RAW Develop Filter…	RAW-ontwikkeling-filter…
+	RAW Develop isn't open	RAW-ontwikkeling is niet geopend
 	Reading	Lezen
 	Reading…	Lezen…
 	Ready	Gereed
@@ -2698,10 +2694,10 @@ cameraRaw	Roughness	Ruwheid
 	Save these settings as a Camera Raw .xmp file	Deze instellingen opslaan als Camera Raw-.xmp-bestand
 	Save these shortcuts as a .kys file	Deze sneltoetsen als .kys-bestand opslaan
 	Save these shortcuts as a new set	Deze sneltoetsen als nieuwe set opslaan
-	Saved Camera Raw settings to {file}	Camera Raw-instellingen opgeslagen in {file}
 	Saved contours to {file}	Contouren opgeslagen in {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Opgeslagen voor web: {n} bestand|Opgeslagen voor web: {n} bestanden
 	Saved Multichannel	Opgeslagen meerkanaals
+	Saved RAW Develop settings to {file}	RAW-ontwikkeling-instellingen opgeslagen in {file}
 	Saved {name}	{name} opgeslagen
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} handeling opgeslagen in {file}|{n} handelingen opgeslagen in {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} kleur opgeslagen in {file}|{n} kleuren opgeslagen in {file}

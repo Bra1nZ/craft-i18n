@@ -115,7 +115,6 @@
 	Adjustment Preview	调整预览
 	Adjustment visible	显示调整
 	Adobe	Adobe
-	Adobe PDF Presets…	Adobe PDF 预设…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998) compatible	兼容 Adobe RGB (1998)
 	Adwaita	Adwaita
@@ -337,12 +336,6 @@ fontWeight	Bold	粗体
 	Calculations…	计算…
 	Calibration	校准
 	Camera Data	相机数据
-	Camera Raw ({name})	Camera Raw（{name}）
-	Camera Raw Defaults	Camera Raw 默认设置
-	Camera Raw Filter ({layer})	Camera Raw 滤镜（{layer}）
-	Camera Raw Filter…	Camera Raw 滤镜…
-	Camera Raw isn't open	尚未打开 Camera Raw
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	取消（Esc）
 	Cancel any current edits (Esc)	取消当前所有编辑（Esc）
 	Cancel current crop operation  (Esc)	取消当前裁剪操作  （Esc）
@@ -1367,9 +1360,9 @@ cameraRaw	Lights	亮调
 	Load settings from a Camera Raw .xmp file	从 Camera Raw .xmp 文件载入设置
 	Load Settings…	载入设置…
 	Load the brush after each stroke	每次描边后载入画笔
-	Loaded Camera Raw settings from {file}	已从 {file} 载入 Camera Raw 设置
-	Loaded Camera Raw settings from {file} ({n} not supported)	已从 {file} 载入 Camera Raw 设置（{n} 项不支持）
 	Loaded contours from {file}	已从 {file} 载入等高线
+	Loaded RAW Develop settings from {file}	已从 {file} 载入 RAW 显影 设置
+	Loaded RAW Develop settings from {file} ({n} not supported)	已从 {file} 载入 RAW 显影 设置（{n} 项不支持）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	已从 {file} 载入 {n} 个动作
 	Loading fonts…	正在加载字体…
 	Load…	载入…
@@ -1627,7 +1620,6 @@ cameraData	Model	型号
 	Open documents as tabs	以标签页打开文档
 	Open Document…	打开…
 	Open EXR Parts…	打开 EXR 分段…
-	Open in camera raw	在 Camera Raw 中打开
 	Open paths use centered strokes	开放路径使用居中描边
 	open source	开源
 	Open the release page to choose an installer for your system.	打开发布页，选择适合您系统的安装包。
@@ -1848,7 +1840,15 @@ cameraData	Model	型号
 	Rasterize Type	栅格化文字
 	Rasterize Type Layer	栅格化文字图层
 	Rate	速率
+	RAW Defaults	RAW 默认设置
+	RAW Defaults…	RAW 默认设置…
 	Raw Defaults…	Raw 默认设置…
+	RAW Develop	RAW 显影
+	RAW Develop ({name})	RAW 显影（{name}）
+	RAW Develop Filter	RAW 显影滤镜
+	RAW Develop Filter ({layer})	RAW 显影 滤镜（{layer}）
+	RAW Develop Filter…	RAW 显影 滤镜…
+	RAW Develop isn't open	尚未打开 RAW 显影
 	Reading…	正在读取…
 	Real-Time Refinement	实时调整
 	Recent	最近使用
@@ -2027,9 +2027,9 @@ fontWeight	Regular	常规
 	Save these settings as a Camera Raw .xmp file	将这些设置存储为 Camera Raw .xmp 文件
 	Save these shortcuts as a .kys file	将这些快捷键存储为 .kys 文件
 	Save these shortcuts as a new set	将这些快捷键存储为新组
-	Saved Camera Raw settings to {file}	已将 Camera Raw 设置保存到 {file}
 	Saved contours to {file}	已将等高线存储到 {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	已存储为 Web 所用格式：{n} 个文件
+	Saved RAW Develop settings to {file}	已将 RAW 显影 设置保存到 {file}
 	Saved {name}	已保存 {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	已将 {n} 个动作存储到 {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	已将 {n} 种颜色保存到 {file}

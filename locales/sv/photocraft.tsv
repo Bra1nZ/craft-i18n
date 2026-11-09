@@ -137,12 +137,9 @@
 	Adjustment visible	Justering synlig
 	Adjustments	Justeringar
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe Every-line Composer
-	Adobe PDF Presets…	Adobe PDF-förinställningar…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Kompatibel med Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe Single-line Composer
 	Adobe-rgb-compat	Adobe RGB (kompatibel)
 	Advanced Blending	Avancerad blandning
 	Advanced Controls	Avancerade kontroller
@@ -174,7 +171,6 @@
 	All Classes	Alla klasser
 	All Layers No Adjustments	Alla lager utan justeringar
 	All shortcuts reset to PhotoCraft defaults.	Alla kortkommandon har återställts till PhotoCrafts standardvärden.
-	All shortcuts reset to Photoshop defaults.	Alla kortkommandon har återställts till Photoshops standardvärden.
 	All User Slices	Alla användarskivor
 	Allow agent control	Tillåt agentstyrning
 	Allow Continue	Tillåt att fortsätta
@@ -478,17 +474,6 @@ fontWeight	Bold	Fet
 	Camera Data	Kameradata
 	Camera Make	Kameratillverkare
 	Camera Model	Kameramodell
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Standardinställningar för Camera Raw
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw är inte öppet
-cameraRaw	Camera Raw isn't open	Camera Raw är inte öppet
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Avbryt
 	Cancel (Esc)	Avbryt (Esc)
 	Cancel any current edits (Esc)	Avbryt alla pågående ändringar (Esc)
@@ -989,7 +974,6 @@ cameraData	Date Taken	Fotograferingsdatum
 	Default Foreground and Background Colors (D)	Standardfärger för förgrund och bakgrund (D)
 	Default Leaves	Standardlöv
 	Default PhotoCraft Size	Standardstorlek för PhotoCraft
-	Default Photoshop Size	Standardstorlek för Photoshop
 	Default printer	Standardskrivare
 	Default restored.	Standardvärdet har återställts.
 	Defaults	Standardvärden
@@ -2013,10 +1997,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Läs in inställningar från
 	Load Settings…	Läs in inställningar…
 cameraRaw	Load Settings…	Läs in inställningar…
 	Load the brush after each stroke	Ladda penseln efter varje penseldrag
-	Loaded Camera Raw settings from {file}	Läste in Camera Raw-inställningar från {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Läste in Camera Raw-inställningar från {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Läste in Camera Raw-inställningar från {file} ({n} stöds inte)
 	Loaded contours from {file}	Konturer inlästa från {file}
+	Loaded RAW Develop settings from {file}	Läste in RAW-framkallning-inställningar från {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Läste in RAW-framkallning-inställningar från {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Läste in RAW-framkallning-inställningar från {file} ({n} stöds inte)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Läste in {n} åtgärd från {file}|Läste in {n} åtgärder från {file}
 	Loading fonts…	Läser in teckensnitt…
 	Loading…	Läser in…
@@ -2406,7 +2390,6 @@ cameraRaw	Open	Öppna
 	Open File	Öppna fil
 	Open Folder	Öppna mapp
 	Open Image	Öppna bild
-	Open in camera raw	Öppna i Camera Raw
 	Open paths use centered strokes	Öppna banor använder centrerade linjer
 	Open Recent	Öppna senaste
 	Open Recent is unavailable on the web	Öppna senaste är inte tillgängligt på webben
@@ -2754,8 +2737,19 @@ cameraRaw	Radius	Radie
 	Rate	Hastighet
 	Ratio	Förhållande
 	Raw Data	Rådata
+	RAW Defaults	Standardinställningar för RAW
 	Raw Defaults	Raw-standardvärden
+	RAW Defaults…	Standardinställningar för RAW…
 	Raw Defaults…	Raw-standardvärden…
+	RAW Develop	RAW-framkallning
+	RAW Develop ({name})	RAW-framkallning ({name})
+cameraRaw	RAW Develop ({name})	RAW-framkallning ({name})
+	RAW Develop Filter	RAW-framkallning-filter
+	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
+	RAW Develop Filter…	RAW-framkallning-filter…
+	RAW Develop isn't open	RAW-framkallning är inte öppet
+cameraRaw	RAW Develop isn't open	RAW-framkallning är inte öppet
 	Reading	Läsning
 	Reading…	Läser…
 	Real-Time Refinement	Förfining i realtid
@@ -3008,6 +3002,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Saved contours to {file}	Konturer sparade i {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Sparat för webben: {n} fil|Sparat för webben: {n} filer
 	Saved Multichannel	Sparad flerkanal
+	Saved RAW Develop settings to {file}	RAW-framkallningsinställningar sparade i {file}
 	Saved {name}	Sparade {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sparade {n} åtgärd i {file}|Sparade {n} åtgärder i {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Sparade {n} färg i {file}|Sparade {n} färger i {file}

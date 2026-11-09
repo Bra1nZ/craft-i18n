@@ -135,12 +135,9 @@
 	Adjustment Preview	Перегляд корекції
 	Adjustment visible	Корекція видима
 	Adobe	Adobe
-	Adobe Every-line Composer	Багаторядковий компонувальник Adobe
-	Adobe PDF Presets…	Набори Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Сумісний з Adobe RGB (1998)
-	Adobe Single-line Composer	Однорядковий компонувальник Adobe
 	Advanced	Розширені
 	Advanced Blending	Розширене накладання
 	Advanced Controls	Розширені параметри
@@ -435,14 +432,6 @@ fontWeight	Bold	Жирний
 	Camera Data	Дані камери
 	Camera Make	Виробник камери
 	Camera Model	Модель камери
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Типові параметри Camera Raw
-	Camera Raw Filter	Фільтр Camera Raw
-	Camera Raw Filter ({layer})	Фільтр Camera Raw ({layer})
-	Camera Raw Filter…	Фільтр Camera Raw…
-	Camera Raw isn't open	Camera Raw не відкрито
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Скасувати (Esc)
 	Cancel any current edits (Esc)	Скасувати поточні зміни (Esc)
 	Cancel current crop operation  (Esc)	Скасувати поточне кадрування  (Esc)
@@ -1789,9 +1778,9 @@ cameraRaw	Lights	Світлі тони
 	Load settings from a Camera Raw .xmp file	Завантажити налаштування з файлу Camera Raw .xmp
 	Load Settings…	Завантажити налаштування…
 	Load the brush after each stroke	Завантажувати пензель після кожного штриха
-	Loaded Camera Raw settings from {file}	Налаштування Camera Raw завантажено з {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Налаштування Camera Raw завантажено з {file} (не підтримується: {n})
 	Loaded contours from {file}	Контури завантажено з {file}
+	Loaded RAW Develop settings from {file}	Налаштування Обробка RAW завантажено з {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Налаштування Обробка RAW завантажено з {file} (не підтримується: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Завантажено {n} операцію з {file}|Завантажено {n} операції з {file}|Завантажено {n} операцій з {file}
 	Loading fonts…	Завантаження шрифтів…
 	Load…	Завантажити…
@@ -2133,7 +2122,6 @@ layerLabel	No Color	Без кольору
 	Open documents as tabs	Відкривати документи у вкладках
 	Open Document…	Відкрити…
 	Open EXR Parts…	Відкрити частини EXR…
-	Open in camera raw	Відкривати в Camera Raw
 	Open paths use centered strokes	Відкриті контури використовують обведення по центру
 	open source	відкритий код
 	Open the release page to choose an installer for your system.	Відкрийте сторінку випуску й виберіть інсталятор для своєї системи.
@@ -2421,8 +2409,16 @@ cameraRaw	Purple	Фіолетовий
 	Rate	Частота
 	Ratio	Пропорції
 	Raw Data	Необроблені дані
+	RAW Defaults	Типові параметри RAW
 	Raw Defaults	Типові параметри Raw
+	RAW Defaults…	Типові параметри RAW…
 	Raw Defaults…	Типові параметри Raw…
+	RAW Develop	Обробка RAW
+	RAW Develop ({name})	Обробка RAW ({name})
+	RAW Develop Filter	Фільтр Обробка RAW
+	RAW Develop Filter ({layer})	Фільтр Обробка RAW ({layer})
+	RAW Develop Filter…	Фільтр Обробка RAW…
+	RAW Develop isn't open	Обробка RAW не відкрито
 	Reading	Читання
 	Reading…	Читання…
 	Real name	Справжнє ім'я
@@ -2641,10 +2637,10 @@ cameraRaw	Roughness	Шорсткість
 	Save these settings as a Camera Raw .xmp file	Зберегти ці налаштування у файл Camera Raw .xmp
 	Save these shortcuts as a .kys file	Зберегти ці клавіатурні скорочення як файл .kys
 	Save these shortcuts as a new set	Зберегти ці клавіатурні скорочення як новий набір
-	Saved Camera Raw settings to {file}	Налаштування Camera Raw збережено в {file}
 	Saved contours to {file}	Контури збережено в {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Збережено для вебу: {n} файл|Збережено для вебу: {n} файли|Збережено для вебу: {n} файлів
 	Saved Multichannel	Збережений багатоканальний
+	Saved RAW Develop settings to {file}	Налаштування Обробка RAW збережено в {file}
 	Saved {name}	Збережено: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Збережено {n} операцію до {file}|Збережено {n} операції до {file}|Збережено {n} операцій до {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Збережено {n} колір у {file}|Збережено {n} кольори у {file}|Збережено {n} кольорів у {file}

@@ -141,12 +141,9 @@
 	Adjustment Properties	Свойства коррекции
 	Adjustment visible	Коррекция видима
 	Adobe	Adobe
-	Adobe Every-line Composer	Абзацная компоновка Adobe
-	Adobe PDF Presets…	Наборы Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Совместим с Adobe RGB (1998)
-	Adobe Single-line Composer	Построчная компоновка Adobe
 	Adobe-rgb-compat	Adobe RGB (совместимо)
 	Advanced Blending	Дополнительные параметры наложения
 	Advanced Controls	Дополнительное управление
@@ -181,7 +178,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Все классы
 	All Layers No Adjustments	Все слои без коррекции
 	All shortcuts reset to PhotoCraft defaults.	Все комбинации клавиш сброшены к стандартным PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Все сочетания клавиш сброшены к значениям Photoshop по умолчанию.
 	All User Slices	Все пользовательские фрагменты
 	Allow agent control	Разрешить управление агентами
 	Allow Continue	Разрешить продолжение
@@ -472,14 +468,6 @@ fontWeight	Bold	Жирный
 	Camera Data	Данные камеры
 	Camera Make	Производитель камеры
 	Camera Model	Модель камеры
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Значения Camera Raw по умолчанию
-	Camera Raw Filter	Фильтр Camera Raw
-	Camera Raw Filter ({layer})	Фильтр Camera Raw ({layer})
-	Camera Raw Filter…	Фильтр Camera Raw…
-	Camera Raw isn't open	Camera Raw не открыт
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Отмена (Esc)
 	Cancel any current edits (Esc)	Отменить все текущие правки (Esc)
 	Cancel current crop operation  (Esc)	Отменить текущее кадрирование  (Esc)
@@ -963,7 +951,6 @@ cameraData	Date Taken	Дата съёмки
 	Default Foreground and Background Colors (D)	Цвета по умолчанию (D)
 	Default Leaves	Листья по умолчанию
 	Default PhotoCraft Size	Размер PhotoCraft по умолчанию
-	Default Photoshop Size	Размер Photoshop по умолчанию
 	Default printer	Принтер по умолчанию
 	Default restored.	Значения по умолчанию восстановлены.
 	Defaults	По умолчанию
@@ -1974,9 +1961,9 @@ cameraRaw	Lights	Светлые тона
 	Load settings from a Camera Raw .xmp file	Загрузить настройки из файла Camera Raw .xmp
 	Load Settings…	Загрузить настройки…
 	Load the brush after each stroke	Загружать кисть после каждого штриха
-	Loaded Camera Raw settings from {file}	Настройки Camera Raw загружены из {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Настройки Camera Raw загружены из {file} (не поддерживается: {n})
 	Loaded contours from {file}	Контуры загружены из {file}
+	Loaded RAW Develop settings from {file}	Настройки Обработка RAW загружены из {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Настройки Обработка RAW загружены из {file} (не поддерживается: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Загружена {n} операция из {file}|Загружены {n} операции из {file}|Загружено {n} операций из {file}
 	Loading fonts…	Загрузка шрифтов…
 	Loading…	Загрузка…
@@ -2361,7 +2348,6 @@ layerLabel	No Color	Без цвета
 	Open File	Открыть файл
 	Open Folder	Открыть папку
 	Open Image	Открыть изображение
-	Open in camera raw	Открывать в Camera Raw
 	Open paths use centered strokes	Открытые контуры используют обводку по центру
 	Open Recent is unavailable on the web	«Открыть недавние» недоступно в веб-версии
 	open source	открытый исходный код
@@ -2693,8 +2679,16 @@ cameraRaw	Radius	Радиус
 	Rate	Скорость
 	Ratio	Соотношение
 	Raw Data	Необработанные данные
+	RAW Defaults	Настройки RAW по умолчанию
 	Raw Defaults	Значения RAW по умолчанию
+	RAW Defaults…	Настройки RAW по умолчанию…
 	Raw Defaults…	Значения RAW по умолчанию…
+	RAW Develop	Обработка RAW
+	RAW Develop ({name})	Обработка RAW ({name})
+	RAW Develop Filter	Фильтр Обработка RAW
+	RAW Develop Filter ({layer})	Фильтр Обработка RAW ({layer})
+	RAW Develop Filter…	Фильтр Обработка RAW…
+	RAW Develop isn't open	Обработка RAW не открыт
 	Reading	Чтение
 	Reading…	Чтение…
 	Real-Time Refinement	Уточнение в реальном времени
@@ -2945,10 +2939,10 @@ cameraRaw	Saturation	Насыщенность
 	Save these shortcuts as a new set	Сохранить эти комбинации как новый набор
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Сохраните работу и перезапустите PhotoCraft, чтобы повторить попытку ускорения GPU. Отрисовка на CPU остаётся активной в этом сеансе.
 	Saved a copy as {path}	Копия сохранена как {path}
-	Saved Camera Raw settings to {file}	Настройки Camera Raw сохранены в {file}
 	Saved contours to {file}	Контуры сохранены в {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Сохранено для Web: {n} файл|Сохранено для Web: {n} файла|Сохранено для Web: {n} файлов
 	Saved Multichannel	Saved Multichannel
+	Saved RAW Develop settings to {file}	Настройки Обработка RAW сохранены в {file}
 	Saved {name}	Сохранено: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Сохранена {n} операция в {file}|Сохранены {n} операции в {file}|Сохранено {n} операций в {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Сохранён {n} цвет в {file}|Сохранены {n} цвета в {file}|Сохранено {n} цветов в {file}

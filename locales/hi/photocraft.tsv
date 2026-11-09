@@ -82,13 +82,6 @@ cameraRaw	Blue	नीला
 	Brush Tool	ब्रश टूल
 	Brushes	ब्रश
 	Burn Tool	बर्न टूल
-	Camera Raw	Camera Raw
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Filter ({layer})	Camera Raw फ़िल्टर ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw फ़िल्टर ({layer})
-	Camera Raw isn't open	Camera Raw खुला नहीं है
-cameraRaw	Camera Raw isn't open	Camera Raw खुला नहीं है
-	Camera Raw…	Camera Raw…
 	Cancel	रद्द करें
 cameraRaw	Cancel	रद्द करें
 	Canceled opening {name}	{name} खोलना रद्द किया गया
@@ -334,8 +327,9 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Camera Raw .xmp फ़ाइ
 	Load Settings…	सेटिंग्स लोड करें…
 cameraRaw	Load Settings…	सेटिंग्स लोड करें…
 	Load the brush after each stroke	हर स्ट्रोक के बाद ब्रश लोड करें
-	Loaded Camera Raw settings from {file}	{file} से Camera Raw सेटिंग्स लोड की गईं
-cameraRaw	Loaded Camera Raw settings from {file}	{file} से Camera Raw सेटिंग्स लोड की गईं
+	Loaded RAW Develop settings from {file}	{file} से RAW डेवलप सेटिंग्स लोड की गईं
+cameraRaw	Loaded RAW Develop settings from {file}	{file} से RAW डेवलप सेटिंग्स लोड की गईं
+	Loaded RAW Develop settings from {file} ({n} not supported)	{file} से RAW डेवलप सेटिंग्स लोड की गईं ({n} समर्थित नहीं)
 	Lock Guides	गाइड्स लॉक करें
 	Lock Slices	स्लाइस लॉक करें
 	Lock Workspace	कार्यस्थान लॉक करें
@@ -459,6 +453,16 @@ cameraRaw	Purple	बैंगनी
 	Quick Selection Tool	क्विक चयन टूल
 	Radius	त्रिज्या
 cameraRaw	Radius	त्रिज्या
+	RAW Defaults	RAW डिफ़ॉल्ट
+	RAW Defaults…	RAW डिफ़ॉल्ट…
+	RAW Develop	RAW डेवलप
+cameraRaw	RAW Develop ({name})	RAW डेवलप ({name})
+	RAW Develop Filter	RAW डेवलप फ़िल्टर
+	RAW Develop Filter ({layer})	RAW डेवलप फ़िल्टर ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW डेवलप फ़िल्टर ({layer})
+	RAW Develop Filter…	RAW डेवलप फ़िल्टर…
+	RAW Develop isn't open	RAW डेवलप खुला नहीं है
+cameraRaw	RAW Develop isn't open	RAW डेवलप खुला नहीं है
 	Real-Time Refinement	रियल-टाइम परिशोधन
 	Rectangle Tool	रेक्टेंगल टूल
 	Rectangular Marquee Tool	रेक्टेंगुलर मार्की टूल
@@ -507,6 +511,7 @@ cameraRaw	Saturation	सैचुरेशन
 cameraRaw	Save Settings…	सेटिंग्स सहेजें…
 	Save these settings as a Camera Raw .xmp file	इन सेटिंग्स को Camera Raw .xmp फ़ाइल के रूप में सहेजें
 cameraRaw	Save these settings as a Camera Raw .xmp file	इन सेटिंग्स को Camera Raw .xmp फ़ाइल के रूप में सहेजें
+	Saved RAW Develop settings to {file}	RAW डेवलप सेटिंग्स {file} में सहेजी गईं
 	Scale	आकार बदलें
 	Scope	दायरा
 	Scroll All Windows	सभी विंडो स्क्रॉल करें

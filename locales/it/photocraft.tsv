@@ -136,12 +136,9 @@
 	Adjustment Properties	Proprietà regolazione
 	Adjustment visible	Regolazione visibile
 	Adobe	Adobe
-	Adobe Every-line Composer	Compositore ogni riga Adobe
-	Adobe PDF Presets…	Predefiniti Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatibile Adobe RGB (1998)
-	Adobe Single-line Composer	Compositore riga singola Adobe
 	Adobe-rgb-compat	Adobe RGB (compatibile)
 	Advanced	Avanzato
 	Advanced Blending	Fusione avanzata
@@ -176,7 +173,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Tutte le classi
 	All Layers No Adjustments	Tutti i livelli senza regolazioni
 	All shortcuts reset to PhotoCraft defaults.	Tutte le scorciatoie ripristinate ai predefiniti di PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Tutte le scorciatoie ripristinate ai predefiniti di Photoshop.
 	All User Slices	Tutte le sezioni utente
 	Allow agent control	Consenti controllo agente
 	Allow Continue	Consenti di continuare
@@ -462,14 +458,6 @@ fontWeight	Bold	Grassetto
 	Camera Data	Dati fotocamera
 	Camera Make	Marca fotocamera
 	Camera Model	Modello fotocamera
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Predefiniti Camera Raw
-	Camera Raw Filter	Filtro Camera Raw
-	Camera Raw Filter ({layer})	Filtro Camera Raw ({layer})
-	Camera Raw Filter…	Filtro Camera Raw…
-	Camera Raw isn't open	Camera Raw non è aperto
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Annulla (Esc)
 	Cancel any current edits (Esc)	Annulla modifiche correnti (Esc)
 	Cancel current crop operation  (Esc)	Annulla operazione ritaglio corrente (Esc)
@@ -948,7 +936,6 @@ cameraData	Date Taken	Data di scatto
 	Default Foreground and Background Colors (D)	Colori di primo piano e sfondo predefiniti (D)
 	Default Leaves	Foglie predefinite
 	Default PhotoCraft Size	Dimensione predefinita PhotoCraft
-	Default Photoshop Size	Dimensione predefinita di Photoshop
 	Default printer	Stampante predefinita
 	Default restored.	Predefinito ripristinato.
 	Defaults	Predefiniti
@@ -1925,9 +1912,9 @@ cameraRaw	Lights	Toni chiari
 	Load settings from a Camera Raw .xmp file	Carica le impostazioni da un file .xmp di Camera Raw
 	Load Settings…	Carica impostazioni…
 	Load the brush after each stroke	Carica il pennello dopo ogni tratto
-	Loaded Camera Raw settings from {file}	Impostazioni Camera Raw caricate da {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Impostazioni Camera Raw caricate da {file} ({n} non supportate)
 	Loaded contours from {file}	Profili caricati da {file}
+	Loaded RAW Develop settings from {file}	Impostazioni Sviluppo RAW caricate da {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Impostazioni Sviluppo RAW caricate da {file} ({n} non supportate)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Caricata {n} azione da {file}|Caricate {n} azioni da {file}
 	Loading fonts…	Caricamento font…
 	Loading…	Caricamento…
@@ -2299,7 +2286,6 @@ layerLabel	No Color	Nessun colore
 	Open File	Apri file
 	Open Folder	Apri cartella
 	Open Image	Apri immagine
-	Open in camera raw	Apri in Camera Raw
 	Open paths use centered strokes	I tracciati aperti usano tracce centrate
 	Open Recent is unavailable on the web	Apri recenti non è disponibile sul web
 	open source	open source
@@ -2622,8 +2608,16 @@ cameraRaw	Radius	Raggio
 	Rasterize Type Layer	Rasterizza livello di testo
 	Rate	Velocità
 	Raw Data	Dati grezzi
+	RAW Defaults	Predefiniti RAW
 	Raw Defaults	Predefiniti Raw
+	RAW Defaults…	Predefiniti RAW…
 	Raw Defaults…	Predefiniti Raw…
+	RAW Develop	Sviluppo RAW
+	RAW Develop ({name})	Sviluppo RAW ({name})
+	RAW Develop Filter	Filtro Sviluppo RAW
+	RAW Develop Filter ({layer})	Filtro Sviluppo RAW ({layer})
+	RAW Develop Filter…	Filtro Sviluppo RAW…
+	RAW Develop isn't open	Sviluppo RAW non è aperto
 	Reading	Lettura
 	Reading…	Lettura…
 	Real-Time Refinement	Perfezionamento in tempo reale
@@ -2862,10 +2856,10 @@ cameraRaw	Saturation	Saturazione
 	Save these shortcuts as a new set	Salva queste scorciatoie come nuovo set
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salva il lavoro e riavvia PhotoCraft per riprovare l'accelerazione GPU. Per questa sessione resta attivo il rendering su CPU.
 	Saved a copy as {path}	Copia salvata come {path}
-	Saved Camera Raw settings to {file}	Impostazioni Camera Raw salvate in {file}
 	Saved contours to {file}	Profili salvati in {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Salvato per il Web: {n} file|Salvato per il Web: {n} file
 	Saved Multichannel	Multicanale salvato
+	Saved RAW Develop settings to {file}	Impostazioni Sviluppo RAW salvate in {file}
 	Saved {name}	Salvato: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Salvata {n} azione in {file}|Salvate {n} azioni in {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Salvato {n} colore in {file}|Salvati {n} colori in {file}

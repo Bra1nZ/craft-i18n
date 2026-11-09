@@ -139,12 +139,9 @@
 	Adjustment Properties	Propriedades do ajuste
 	Adjustment visible	Ajuste visível
 	Adobe	Adobe
-	Adobe Every-line Composer	Compositor de todas as linhas Adobe
-	Adobe PDF Presets…	Predefinições do Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatível com Adobe RGB (1998)
-	Adobe Single-line Composer	Compositor de linha única Adobe
 	Advanced Blending	Mesclagem avançada
 	Advanced Controls	Controles avançados
 	Adwaita	Adwaita
@@ -449,14 +446,6 @@ fontWeight	Bold	Negrito
 	Camera Data	Dados da câmera
 	Camera Make	Fabricante da câmera
 	Camera Model	Modelo da câmera
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Padrões do Camera Raw
-	Camera Raw Filter	Filtro do Camera Raw
-	Camera Raw Filter ({layer})	Filtro Camera Raw ({layer})
-	Camera Raw Filter…	Filtro Camera Raw…
-	Camera Raw isn't open	Camera Raw não está aberto
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Cancelar (Esc)
 	Cancel any current edits (Esc)	Cancelar as edições atuais (Esc)
 	Cancel current crop operation  (Esc)	Cancelar a operação de corte atual  (Esc)
@@ -1901,9 +1890,9 @@ cameraRaw	Lights	Claros
 	Load settings from a Camera Raw .xmp file	Carregar configurações de um arquivo .xmp do Camera Raw
 	Load Settings…	Carregar configurações…
 	Load the brush after each stroke	Carregar o pincel após cada traço
-	Loaded Camera Raw settings from {file}	Configurações do Camera Raw carregadas de {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Configurações do Camera Raw carregadas de {file} ({n} sem suporte)
 	Loaded contours from {file}	Contornos carregados de {file}
+	Loaded RAW Develop settings from {file}	Configurações do Revelação RAW carregadas de {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Configurações do Revelação RAW carregadas de {file} ({n} sem suporte)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} ação carregada de {file}|{n} ações carregadas de {file}
 	Loading fonts…	Carregando fontes…
 	Loading…	Carregando…
@@ -2286,7 +2275,6 @@ layerLabel	No Color	Sem cor
 	Open File	Abrir arquivo
 	Open Folder	Abrir pasta
 	Open Image	Abrir imagem
-	Open in camera raw	Abrir no Camera Raw
 	Open paths use centered strokes	Caminhos abertos usam traçados centralizados
 	Open Recent is unavailable on the web	Abrir recentes não está disponível na web
 	open source	código aberto
@@ -2609,8 +2597,16 @@ cameraRaw	Purple	Roxo
 	Rasterize Type Layer	Rasterizar camada de texto
 	Rate	Taxa
 	Raw Data	Dados brutos
+	RAW Defaults	Padrões RAW
 	Raw Defaults	Padrões Raw
+	RAW Defaults…	Padrões RAW…
 	Raw Defaults…	Padrões de Raw…
+	RAW Develop	Revelação RAW
+	RAW Develop ({name})	Revelação RAW ({name})
+	RAW Develop Filter	Filtro do Revelação RAW
+	RAW Develop Filter ({layer})	Filtro Revelação RAW ({layer})
+	RAW Develop Filter…	Filtro Revelação RAW…
+	RAW Develop isn't open	Revelação RAW não está aberto
 	Reading	Lendo
 	Reading…	Lendo…
 	Real-Time Refinement	Refinamento em tempo real
@@ -2848,10 +2844,10 @@ cameraRaw	Roughness	Aspereza
 	Save these shortcuts as a new set	Salvar estes atalhos como um novo conjunto
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salve seu trabalho e reinicie o PhotoCraft para tentar a aceleração por GPU novamente. A renderização pela CPU continua ativa nesta sessão.
 	Saved a copy as {path}	Cópia salva como {path}
-	Saved Camera Raw settings to {file}	Configurações do Camera Raw salvas em {file}
 	Saved contours to {file}	Contornos salvos em {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Salvo para Web: {n} arquivo|Salvo para Web: {n} arquivos
 	Saved Multichannel	Multicanal salvo
+	Saved RAW Develop settings to {file}	Configurações do Revelação RAW salvas em {file}
 	Saved {name}	Salvo: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} ação salva em {file}|{n} ações salvas em {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} cor salva em {file}|{n} cores salvas em {file}

@@ -133,12 +133,9 @@
 	Adjustment Properties	Svojstva podešavanja
 	Adjustment visible	Podešavanje vidljivo
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe slagač svih redova
-	Adobe PDF Presets…	Adobe PDF predlošci…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Kompatibilno s Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe slagač jednog reda
 	Adobe-rgb-compat	Adobe-rgb-compat
 	Advanced Blending	Napredno stapanje
 	Advanced Controls	Napredne kontrole
@@ -171,7 +168,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Sve klase
 	All Layers No Adjustments	Svi slojevi bez podešavanja
 	All shortcuts reset to PhotoCraft defaults.	Sve prečice su vraćene na zadane vrijednosti PhotoCrafta.
-	All shortcuts reset to Photoshop defaults.	Sve prečice su vraćene na zadane vrijednosti Photoshopa.
 	All User Slices	Svi korisnički isječci
 	Allow agent control	Dozvoli kontrolu agentu
 	Allow Continue	Dozvoli nastavak
@@ -449,17 +445,6 @@ fontWeight	Bold	Podebljano
 	Camera Data	Podaci kamere
 	Camera Make	Proizvođač kamere
 	Camera Model	Model kamere
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Zadane postavke Camera Raw
-	Camera Raw Filter	Camera Raw filter
-	Camera Raw Filter ({layer})	Camera Raw filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw filter ({layer})
-	Camera Raw Filter…	Camera Raw filter…
-	Camera Raw isn't open	Camera Raw nije otvoren
-cameraRaw	Camera Raw isn't open	Camera Raw nije otvoren
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Otkaži
 	Cancel (Esc)	Otkaži (Esc)
 	Cancel any current edits (Esc)	Otkaži sve trenutne izmjene (Esc)
@@ -947,7 +932,6 @@ cameraData	Date Taken	Datum snimanja
 	Default Foreground and Background Colors (D)	Zadane boje prednjeg plana i pozadine (D)
 	Default Leaves	Zadano lišće
 	Default PhotoCraft Size	Zadana veličina PhotoCrafta
-	Default Photoshop Size	Zadana veličina Photoshopa
 	Default printer	Zadani štampač
 	Default restored.	Zadano vraćeno.
 	Defaults	Zadano
@@ -1903,10 +1887,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Učitaj postavke iz Camera R
 	Load Settings…	Učitaj postavke…
 cameraRaw	Load Settings…	Učitaj postavke…
 	Load the brush after each stroke	Napuni četkicu nakon svakog poteza
-	Loaded Camera Raw settings from {file}	Učitane postavke Camera Raw iz {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Učitane postavke Camera Raw iz {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Učitane postavke Camera Raw iz {file} ({n} nije podržano)
 	Loaded contours from {file}	Konture su učitane iz {file}
+	Loaded RAW Develop settings from {file}	Učitane postavke RAW obrada iz {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Učitane postavke RAW obrada iz {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Učitane postavke RAW obrada iz {file} ({n} nije podržano)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Učitana {n} akcija iz {file}|Učitane {n} akcije iz {file}|Učitano {n} akcija iz {file}
 	Loading fonts…	Učitavanje fontova…
 	Loading…	Učitavanje…
@@ -2269,7 +2253,6 @@ cameraRaw	Open	Otvori
 	Open File	Otvori datoteku
 	Open Folder	Otvori folder
 	Open Image	Otvori sliku
-	Open in camera raw	Otvori u Camera Raw
 	Open paths use centered strokes	Otvorene putanje koriste centrirane poteze
 	Open Recent is unavailable on the web	Otvori nedavno nije dostupno na webu
 	open source	otvoreni kod
@@ -2591,8 +2574,19 @@ cameraRaw	Radius	Poluprečnik
 	Rasterize Type Layer	Rasteriziraj tekstualni sloj
 	Rate	Brzina
 	Raw Data	Sirovi podaci
+	RAW Defaults	Zadane RAW postavke
 	Raw Defaults	Zadane postavke za RAW
+	RAW Defaults…	Zadane RAW postavke…
 	Raw Defaults…	Zadane postavke za RAW…
+	RAW Develop	RAW obrada
+	RAW Develop ({name})	RAW obrada ({name})
+cameraRaw	RAW Develop ({name})	RAW obrada ({name})
+	RAW Develop Filter	RAW obrada filter
+	RAW Develop Filter ({layer})	RAW obrada filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW obrada filter ({layer})
+	RAW Develop Filter…	RAW obrada filter…
+	RAW Develop isn't open	RAW obrada nije otvoren
+cameraRaw	RAW Develop isn't open	RAW obrada nije otvoren
 	Reading	Čitanje
 	Reading…	Čitanje…
 	Real-Time Refinement	Poboljšanje u stvarnom vremenu
@@ -2838,6 +2832,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Saved contours to {file}	Konture su sačuvane u {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Sačuvano za web: {n} datoteka|Sačuvano za web: {n} datoteke|Sačuvano za web: {n} datoteka
 	Saved Multichannel	Sačuvano višekanalno
+	Saved RAW Develop settings to {file}	Postavke RAW obrade sačuvane u {file}
 	Saved {name}	Sačuvano: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sačuvana {n} akcija u {file}|Sačuvane {n} akcije u {file}|Sačuvano {n} akcija u {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Sačuvana {n} boja u {file}|Sačuvane {n} boje u {file}|Sačuvano {n} boja u {file}

@@ -142,12 +142,9 @@
 	Adjustment visible	Säätö näkyvissä
 	Adjustments	Säädöt
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe kaikkien rivien asettelija
-	Adobe PDF Presets…	Adobe PDF -esiasetukset…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998) -yhteensopiva
-	Adobe Single-line Composer	Adobe yksirivinen asettelija
 	Adobe-rgb-compat	Adobe RGB -yhteensopiva
 	Advanced Blending	Sekoituksen lisäasetukset
 	Advanced Controls	Lisäasetukset
@@ -181,7 +178,6 @@
 	All Classes	Kaikki luokat
 	All Layers No Adjustments	Kaikki tasot ilman säätöjä
 	All shortcuts reset to PhotoCraft defaults.	Kaikki pikanäppäimet palautettu PhotoCraftin oletusasetuksiin.
-	All shortcuts reset to Photoshop defaults.	Kaikki pikanäppäimet palautettu Photoshopin oletuksiin.
 	All User Slices	Kaikki käyttäjän viipaleet
 	Allow agent control	Salli agentin ohjaus
 	Allow Continue	Salli jatkaminen
@@ -497,17 +493,6 @@ fontWeight	Bold	Lihavoitu
 	Camera Data	Kameratiedot
 	Camera Make	Kameran valmistaja
 	Camera Model	Kameran malli
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw -oletukset
-	Camera Raw Filter	Camera Raw -suodatin
-	Camera Raw Filter ({layer})	Camera Raw -suodatin ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw -suodatin ({layer})
-	Camera Raw Filter…	Camera Raw -suodatin…
-	Camera Raw isn't open	Camera Raw ei ole auki
-cameraRaw	Camera Raw isn't open	Camera Raw ei ole auki
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Peruuta
 	Cancel (Esc)	Peruuta (Esc)
 	Cancel any current edits (Esc)	Peruuta nykyiset muokkaukset (Esc)
@@ -1027,7 +1012,6 @@ cameraData	Date Taken	Kuvauspäivä
 	Default Foreground and Background Colors (D)	Oletusarvoiset edusta- ja taustavärit (D)
 	Default Leaves	Oletuslehdet
 	Default PhotoCraft Size	PhotoCraftin oletuskoko
-	Default Photoshop Size	Photoshopin oletuskoko
 	Default printer	Oletustulostin
 	Default restored.	Oletus palautettu.
 	Defaults	Oletukset
@@ -2093,10 +2077,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Lataa asetukset Camera Raw .
 	Load Settings…	Lataa asetukset…
 cameraRaw	Load Settings…	Lataa asetukset…
 	Load the brush after each stroke	Lisää maalia siveltimeen jokaisen vedon jälkeen
-	Loaded Camera Raw settings from {file}	Camera Raw -asetukset ladattu tiedostosta {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Camera Raw -asetukset ladattu tiedostosta {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw -asetukset ladattu tiedostosta {file} ({n} tukematonta)
 	Loaded contours from {file}	Kontuurit ladattu tiedostosta {file}
+	Loaded RAW Develop settings from {file}	RAW-kehitys -asetukset ladattu tiedostosta {file}
+cameraRaw	Loaded RAW Develop settings from {file}	RAW-kehitys -asetukset ladattu tiedostosta {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-kehitys -asetukset ladattu tiedostosta {file} ({n} tukematonta)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Ladattu {n} toiminto tiedostosta {file}|Ladattu {n} toimintoa tiedostosta {file}
 	Loading fonts…	Ladataan fontteja…
 	Loading…	Ladataan…
@@ -2492,7 +2476,6 @@ cameraRaw	Open	Avaa
 	Open File	Avaa tiedosto
 	Open Folder	Avaa kansio
 	Open Image	Avaa kuva
-	Open in camera raw	Avaa Camera Raw'ssa
 	Open paths use centered strokes	Avoimet polut käyttävät keskitettyjä reunaviivoja
 	Open Recent	Viimeksi avatut
 	Open Recent is unavailable on the web	Avaa viimeisimmät ei ole käytettävissä verkossa
@@ -2849,8 +2832,19 @@ cameraRaw	Radius	Säde
 	Rate	Nopeus
 	Ratio	Kuvasuhde
 	Raw Data	Raakadata
+	RAW Defaults	RAW-oletukset
 	Raw Defaults	Raw-oletukset
+	RAW Defaults…	RAW-oletukset…
 	Raw Defaults…	Raw-oletusarvot…
+	RAW Develop	RAW-kehitys
+	RAW Develop ({name})	RAW-kehitys ({name})
+cameraRaw	RAW Develop ({name})	RAW-kehitys ({name})
+	RAW Develop Filter	RAW-kehitys -suodatin
+	RAW Develop Filter ({layer})	RAW-kehitys -suodatin ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-kehitys -suodatin ({layer})
+	RAW Develop Filter…	RAW-kehitys -suodatin…
+	RAW Develop isn't open	RAW-kehitys ei ole auki
+cameraRaw	RAW Develop isn't open	RAW-kehitys ei ole auki
 	Reading	Luetaan
 	Reading…	Luetaan…
 	Real-Time Refinement	Reaaliaikainen tarkennus
@@ -3115,6 +3109,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Tallenna nämä asetukse
 	Saved contours to {file}	Kontuurit tallennettu tiedostoon {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Tallennettu verkkoa varten: {n} tiedosto|Tallennettu verkkoa varten: {n} tiedostoa
 	Saved Multichannel	Tallennettu monikanavaisena
+	Saved RAW Develop settings to {file}	RAW-kehityksen asetukset tallennettu tiedostoon {file}
 	Saved {name}	Tallennettu {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Tallennettu {n} toiminto tiedostoon {file}|Tallennettu {n} toimintoa tiedostoon {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Tallennettu {n} väri tiedostoon {file}|Tallennettu {n} väriä tiedostoon {file}

@@ -140,12 +140,9 @@
 	Adjustment Properties	Egenskaper for justering
 	Adjustment visible	Justering synlig
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe setter for hver linje
-	Adobe PDF Presets…	Adobe PDF-forvalg…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998)-kompatibel
-	Adobe Single-line Composer	Adobe setter for én linje
 	Adobe-rgb-compat	Adobe RGB-kompatibel
 	Advanced Blending	Avansert blanding
 	Advanced Controls	Avanserte kontroller
@@ -177,7 +174,6 @@
 	All Classes	Alle klasser
 	All Layers No Adjustments	Alle lag uten justeringer
 	All shortcuts reset to PhotoCraft defaults.	Alle hurtigtaster er tilbakestilt til PhotoCraft-standard.
-	All shortcuts reset to Photoshop defaults.	Alle hurtigtaster tilbakestilt til Photoshop-standard.
 	All Slices	Alle segmenter
 	All User Slices	Alle brukersegmenter
 	Allow agent control	Tillat agentstyring
@@ -476,17 +472,6 @@ fontWeight	Bold	Fet
 	Camera Data	Kameradata
 	Camera Make	Kameramerke
 	Camera Model	Kameramodell
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw-standarder
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw er ikke åpen
-cameraRaw	Camera Raw isn't open	Camera Raw er ikke åpen
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Avbryt
 	Cancel (Esc)	Avbryt (Esc)
 	Cancel any current edits (Esc)	Avbryt pågående redigering (Esc)
@@ -978,7 +963,6 @@ cameraData	Date Taken	Opptaksdato
 	Default Foreground and Background Colors (D)	Standard forgrunns- og bakgrunnsfarge (D)
 	Default Leaves	Standardblader
 	Default PhotoCraft Size	Standard PhotoCraft-størrelse
-	Default Photoshop Size	Standard Photoshop-størrelse
 	Default printer	Standardskriver
 	Default restored.	Standard gjenopprettet.
 	Defaults	Standarder
@@ -1967,10 +1951,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Last inn innstillinger fra e
 	Load Settings…	Last inn innstillinger…
 cameraRaw	Load Settings…	Last inn innstillinger…
 	Load the brush after each stroke	Fyll penselen etter hvert strøk
-	Loaded Camera Raw settings from {file}	Lastet inn Camera Raw-innstillinger fra {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Lastet inn Camera Raw-innstillinger fra {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Lastet inn Camera Raw-innstillinger fra {file} ({n} støttes ikke)
 	Loaded contours from {file}	Lastet inn konturer fra {file}
+	Loaded RAW Develop settings from {file}	Lastet inn RAW-fremkalling-innstillinger fra {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Lastet inn RAW-fremkalling-innstillinger fra {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Lastet inn RAW-fremkalling-innstillinger fra {file} ({n} støttes ikke)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Lastet inn {n} handling fra {file}|Lastet inn {n} handlinger fra {file}
 	Loading fonts…	Laster inn skrifter…
 	Loading…	Laster…
@@ -2346,7 +2330,6 @@ cameraRaw	Open	Åpne
 	Open File	Åpne fil
 	Open Folder	Åpne mappe
 	Open Image	Åpne bilde
-	Open in camera raw	Åpne i Camera Raw
 	Open paths use centered strokes	Åpne baner bruker sentrerte streker
 	Open Recent	Åpne nylig brukte
 	Open Recent is unavailable on the web	Åpne nylig brukte er ikke tilgjengelig på nettet
@@ -2683,8 +2666,19 @@ cameraRaw	Radius	Radius
 	Rasterize Type Layer	Rasteriser tekstlag
 	Rate	Hastighet
 	Raw Data	Raw-data
+	RAW Defaults	RAW-standarder
 	Raw Defaults	Raw-standarder
+	RAW Defaults…	RAW-standarder…
 	Raw Defaults…	Raw-standarder…
+	RAW Develop	RAW-fremkalling
+	RAW Develop ({name})	RAW-fremkalling ({name})
+cameraRaw	RAW Develop ({name})	RAW-fremkalling ({name})
+	RAW Develop Filter	RAW-fremkalling-filter
+	RAW Develop Filter ({layer})	RAW-fremkalling-filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-fremkalling-filter ({layer})
+	RAW Develop Filter…	RAW-fremkalling-filter…
+	RAW Develop isn't open	RAW-fremkalling er ikke åpen
+cameraRaw	RAW Develop isn't open	RAW-fremkalling er ikke åpen
 	Reading	Leser
 	Reading…	Leser…
 	Real name	Ekte navn
@@ -2939,6 +2933,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Lagre disse innstillinge
 	Saved contours to {file}	Lagret konturer til {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Lagret for web: {n} fil|Lagret for web: {n} filer
 	Saved Multichannel	Lagret flerkanal
+	Saved RAW Develop settings to {file}	RAW-fremkallingsinnstillinger lagret i {file}
 	Saved {name}	Lagret {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Lagret {n} handling til {file}|Lagret {n} handlinger til {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Lagret {n} farge til {file}|Lagret {n} farger til {file}

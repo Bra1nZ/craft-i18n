@@ -413,14 +413,6 @@ fontWeight	Bold	굵게
 	Calculations…	연산…
 	Calibration	보정
 	Camera Data	카메라 데이터
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw 기본값
-	Camera Raw Filter	Camera Raw 필터
-	Camera Raw Filter ({layer})	Camera Raw 필터 ({layer})
-	Camera Raw Filter…	Camera Raw 필터…
-	Camera Raw isn't open	Camera Raw가 열려 있지 않습니다
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	취소 (Esc)
 	Cancel any current edits (Esc)	현재 편집 취소 (Esc)
 	Cancel current crop operation  (Esc)	현재 자르기 작업 취소  (Esc)
@@ -1734,9 +1726,9 @@ cameraRaw	Lights	밝은 중간 영역
 	Load settings from a Camera Raw .xmp file	Camera Raw .xmp 파일에서 설정 불러오기
 	Load Settings…	설정 불러오기…
 	Load the brush after each stroke	획마다 브러시 채우기
-	Loaded Camera Raw settings from {file}	{file}에서 Camera Raw 설정을 불러왔습니다
-	Loaded Camera Raw settings from {file} ({n} not supported)	{file}에서 Camera Raw 설정을 불러왔습니다 (미지원 {n}개)
 	Loaded contours from {file}	{file}에서 윤곽선을 불러왔습니다
+	Loaded RAW Develop settings from {file}	{file}에서 RAW 현상 설정을 불러왔습니다
+	Loaded RAW Develop settings from {file} ({n} not supported)	{file}에서 RAW 현상 설정을 불러왔습니다 (미지원 {n}개)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file}에서 액션 {n}개를 불러왔습니다
 	Loading fonts…	글꼴 불러오는 중…
 	Load…	불러오기…
@@ -2065,7 +2057,6 @@ layerLabel	No Color	색상 없음
 	Open documents as tabs	문서를 탭으로 열기
 	Open Document…	열기…
 	Open EXR Parts…	EXR 파트 열기…
-	Open in camera raw	Camera Raw에서 열기
 	Open paths use centered strokes	열린 패스는 가운데 획을 사용합니다
 	Open Recent	최근 파일 열기
 	Open Recent is unavailable on the web	웹에서는 최근 파일 열기를 사용할 수 없습니다.
@@ -2358,8 +2349,16 @@ cameraRaw	Radius	반경
 	Rasterize Type	문자 래스터화
 	Rasterize Type Layer	문자 레이어 래스터화
 	Rate	속도
+	RAW Defaults	RAW 기본값
 	Raw Defaults	RAW 기본값
+	RAW Defaults…	RAW 기본값…
 	Raw Defaults…	RAW 기본값…
+	RAW Develop	RAW 현상
+	RAW Develop ({name})	RAW 현상 ({name})
+	RAW Develop Filter	RAW 현상 필터
+	RAW Develop Filter ({layer})	RAW 현상 필터 ({layer})
+	RAW Develop Filter…	RAW 현상 필터…
+	RAW Develop isn't open	RAW 현상가 열려 있지 않습니다
 	Reading	읽는 중
 	Reading…	읽는 중…
 	Real-Time Refinement	실시간 다듬기
@@ -2580,9 +2579,9 @@ cameraRaw	Saturation	채도
 	Save these shortcuts as a new set	이 단축키를 새 세트로 저장
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	작업을 저장하고 PhotoCraft를 다시 시작하면 GPU 가속을 다시 시도합니다. 현재 세션에서는 CPU 렌더링을 계속 사용합니다.
 	Saved a copy as {path}	사본을 {path}(으)로 저장했습니다.
-	Saved Camera Raw settings to {file}	Camera Raw 설정을 {file}에 저장했습니다
 	Saved contours to {file}	윤곽선을 {file}에 저장했습니다
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	웹용으로 저장됨: 파일 {n}개
+	Saved RAW Develop settings to {file}	RAW 현상 설정을 {file}에 저장했습니다
 	Saved {name}	{name} 저장됨
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file}에 액션 {n}개를 저장했습니다
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file}에 색상 {n}개 저장

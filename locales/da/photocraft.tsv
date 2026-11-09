@@ -145,12 +145,9 @@
 	Adjustment visible	Justering synlig
 	Adjustments	Justeringer
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe-flerlinjeopsætter
-	Adobe PDF Presets…	Adobe PDF-forudindstillinger…
 	Adobe rgb	Adobe rgb
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998)-kompatibel
-	Adobe Single-line Composer	Adobe-enkeltlinjeopsætter
 	Adobe-rgb-compat	Adobe-rgb-kompat
 	Advanced Blending	Avanceret blanding
 	Advanced Controls	Avancerede kontrolelementer
@@ -185,7 +182,6 @@
 	All Classes	Alle klasser
 	All Layers No Adjustments	Alle lag uden justeringer
 	All shortcuts reset to PhotoCraft defaults.	Alle genveje er nulstillet til PhotoCrafts standardindstillinger.
-	All shortcuts reset to Photoshop defaults.	Alle genveje er nulstillet til Photoshop-standarderne.
 	All User Slices	Alle brugerudsnit
 	Allow agent control	Tillad agentstyring
 	Allow Continue	Tillad fortsættelse
@@ -502,17 +498,6 @@ fontWeight	Bold	Fed
 	Camera Data	Kameradata
 	Camera Make	Kameramærke
 	Camera Model	Kameramodel
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw-standarder
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw er ikke åben
-cameraRaw	Camera Raw isn't open	Camera Raw er ikke åben
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Annullér
 	Cancel (Esc)	Annullér (Esc)
 	Cancel any current edits (Esc)	Annullér alle aktuelle redigeringer (Esc)
@@ -1038,7 +1023,6 @@ cameraData	Date Taken	Optagelsesdato
 	Default Foreground and Background Colors (D)	Standard forgrunds- og baggrundsfarver (D)
 	Default Leaves	Standardblade
 	Default PhotoCraft Size	PhotoCraft-standardstørrelse
-	Default Photoshop Size	Photoshop-standardstørrelse
 	Default printer	Standardprinter
 	Default restored.	Standarden er gendannet.
 	Defaults	Standardindstillinger
@@ -2096,10 +2080,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Indlæs indstillinger fra en
 	Load Settings…	Indlæs indstillinger…
 cameraRaw	Load Settings…	Indlæs indstillinger…
 	Load the brush after each stroke	Fyld penslen efter hvert strøg
-	Loaded Camera Raw settings from {file}	Indlæste Camera Raw-indstillinger fra {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Indlæste Camera Raw-indstillinger fra {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Indlæste Camera Raw-indstillinger fra {file} ({n} understøttes ikke)
 	Loaded contours from {file}	Indlæste konturer fra {file}
+	Loaded RAW Develop settings from {file}	Indlæste RAW-fremkaldelse-indstillinger fra {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Indlæste RAW-fremkaldelse-indstillinger fra {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Indlæste RAW-fremkaldelse-indstillinger fra {file} ({n} understøttes ikke)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Indlæste {n} handling fra {file}|Indlæste {n} handlinger fra {file}
 	Loading fonts…	Indlæser skrifttyper…
 	Loading…	Indlæser…
@@ -2489,7 +2473,6 @@ cameraRaw	Open	Åbn
 	Open File	Åbn fil
 	Open Folder	Åbn mappe
 	Open Image	Åbn billede
-	Open in camera raw	Åbn i Camera Raw
 	Open paths use centered strokes	Åbne stier bruger centreret kontur
 	Open Recent	Åbn seneste
 	Open Recent is unavailable on the web	Åbn seneste er ikke tilgængelig i webversionen
@@ -2840,8 +2823,19 @@ cameraRaw	Radius	Radius
 	Rasterize Type Layer	Rasterisér tekstlag
 	Rate	Hastighed
 	Raw Data	Rådata
+	RAW Defaults	RAW-standarder
 	Raw Defaults	Raw-standarder
+	RAW Defaults…	RAW-standarder…
 	Raw Defaults…	Raw-standarder…
+	RAW Develop	RAW-fremkaldelse
+	RAW Develop ({name})	RAW-fremkaldelse ({name})
+cameraRaw	RAW Develop ({name})	RAW-fremkaldelse ({name})
+	RAW Develop Filter	RAW-fremkaldelse-filter
+	RAW Develop Filter ({layer})	RAW-fremkaldelse-filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-fremkaldelse-filter ({layer})
+	RAW Develop Filter…	RAW-fremkaldelse-filter…
+	RAW Develop isn't open	RAW-fremkaldelse er ikke åben
+cameraRaw	RAW Develop isn't open	RAW-fremkaldelse er ikke åben
 	Reading	Læser
 	Reading…	Læser…
 	Real-Time Refinement	Forfining i realtid
@@ -3108,6 +3102,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Gem disse indstillinger 
 	Saved contours to {file}	Gemte konturer i {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Gemt til web: {n} fil|Gemt til web: {n} filer
 	Saved Multichannel	Gemt som multikanal
+	Saved RAW Develop settings to {file}	RAW-fremkaldelsesindstillinger gemt i {file}
 	Saved {name}	Gemte {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Gemte {n} handling i {file}|Gemte {n} handlinger i {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Gemte {n} farve i {file}|Gemte {n} farver i {file}

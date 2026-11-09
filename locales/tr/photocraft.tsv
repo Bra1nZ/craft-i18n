@@ -137,12 +137,9 @@
 	Adjustment Properties	Ayarlama Özellikleri
 	Adjustment visible	Ayarlama görünür
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe Tüm Satırlı Dizgi Motoru
-	Adobe PDF Presets…	Adobe PDF Ön Ayarları…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998) uyumlu
-	Adobe Single-line Composer	Adobe Tek Satırlı Dizgi Motoru
 	Advanced Blending	Gelişmiş Karıştırma
 	Advanced Controls	Gelişmiş Kontroller
 	Adwaita	Adwaita
@@ -437,14 +434,6 @@ fontWeight	Bold	Kalın
 	Camera Data	Kamera Verileri
 	Camera Make	Kamera Markası
 	Camera Model	Kamera Modeli
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw Varsayılanları
-	Camera Raw Filter	Camera Raw Filtresi
-	Camera Raw Filter ({layer})	Camera Raw Filtresi ({layer})
-	Camera Raw Filter…	Camera Raw Filtresi…
-	Camera Raw isn't open	Camera Raw açık değil
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	İptal (Esc)
 	Cancel any current edits (Esc)	Geçerli düzenlemeleri iptal et (Esc)
 	Cancel current crop operation  (Esc)	Geçerli kırpma işlemini iptal et (Esc)
@@ -1820,9 +1809,9 @@ cameraRaw	Lights	Açık Tonlar
 	Load settings from a Camera Raw .xmp file	Ayarları bir Camera Raw .xmp dosyasından yükle
 	Load Settings…	Ayarları Yükle…
 	Load the brush after each stroke	Her vuruştan sonra fırçayı yükle
-	Loaded Camera Raw settings from {file}	Camera Raw ayarları {file} dosyasından yüklendi
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw ayarları {file} dosyasından yüklendi ({n} desteklenmiyor)
 	Loaded contours from {file}	Konturlar {file} dosyasından yüklendi
+	Loaded RAW Develop settings from {file}	RAW Geliştirme ayarları {file} dosyasından yüklendi
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW Geliştirme ayarları {file} dosyasından yüklendi ({n} desteklenmiyor)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file} dosyasından {n} eylem yüklendi|{file} dosyasından {n} eylem yüklendi
 	Loading fonts…	Yazı tipleri yükleniyor…
 	Loading…	Yükleniyor…
@@ -2170,7 +2159,6 @@ layerLabel	No Color	Renk Yok
 	Open File	Dosyayı Aç
 	Open Folder	Klasörü Aç
 	Open Image	Görüntüyü Aç
-	Open in camera raw	Camera raw'da aç
 	Open paths use centered strokes	Açık yollar ortalanmış konturlar kullanır
 	open source	açık kaynak
 	Open the release page to choose an installer for your system.	Sisteminize uygun yükleyiciyi seçmek için sürüm sayfasını açın.
@@ -2473,8 +2461,16 @@ cameraRaw	Purple	Mor
 	Rasterize Type Layer	Metin Katmanını Rasterleştir
 	Rate	Hız
 	Raw Data	Ham Veri
+	RAW Defaults	RAW Varsayılanları
 	Raw Defaults	Ham Varsayılanlar
+	RAW Defaults…	RAW Varsayılanları…
 	Raw Defaults…	Ham Varsayılanlar…
+	RAW Develop	RAW Geliştirme
+	RAW Develop ({name})	RAW Geliştirme ({name})
+	RAW Develop Filter	RAW Geliştirme Filtresi
+	RAW Develop Filter ({layer})	RAW Geliştirme Filtresi ({layer})
+	RAW Develop Filter…	RAW Geliştirme Filtresi…
+	RAW Develop isn't open	RAW Geliştirme açık değil
 	Reading	Okuma
 	Reading…	Okunuyor…
 	Real-Time Refinement	Gerçek Zamanlı Hassaslaştırma
@@ -2708,10 +2704,10 @@ cameraRaw	Roughness	Pürüzlülük
 	Save these shortcuts as a .kys file	Bu kısayolları .kys dosyası olarak kaydet
 	Save these shortcuts as a new set	Bu kısayolları yeni bir küme olarak kaydet
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Açılan SVG dosyasına kaydedin. Kaydedilen her değişiklik PhotoCraft'ta bir geri alma adımı olur.
-	Saved Camera Raw settings to {file}	Camera Raw ayarları {file} dosyasına kaydedildi
 	Saved contours to {file}	Konturlar {file} dosyasına kaydedildi
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Web İçin Kaydedildi: {n} dosya|Web İçin Kaydedildi: {n} dosya
 	Saved Multichannel	Çok Kanallı Kaydedildi
+	Saved RAW Develop settings to {file}	RAW Geliştirme ayarları {file} dosyasına kaydedildi
 	Saved {name}	{name} kaydedildi
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} eylem {file} dosyasına kaydedildi|{n} eylem {file} dosyasına kaydedildi
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} renk {file} konumuna kaydedildi|{n} renk {file} konumuna kaydedildi

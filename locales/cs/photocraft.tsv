@@ -418,14 +418,6 @@ fontWeight	Bold	Tučná
 	Calibration	Kalibrace
 	Camera Calibration	Kalibrace fotoaparátu
 	Camera Data	Údaje fotoaparátu
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Výchozí nastavení Camera Raw
-	Camera Raw Filter	Filtr Camera Raw
-	Camera Raw Filter ({layer})	Filtr Camera Raw ({layer})
-	Camera Raw Filter…	Filtr Camera Raw…
-	Camera Raw isn't open	Camera Raw není otevřen
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Zrušit (Esc)
 	Cancel any current edits (Esc)	Zrušit aktuální úpravy (Esc)
 	Cancel current crop operation  (Esc)	Zrušit aktuální oříznutí  (Esc)
@@ -1738,9 +1730,9 @@ cameraRaw	Lights	Světlé tóny
 	Load settings from a Camera Raw .xmp file	Načíst nastavení ze souboru Camera Raw .xmp
 	Load Settings…	Načíst nastavení…
 	Load the brush after each stroke	Naplnit štětec po každém tahu
-	Loaded Camera Raw settings from {file}	Nastavení Camera Raw načteno ze souboru {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Nastavení Camera Raw načteno ze souboru {file} (nepodporováno: {n})
 	Loaded contours from {file}	Obrysy načteny ze souboru {file}
+	Loaded RAW Develop settings from {file}	Nastavení Vyvolání RAW načteno ze souboru {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Nastavení Vyvolání RAW načteno ze souboru {file} (nepodporováno: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Načtena {n} akce ze souboru {file}|Načteny {n} akce ze souboru {file}|Načteno {n} akcí ze souboru {file}
 	Loading fonts…	Načítání písem…
 	Load…	Načíst…
@@ -2073,7 +2065,6 @@ layerLabel	No Color	Žádná barva
 	Open EXR Parts…	Otevřít části EXR…
 	Open File	Otevřít soubor
 	Open Folder	Otevřít složku
-	Open in camera raw	Otevírat v Camera Raw
 	Open paths use centered strokes	Otevřené cesty používají vystředěné tahy
 	Open Recent is unavailable on the web	Otevření nedávných souborů není ve webové verzi dostupné
 	open source	otevřený zdrojový kód
@@ -2374,8 +2365,16 @@ cameraRaw	Purple	Fialové
 	Rate	Rychlost
 	Ratio	Poměr
 	Raw Data	Nezpracovaná data
+	RAW Defaults	Výchozí nastavení RAW
 	Raw Defaults	Výchozí nastavení Raw
+	RAW Defaults…	Výchozí nastavení RAW…
 	Raw Defaults…	Výchozí nastavení Raw…
+	RAW Develop	Vyvolání RAW
+	RAW Develop ({name})	Vyvolání RAW ({name})
+	RAW Develop Filter	Filtr Vyvolání RAW
+	RAW Develop Filter ({layer})	Filtr Vyvolání RAW ({layer})
+	RAW Develop Filter…	Filtr Vyvolání RAW…
+	RAW Develop isn't open	Vyvolání RAW není otevřen
 	Reading	Načítání
 	Reading…	Načítání…
 	Real-Time Refinement	Upřesnění v reálném čase
@@ -2597,9 +2596,9 @@ cameraRaw	Roughness	Drsnost
 	Save these shortcuts as a new set	Uložit tyto zkratky jako novou sadu
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Chcete-li znovu zkusit akceleraci GPU, uložte práci a restartujte PhotoCraft. V této relaci zůstane aktivní vykreslování pomocí CPU.
 	Saved a copy as {path}	Kopie uložena jako {path}
-	Saved Camera Raw settings to {file}	Nastavení Camera Raw uložena do {file}
 	Saved contours to {file}	Obrysy uloženy do souboru {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Uloženo pro web: {n} soubor|Uloženo pro web: {n} soubory|Uloženo pro web: {n} souborů
+	Saved RAW Develop settings to {file}	Nastavení Vyvolání RAW uložena do {file}
 	Saved {name}	Uloženo: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Uložena {n} akce do souboru {file}|Uloženy {n} akce do souboru {file}|Uloženo {n} akcí do souboru {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Uložena {n} barva do {file}|Uloženy {n} barvy do {file}|Uloženo {n} barev do {file}

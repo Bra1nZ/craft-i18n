@@ -151,12 +151,9 @@
 	Adjustment visible	มองเห็นการปรับแล้ว
 	Adjustments	การปรับแต่ง
 	Adobe	อะโดบี
-	Adobe Every-line Composer	Adobe นักแต่งเพลงทุกบรรทัด
-	Adobe PDF Presets…	ค่าที่ตั้งล่วงหน้า Adobe PDF…
 	Adobe rgb	อะโดบี RGB
 	Adobe RGB (1998)	อะโดบี RGB (1998)
 	Adobe RGB (1998) compatible	รองรับ Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe นักแต่งเพลงบรรทัดเดียว
 	Adobe-rgb-compat	Adobe-rgb-compat
 	Advanced	ขั้นสูง
 	Advanced Blending	การผสมขั้นสูง
@@ -191,7 +188,6 @@
 	All Layers	ทุกเลเยอร์
 	All Layers No Adjustments	ทุกเลเยอร์ไม่มีการปรับเปลี่ยน
 	All shortcuts reset to PhotoCraft defaults.	ทางลัดทั้งหมดรีเซ็ตเป็นค่าเริ่มต้นของ PhotoCraft
-	All shortcuts reset to Photoshop defaults.	ทางลัดทั้งหมดรีเซ็ตเป็นค่าเริ่มต้นของ Photoshop
 	All Slices	ชิ้นทั้งหมด
 	All User Slices	ส่วนผู้ใช้ทั้งหมด
 	Allow agent control	อนุญาตให้ตัวแทนควบคุม
@@ -546,17 +542,6 @@ fontWeight	Bold	ตัวหนา
 	Camera Data	ข้อมูลกล้อง
 	Camera Make	ยี่ห้อกล้อง
 	Camera Model	รุ่นกล้อง
-	Camera Raw	กล้องดิบ
-	Camera Raw ({name})	กล้องดิบ ({name})
-cameraRaw	Camera Raw ({name})	กล้องดิบ ({name})
-	Camera Raw Defaults	ค่าเริ่มต้นCamera Raw
-	Camera Raw Filter	ฟิลเตอร์ Camera Raw
-	Camera Raw Filter ({layer})	ฟิลเตอร์ Camera Raw ({layer})
-cameraRaw	Camera Raw Filter ({layer})	ฟิลเตอร์ Camera Raw ({layer})
-	Camera Raw Filter…	ฟิลเตอร์ Camera Raw…
-	Camera Raw isn't open	Camera Raw ไม่เปิด
-cameraRaw	Camera Raw isn't open	Camera Raw ไม่เปิด
-	Camera Raw…	กล้องดิบ…
 	Cancel	ยกเลิก
 cameraRaw	Cancel	ยกเลิก
 	Cancel (Esc)	ยกเลิก (Esc)
@@ -1141,7 +1126,6 @@ cameraData	Date Taken	วันที่ถ่าย
 	Default Foreground and Background Colors	สีพื้นหน้าและพื้นหลังเริ่มต้น
 	Default Leaves	ใบเริ่มต้น
 	Default PhotoCraft Size	ขนาด PhotoCraft เริ่มต้น
-	Default Photoshop Size	ขนาด Photoshop เริ่มต้น
 	Default printer	เครื่องพิมพ์เริ่มต้น
 	Default restored.	กู้คืนค่าเริ่มต้นแล้ว
 	Defaults	ค่าเริ่มต้น
@@ -2363,10 +2347,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	โหลดการตั�
 	Load Settings…	โหลดการตั้งค่า…
 cameraRaw	Load Settings…	โหลดการตั้งค่า…
 	Load the brush after each stroke	ใส่แปรงหลังการปัดแต่ละครั้ง
-	Loaded Camera Raw settings from {file}	โหลดการตั้งค่า Camera Raw จาก {file}
-cameraRaw	Loaded Camera Raw settings from {file}	โหลดการตั้งค่า Camera Raw จาก {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	โหลดการตั้งค่า Camera Raw จาก {file} (ไม่รองรับ {n})
 	Loaded contours from {file}	โหลดรูปทรงจาก {file}
+	Loaded RAW Develop settings from {file}	โหลดการตั้งค่า การปรับแต่ง RAW จาก {file}
+cameraRaw	Loaded RAW Develop settings from {file}	โหลดการตั้งค่า การปรับแต่ง RAW จาก {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	โหลดการตั้งค่า การปรับแต่ง RAW จาก {file} (ไม่รองรับ {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	โหลดการกระทำ {n} รายการจาก {file}
 	Loading fonts…	กำลังโหลดแบบอักษร…
 	Loading…	กำลังโหลด…
@@ -2819,7 +2803,6 @@ cameraRaw	Open	เปิด
 	Open File	เปิดไฟล์
 	Open Folder	เปิดโฟลเดอร์
 	Open Image	เปิดภาพ
-	Open in camera raw	เปิดในกล้องดิบ
 	Open paths use centered strokes	เส้นทางที่เปิดใช้จังหวะที่กึ่งกลาง
 	Open Recent	เปิดล่าสุด
 	Open Recent is unavailable on the web	เปิดล่าสุดไม่พร้อมใช้งานบนเว็บ
@@ -3234,8 +3217,19 @@ cameraRaw	Radius	รัศมี
 	Rate	อัตรา
 	Ratio	อัตราส่วน
 	Raw Data	ข้อมูลดิบ
+	RAW Defaults	ค่าเริ่มต้น RAW
 	Raw Defaults	ค่าเริ่มต้นดิบ
+	RAW Defaults…	ค่าเริ่มต้น RAW…
 	Raw Defaults…	ค่าเริ่มต้นดิบ…
+	RAW Develop	การปรับแต่ง RAW
+	RAW Develop ({name})	การปรับแต่ง RAW ({name})
+cameraRaw	RAW Develop ({name})	การปรับแต่ง RAW ({name})
+	RAW Develop Filter	ฟิลเตอร์ การปรับแต่ง RAW
+	RAW Develop Filter ({layer})	ฟิลเตอร์ การปรับแต่ง RAW ({layer})
+cameraRaw	RAW Develop Filter ({layer})	ฟิลเตอร์ การปรับแต่ง RAW ({layer})
+	RAW Develop Filter…	ฟิลเตอร์ การปรับแต่ง RAW…
+	RAW Develop isn't open	การปรับแต่ง RAW ไม่เปิด
+cameraRaw	RAW Develop isn't open	การปรับแต่ง RAW ไม่เปิด
 	Reading	การอ่าน
 	Reading…	กำลังอ่าน…
 	Ready	พร้อม
@@ -3540,6 +3534,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	บันทึกกา
 	Saved contours to {file}	รูปทรงที่บันทึกไว้ใน {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	บันทึกสำหรับเว็บ: {n} ไฟล์
 	Saved Multichannel	บันทึกหลายช่องแล้ว
+	Saved RAW Develop settings to {file}	บันทึกการตั้งค่าการปรับแต่ง RAW ไปยัง {file} แล้ว
 	Saved {name}	Saved {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	บันทึกการกระทำ {n} ลงใน {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	บันทึก {n} สีลงใน {file}
