@@ -311,6 +311,7 @@ cameraRaw	Aqua	Aqua
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Plano de fundo (padrão)
 	Background (default)	Plano de fundo (padrão)
+	Background (default):	Plano de fundo (padrão):
 	Background Contents	Conteúdo do plano de fundo
 	Background Eraser	Borracha de plano de fundo
 	Background Eraser Tool	Ferramenta Borracha de plano de fundo
@@ -523,6 +524,7 @@ fontWeight	Bold	Negrito
 	Clean the brush after each stroke	Limpar o pincel após cada traço
 	Cleanliness	Limpeza
 	Clear Amount	Intensidade da transparência
+	Clear aspect ratio values	Limpar os valores de proporção
 	Clear Brush Controls	Limpar controles de pincel
 	Clear Brush Strokes	Limpar traços do pincel
 	Clear Canvas Guides	Limpar guias da tela de pintura
@@ -693,6 +695,7 @@ cameraRaw	Color Grading	Gradação de cores
 	Contact Sheet II…	Folha de contato II…
 	Content-Aware	Sensível ao conteúdo
 	Content-Aware Fill	Preenchimento sensível ao conteúdo
+	Content-aware fill	Preenchimento com base no conteúdo
 	Content-Aware Fill needs a selection on a pixel layer	O preenchimento sensível ao conteúdo precisa de uma seleção em uma camada de pixels
 	Content-Aware Fill…	Preenchimento sensível ao conteúdo…
 	Content-Aware Move	Mover sensível ao conteúdo
@@ -1000,6 +1003,7 @@ cameraData	Date Taken	Data de captura
 	Detail	Detalhe
 	Detailed	Detalhado
 	Detect Faces	Detectar rostos
+	Determines if pixel data outside the crop box is retained or deleted	Determina se os pixels fora da moldura de corte são mantidos ou excluídos
 	Developing {name}	Revelando {name}
 	Diagonal (Descending)	Diagonal (descendente)
 	Diamond	Diamante
@@ -1036,6 +1040,7 @@ cameraData	Date Taken	Data de captura
 	Display profile not used	Perfil de tela não usado
 	Display profiles: {reason}	Perfis de tela: {reason}
 	Display Text	Texto de exibição
+	Displays pop-up help for the fill methods	Mostra a ajuda pop-up dos métodos de preenchimento
 	Dissolve	Dissolver
 	Dissolve is approximated: it blends without Photoshop's dither.	Dissolver é aproximado: a mesclagem ocorre sem o dither do Photoshop.
 	Distribute Heights	Distribuir alturas
@@ -1283,11 +1288,13 @@ cameraData	F-Stop	Abertura
 	Fill Light	Luz de preenchimento
 	Fill new type layers with placeholder	Preencher novas camadas de texto com texto de espaço reservado
 	Fill Opacity	Opacidade do preenchimento
+	Fill options	Opções de preenchimento
 	Fill Path	Preencher demarcador
 	Fill path with foreground color	Preencher demarcador com a cor de primeiro plano
 	Fill Path…	Preencher demarcador…
 	Fill Screen	Preencher tela
 	Fill Settings	Configurações de preenchimento
+	Fill the expanded area with your background color or transparent pixels	Preencher a área expandida com a cor de fundo ou pixels transparentes
 	Fill with {mode}-neutral color (50% gray)	Preencher com a cor neutra de {mode} (cinza 50%)
 	Fill with {mode}-neutral color (black)	Preencher com a cor neutra de {mode} (preto)
 	Fill with {mode}-neutral color (white)	Preencher com a cor neutra de {mode} (branco)
@@ -1595,6 +1602,7 @@ cameraRaw	Green	Verde
 	Horizontal Type Mask Tool	Ferramenta Máscara de texto horizontal
 	Horizontal Type Tool	Ferramenta Texto horizontal
 	Hotspot	Ponto de foco
+	How expanded crop area gets filled	Como a área de corte expandida é preenchida
 	How often fastening points are placed by themselves	Com que frequência os pontos de fixação são colocados sozinhos
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Como o mosaico do filtro de cor da câmera é preenchido. É aplicado ao abrir o arquivo; a visualização mostra o método com que ele foi aberto.
 	Hsb	HSB
@@ -2720,6 +2728,7 @@ fontWeight	Regular	Normal
 	Reset Section	Redefinir seção
 	Reset Swatches	Redefinir amostras
 	Reset the brush to the defaults	Redefinir o pincel para os padrões
+	Reset the crop box, image rotation, and aspect ratio settings	Redefinir a moldura de corte, a rotação da imagem e a proporção
 	Reset to Default	Restaurar padrão
 	Reset to defaults	Redefinir para os padrões
 	Reset Tool	Redefinir ferramenta
@@ -2798,6 +2807,7 @@ cameraRaw	Roughness	Aspereza
 	Same folder	Mesma pasta
 	Sample a pixel anywhere on the screen	Amostrar um pixel em qualquer lugar da tela
 	Sample All Layers	Usar amostra de todas as camadas
+	Sample content from part of the image and use it to fill a small area	Amostra o conteúdo de parte da imagem para preencher uma área pequena
 	Sample Size:	Tamanho da amostra:
 	Sample:	Amostra:
 	Sample: foreground color	Amostra: cor de primeiro plano
@@ -2899,6 +2909,7 @@ cameraRaw	Roughness	Aspereza
 	Second Color Readout	Segunda leitura de cor
 	seconds	segundos
 	Seed	Semente
+	Select a preset aspect ratio or crop size	Escolher uma proporção ou um tamanho de corte predefinido
 	Select a type layer or click into text to insert glyphs	Selecione uma camada de texto ou clique no texto para inserir glifos
 	Select a type layer to edit its character and paragraph settings.	Selecione uma camada de texto para editar as configurações de caractere e parágrafo.
 	Select All Layers	Selecionar todas as camadas
@@ -2964,6 +2975,8 @@ fontWeight	SemiBold	Seminegrito
 	Set shape fill type	Definir tipo de preenchimento da forma
 	Set shape stroke type	Definir tipo de traçado da forma
 	Set Start Timecode…	Definir código de tempo inicial…
+	Set the aspect ratio for the crop box	Definir a proporção da moldura de corte
+	Set the overlay options for the Crop Tool	Definir as opções de sobreposição do corte
 	Set the overlay options for the Crop tool	Definir as opções de sobreposição da ferramenta Corte demarcado
 	Set the text color	Definir a cor do texto
 	Set the tone sliders from the image	Definir os controles de tom a partir da imagem
@@ -3305,6 +3318,7 @@ cameraRaw	Temperature	Temperatura
 	The fastest and the softest, with color fringing on fine detail.	O mais rápido e o mais suave, com franjamento de cor em detalhes finos.
 	The file could not be opened.	Não foi possível abrir o arquivo.
 	The file could not be saved.	Não foi possível salvar o arquivo.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Esta camada de preenchimento precisa ser rasterizada antes de continuar. O conteúdo do preenchimento não poderá mais ser editado. Rasterizar a camada?
 	The frame is locked	A moldura está bloqueada
 	The frame is unavailable	A moldura não está disponível
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3327,7 +3341,6 @@ fontWeight	Thin	Fina
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Este ajuste ({key}) é mantido como foi importado e ainda não pode ser editado.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	As camadas deste documento precisam de {needed} mas podem ocupar {budget}: o documento inteiro é redesenhado na CPU
 	This document's layers: {needed} of {budget} for layers	Camadas deste documento: {needed} de {budget} para camadas
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Esta camada de preenchimento precisa ser rasterizada antes de continuar. O conteúdo do preenchimento não poderá mais ser editado. Rasterizar a camada?
 	This layer must be rasterized before proceeding.	Esta camada precisa ser rasterizada antes de continuar.
 	This Layer:	Esta camada:
 	This redraw took {seconds} s on the CPU.	Este redesenho na CPU levou {seconds} s.

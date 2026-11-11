@@ -312,6 +312,7 @@ cameraRaw	Aqua	Akva
 	Backend: {backend} ({type})	Pozadinski sistem: {backend} ({type})
 	Background (Default)	Pozadina (podrazumevano)
 	Background (default)	Pozadina (podrazumevano)
+	Background (default):	Pozadina (podrazumevano):
 	Background Eraser	Gumica za pozadinu
 	Background Eraser Tool	Alatka gumica za pozadinu
 	Background From Layer	Pozadina od sloja
@@ -521,6 +522,7 @@ cameraRaw	Clarity	Jasnoća
 	Clean the brush after each stroke	Očisti četkicu posle svakog poteza
 	Cleanliness	Čistoća
 	Clear Amount	Količina čistoće
+	Clear aspect ratio values	Obrišite vrednosti razmere
 	Clear Brush Controls	Obriši kontrole četkice
 	Clear Brush Strokes	Obriši poteze četkicom
 	Clear Canvas Guides	Ukloni vodilje platna
@@ -687,6 +689,7 @@ cameraRaw	Color Mixer	Mešač boja
 	Contact Sheet II…	Kontakt-list II…
 	Content-Aware	Prema sadržaju
 	Content-Aware Fill	Popuna prema sadržaju
+	Content-aware fill	Popunjavanje prema sadržaju
 	Content-Aware Fill needs a selection on a pixel layer	Popuna prema sadržaju zahteva selekciju na piksel sloju
 	Content-Aware Fill…	Popuna prema sadržaju…
 	Content-Aware Move	Pomeranje prema sadržaju
@@ -985,6 +988,7 @@ cameraRaw	Dehaze	Uklanjanje izmaglice
 cameraRaw	Detail	Detalji
 	Detailed	Detaljno
 	Detect Faces	Prepoznaj lica
+	Determines if pixel data outside the crop box is retained or deleted	Određuje da li se pikseli izvan okvira za isecanje zadržavaju ili brišu
 	Developing {name}	Razvijanje: {name}
 	Diagonal (Descending)	Dijagonala (opadajuća)
 	Diamond	Romb
@@ -1017,6 +1021,7 @@ cameraRaw	Detail	Detalji
 	Display profiles: {reason}	Profili ekrana: {reason}
 	Display Text	Tekst za prikaz
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Prikazuje iskačuću pomoć za metode popunjavanja
 	Dissolve	Rastapanje
 	Dissolve is approximated: it blends without Photoshop's dither.	Rastapanje je približno: mešanje se vrši bez diteringa programa Photoshop.
 	Distribute Heights	Raspodeli visine
@@ -1258,11 +1263,13 @@ layers	Fill	Popuna
 	Fill Light	Svetlo popune
 	Fill new type layers with placeholder	Popuni nove tekstualne slojeve probnim tekstom
 	Fill Opacity	Neprozirnost popune
+	Fill options	Opcije popunjavanja
 	Fill Path	Popuni putanju
 	Fill path with foreground color	Popuni putanju bojom prednjeg plana
 	Fill Path…	Popuni putanju…
 	Fill Screen	Popuni ekran
 	Fill Settings	Podešavanja popune
+	Fill the expanded area with your background color or transparent pixels	Popunite proširenu oblast bojom pozadine ili providnim pikselima
 	Fill with {mode}-neutral color (50% gray)	Popuni neutralnom bojom za {mode} (50% siva)
 	Fill with {mode}-neutral color (black)	Popuni neutralnom bojom za {mode} (crna)
 	Fill with {mode}-neutral color (white)	Popuni neutralnom bojom za {mode} (bela)
@@ -1556,6 +1563,7 @@ cameraRaw	Highlights	Svetla
 	Horizontal Type Mask Tool	Alatka za horizontalnu masku teksta
 	Horizontal Type Tool	Alatka za horizontalni tekst
 	Hotspot	Žarište
+	How expanded crop area gets filled	Kako se popunjava proširena oblast isecanja
 	How often fastening points are placed by themselves	Koliko se često tačke pričvršćivanja postavljaju same
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Kako se popunjava mozaik filtera boja kamere. Primenjuje se pri otvaranju datoteke; pregled prikazuje metod kojim je datoteka otvorena.
 	Hsb	HSB
@@ -2658,6 +2666,7 @@ fontWeight	Regular	Obično
 	Reset Section	Resetuj odeljak
 	Reset Swatches	Resetuj uzorke boja
 	Reset the brush to the defaults	Vrati četkicu na podrazumevano
+	Reset the crop box, image rotation, and aspect ratio settings	Vratite okvir za isecanje, rotaciju slike i razmeru
 	Reset to Default	Vrati na podrazumevano
 	Reset to defaults	Vrati na podrazumevano
 	Reset Tool	Resetuj alatku
@@ -2736,6 +2745,7 @@ cameraRaw	Roundness	Zaobljenost
 	Same folder	Ista fascikla
 	Sample a pixel anywhere on the screen	Uzorkujte piksel bilo gde na ekranu
 	Sample All Layers	Uzorkuj sve slojeve
+	Sample content from part of the image and use it to fill a small area	Uzmite sadržaj iz dela slike da popunite malu oblast
 	Sample Size:	Veličina uzorka:
 	Sample:	Uzorak:
 	Sample: foreground color	Uzorak: boja prednjeg plana
@@ -2836,6 +2846,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Second Color Readout	Drugo očitavanje boje
 	seconds	sekundi
 	Seed	Seme
+	Select a preset aspect ratio or crop size	Izaberite unapred podešenu razmeru ili veličinu isecanja
 	Select a type layer or click into text to insert glyphs	Izaberite tekstualni sloj ili kliknite u tekst da umetnete glifove
 	Select a type layer to edit its character and paragraph settings.	Izaberite tekstualni sloj da biste uredili podešavanja znakova i pasusa.
 	Select All Layers	Izaberi sve slojeve
@@ -2901,6 +2912,8 @@ fontWeight	SemiBold	Polupodebljano
 	Set shape fill type	Podesi vrstu popune oblika
 	Set shape stroke type	Podesi vrstu obruba oblika
 	Set Start Timecode…	Postavi početni vremenski kod…
+	Set the aspect ratio for the crop box	Podesite razmeru okvira za isecanje
+	Set the overlay options for the Crop Tool	Podesite opcije preklapanja isecanja
 	Set the overlay options for the Crop tool	Podesi opcije preklopa za alatku za opsecanje
 	Set the text color	Postavi boju teksta
 	Set the tone sliders from the image	Postavi klizače tona prema slici
@@ -3231,6 +3244,7 @@ cameraRaw	Texture	Tekstura
 	The fastest and the softest, with color fringing on fine detail.	Najbrži i najmekši, sa obojenim rubovima na finim detaljima.
 	The file could not be opened.	Datoteka nije mogla da se otvori.
 	The file could not be saved.	Datoteka nije mogla da se sačuva.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Ovaj sloj popune mora da se rasterizuje pre nastavka. Njegov sadržaj popune više neće moći da se uređuje. Rasterizovati sloj?
 	The frame is locked	Оквир је закључан
 	The frame is unavailable	Оквир није доступан
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3253,7 +3267,6 @@ fontWeight	Thin	Tanko
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Ova korekcija ({key}) je zadržana onakva kakva je uvezena i još ne može da se uređuje.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Slojevima ovog dokumenta treba {needed}, a smeju da zauzmu {budget}: ceo dokument se ponovo iscrtava na CPU-u
 	This document's layers: {needed} of {budget} for layers	Slojevi ovog dokumenta: {needed} od {budget} za slojeve
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Ovaj sloj popune mora da se rasterizuje pre nastavka. Njegov sadržaj popune više neće moći da se uređuje. Rasterizovati sloj?
 	This layer must be rasterized before proceeding.	Ovaj sloj mora da se rasterizuje pre nastavka.
 	This Layer:	Ovaj sloj:
 	This redraw took {seconds} s on the CPU.	Ovo iscrtavanje je trajalo {seconds} s na procesoru.

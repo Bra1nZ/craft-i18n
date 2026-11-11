@@ -304,6 +304,7 @@ cameraRaw	Aqua	Aqua
 	Back	Terug
 	Background (Default)	Achtergrond (standaard)
 	Background (default)	Achtergrond (standaard)
+	Background (default):	Achtergrond (standaard):
 	Background Eraser	Achtergrondgum
 	Background Eraser Tool	Achtergrondgumgereedschap
 	Background From Layer	Achtergrond uit laag
@@ -507,6 +508,7 @@ fontWeight	Bold	Vet
 	Clean the brush after each stroke	Penseel reinigen na elke streek
 	Cleanliness	Zuiverheid
 	Clear Amount	Hoeveelheid helderheid
+	Clear aspect ratio values	Waarden voor beeldverhouding wissen
 	Clear Brush Controls	Penseelbesturing wissen
 	Clear Brush Strokes	Penseelstreken wissen
 	Clear Canvas Guides	Canvashulplijnen wissen
@@ -663,6 +665,7 @@ cameraRaw	Color Grading	Kleurgradatie
 	Contact Sheet II…	Contactblad II…
 	Content-Aware	Inhoudsbewust
 	Content-Aware Fill	Inhoudsbewust vullen
+	Content-aware fill	Op inhoud gebaseerd vullen
 	Content-Aware Fill needs a selection on a pixel layer	Inhoudsbewust vullen vereist een selectie op een pixellaag
 	Content-Aware Fill…	Inhoudsbewust vullen…
 	Content-Aware Move	Inhoudsbewust verplaatsen
@@ -954,6 +957,7 @@ cameraData	Date Taken	Opnamedatum
 	Detail	Detail
 	Detailed	Gedetailleerd
 	Detect Faces	Gezichten detecteren
+	Determines if pixel data outside the crop box is retained or deleted	Bepaalt of pixels buiten het uitsnijkader behouden of verwijderd worden
 	Developing {name}	{name} wordt ontwikkeld
 	Diagonal (Descending)	Diagonaal (aflopend)
 	Diamond Gradient	Ruitverloop
@@ -984,6 +988,7 @@ cameraData	Date Taken	Opnamedatum
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	Tekst tonen
+	Displays pop-up help for the fill methods	Toont pop-uphelp over de vulmethoden
 	Dissolve	Verspreiden
 	Dissolve is approximated: it blends without Photoshop's dither.	Verspreiden is benaderd: het mengt zonder de dither van Photoshop.
 	Distribute Heights	Hoogtes verdelen
@@ -1222,10 +1227,12 @@ cameraData	F-Stop	Diafragma
 	Fill Light	Invullicht
 	Fill new type layers with placeholder	Nieuwe tekstlagen vullen met opvultekst
 	Fill Opacity	Vuldekking
+	Fill options	Vulopties
 	Fill Path	Pad vullen
 	Fill path with foreground color	Pad vullen met voorgrondkleur
 	Fill Screen	Scherm vullen
 	Fill Settings	Vulinstellingen
+	Fill the expanded area with your background color or transparent pixels	Het uitgebreide gebied vullen met de achtergrondkleur of transparante pixels
 	Fill with {mode}-neutral color (50% gray)	Vullen met neutrale kleur voor {mode} (50% grijs)
 	Fill with {mode}-neutral color (black)	Vullen met neutrale kleur voor {mode} (zwart)
 	Fill with {mode}-neutral color (white)	Vullen met neutrale kleur voor {mode} (wit)
@@ -1516,6 +1523,7 @@ cameraRaw	Green	Groen
 	Horizontal Type Mask Tool	Horizontaal tekstmaskergereedschap
 	Horizontal Type Tool	Horizontaal tekstgereedschap
 	Hotspot	Hotspot
+	How expanded crop area gets filled	Hoe het uitgebreide uitsnijgebied wordt gevuld
 	How often fastening points are placed by themselves	Hoe vaak bevestigingspunten automatisch worden geplaatst
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Hoe het kleurfiltermozaïek van de camera wordt ingevuld. Wordt toegepast bij het openen van het bestand; de voorvertoning toont de methode waarmee het is geopend.
 	Hsb	HSB
@@ -2572,6 +2580,7 @@ fontWeight	Regular	Normaal
 	Reset Section	Sectie herstellen
 	Reset Swatches	Stalen herstellen
 	Reset the brush to the defaults	Het penseel terugzetten naar de standaardwaarden
+	Reset the crop box, image rotation, and aspect ratio settings	Het uitsnijkader, de beeldrotatie en de beeldverhouding resetten
 	Reset to Default	Terugzetten naar standaard
 	Reset to defaults	Terugzetten naar standaardwaarden
 	Reset Tool	Gereedschap herstellen
@@ -2652,6 +2661,7 @@ cameraRaw	Roughness	Ruwheid
 	Same folder	Zelfde map
 	Sample a pixel anywhere on the screen	Een pixel ergens op het scherm bemonsteren
 	Sample All Layers	Alle lagen samplen
+	Sample content from part of the image and use it to fill a small area	Inhoud uit een deel van de afbeelding halen om een klein gebied te vullen
 	Sample Size:	Monstergrootte:
 	Sample:	Monster:
 	Sample: foreground color	Monster: voorgrondkleur
@@ -2748,6 +2758,7 @@ cameraRaw	Roughness	Ruwheid
 	Second Color Readout	Tweede kleurwaarde
 	seconds	seconden
 	Seed	Startwaarde
+	Select a preset aspect ratio or crop size	Een vooraf ingestelde beeldverhouding of uitsnijgrootte kiezen
 	Select a type layer or click into text to insert glyphs	Selecteer een tekstlaag of klik in tekst om glyphs in te voegen
 	Select a type layer to edit its character and paragraph settings.	Selecteer een tekstlaag om de teken- en alinea-instellingen te bewerken.
 	Select All Layers	Alle lagen selecteren
@@ -2812,6 +2823,8 @@ fontWeight	SemiBold	Halfvet
 	Set shape fill type	Vultype van vorm instellen
 	Set shape stroke type	Lijntype van vorm instellen
 	Set Start Timecode…	Starttijdcode instellen…
+	Set the aspect ratio for the crop box	De beeldverhouding voor het uitsnijkader instellen
+	Set the overlay options for the Crop Tool	Opties voor de uitsnij-overlay instellen
 	Set the overlay options for the Crop tool	Overlay-opties voor het gereedschap Uitsnijden instellen
 	Set the text color	De tekstkleur instellen
 	Set the tone sliders from the image	Toonschuifregelaars instellen op basis van de afbeelding

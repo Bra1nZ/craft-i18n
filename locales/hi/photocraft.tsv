@@ -60,6 +60,7 @@ cameraRaw	Aqua	एक्वा
 	Auto	स्वचालित
 	Auto-nest Layers	लेयर्स को स्वचालित रूप से नेस्ट करें
 	Auto-size Canvas	कैनवास का आकार स्वचालित रूप से बदलें
+	Background (default):	पृष्ठभूमि (डिफ़ॉल्ट):
 	Background Eraser Tool	बैकग्राउंड इरेज़र टूल
 	Balance	संतुलन
 cameraRaw	Balance	संतुलन
@@ -99,6 +100,7 @@ cameraRaw	Clarity	स्पष्टता
 	Clean Brush	ब्रश साफ़ करें
 	Clean the brush after each stroke	हर स्ट्रोक के बाद ब्रश साफ़ करें
 	Clear	साफ़ करें
+	Clear aspect ratio values	पक्षानुपात मान साफ़ करें
 	Clear Guides	गाइड्स हटाएं
 	Clear Selection	चयन साफ़ करें
 	Clear Slices	स्लाइस हटाएं
@@ -126,6 +128,7 @@ cameraRaw	Color Priority	रंग प्राथमिकता
 	Color:	कलर:
 	Consolidate All to Here	सभी को यहाँ समेकित करें
 	Consolidate All to Tabs	सभी को टैब में समेकित करें
+	Content-aware fill	सामग्री-आधारित भरण
 	Content-Aware Move Tool	कंटेंट-अवेयर मूव टूल
 	Contextual Task Bar	प्रासंगिक कार्य पट्टी
 	Continue	जारी रखें
@@ -177,10 +180,12 @@ cameraRaw	Dehaze	डीहेज़
 	Deselect Layers	लेयर्स अचयनित करें
 	Detail	डिटेल
 cameraRaw	Detail	डिटेल
+	Determines if pixel data outside the crop box is retained or deleted	निर्धारित करता है कि क्रॉप फ़्रेम के बाहर के पिक्सेल रखे जाएँ या हटाए जाएँ
 	Developing {name}	{name} विकसित किया जा रहा है
 cameraRaw	Developing {name}	{name} विकसित किया जा रहा है
 	Direct Selection Tool	डायरेक्ट चयन टूल
 	Disable	अक्षम करें
+	Displays pop-up help for the fill methods	भरण विधियों के लिए पॉप-अप सहायता दिखाता है
 	Distort	विरूपित करें
 	Distribute Heights	ऊंचाइयाँ वितरित करें
 	Distribute horizontally	क्षैतिज रूप से वितरित करें
@@ -219,6 +224,8 @@ cameraRaw	Feather	फ़ेदर
 	Feather…	फ़ेदर…
 	File	फ़ाइल
 	File Info…	फ़ाइल जानकारी…
+	Fill options	भरण विकल्प
+	Fill the expanded area with your background color or transparent pixels	विस्तारित क्षेत्र को पृष्ठभूमि रंग या पारदर्शी पिक्सेल से भरें
 	Fill…	भरें…
 	Filter	फ़िल्टर
 	Find Layers	लेयर्स खोजें
@@ -278,6 +285,7 @@ cameraRaw	Highlights	हाइलाइट्स
 	History Brush Tool	हिस्ट्री ब्रश टूल
 	Horizontal Type Mask Tool	हॉरिजोंटल टाइप मास्क टूल
 	Horizontal Type Tool	हॉरिजोंटल टाइप टूल
+	How expanded crop area gets filled	विस्तारित क्रॉप क्षेत्र कैसे भरा जाता है
 	Hue	ह्यू
 cameraRaw	Hue	ह्यू
 	Hue/Saturation…	ह्यू/सैचुरेशन…
@@ -485,6 +493,7 @@ cameraRaw	Red	लाल
 	Reset	रीसेट करें
 	Reset bar position	पट्टी की स्थिति रीसेट करें
 	Reset Essentials	एसेंशियल्स रीसेट करें
+	Reset the crop box, image rotation, and aspect ratio settings	क्रॉप फ़्रेम, छवि घुमाव और पक्षानुपात रीसेट करें
 	Resolution:	रिज़ॉल्यूशन:
 	Reveal All	सभी दिखाएँ
 	Reveal in Explorer	Explorer में दिखाएँ
@@ -503,6 +512,7 @@ cameraRaw	Roundness	राउंडनेस
 	Ruler Tool	रूलर टूल
 	Rulers	रूलर्स
 	Sample All Layers	सभी लेयर्स का नमूना लें
+	Sample content from part of the image and use it to fill a small area	छोटा क्षेत्र भरने के लिए छवि के हिस्से से सामग्री लें
 	Saturation	सैचुरेशन
 cameraRaw	Saturation	सैचुरेशन
 	Save	सहेजें
@@ -519,11 +529,14 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	इन सेटिं�
 	Scroll All Windows	सभी विंडो स्क्रॉल करें
 	seconds	सेकंड
 	Select	चयन
+	Select a preset aspect ratio or crop size	पहले से सेट पक्षानुपात या क्रॉप आकार चुनें
 	Select and Mask was closed: another layer was selected	चयन और मास्क बंद कर दिया गया: दूसरी लेयर चुनी गई
 	Select and Mask was closed: its document is no longer the active one	चयन और मास्क बंद कर दिया गया: उसका दस्तावेज़ अब सक्रिय नहीं है
 	Select and Mask…	चयन और मास्क…
 	Selected	चयनित
 	Selection	Selection
+	Set the aspect ratio for the crop box	क्रॉप फ़्रेम का पक्षानुपात सेट करें
+	Set the overlay options for the Crop Tool	क्रॉप ओवरले के विकल्प सेट करें
 	Shadow Clipping Warning (U)	शैडो क्लिपिंग चेतावनी (U)
 cameraRaw	Shadow Clipping Warning (U)	शैडो क्लिपिंग चेतावनी (U)
 	Shadows	शेडोज़

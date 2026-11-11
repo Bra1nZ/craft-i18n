@@ -275,6 +275,7 @@
 	Background	الخلفية
 	Background (Default)	الخلفية (الافتراضية)
 	Background (default)	الخلفية (الافتراضية)
+	Background (default):	الخلفية (افتراضي):
 	Background Color	لون الخلفية
 	Background Contents	محتويات الخلفية
 	Background Eraser	ممحاة الخلفية
@@ -489,6 +490,7 @@ fontWeight	Bold	غامق
 	Clean Brush	تنظيف الفرشاة
 	Clean the brush after each stroke	تنظيف الفرشاة بعد كل ضربة
 	Cleanliness	النظافة
+	Clear aspect ratio values	امسح قيم نسبة الأبعاد
 	Clear Brush Controls	مسح عناصر تحكم الفرشاة
 	Clear Brush Strokes	مسح ضربات الفرشاة
 	Clear Canvas Guides	مسح خطوط توجيه مساحة الرسم
@@ -630,6 +632,7 @@ fontWeight	Bold	غامق
 	Contact Sheet II…	ورقة اتصال II…
 	Content-Aware	مراعٍ للمحتوى
 	Content-Aware Fill	تعبئة مراعية للمحتوى
+	Content-aware fill	ملء حسب المحتوى
 	Content-Aware Fill needs a selection on a pixel layer	تتطلب التعبئة المراعية للمحتوى تحديدًا على طبقة بكسل
 	Content-Aware Fill…	تعبئة مراعية للمحتوى…
 	Content-Aware Move Tool	أداة التحريك المراعي للمحتوى
@@ -889,6 +892,7 @@ cameraData	Date Taken	تاريخ الالتقاط
 	Destination	الوجهة
 	Detail	التفاصيل
 	Detailed	مفصل
+	Determines if pixel data outside the crop box is retained or deleted	يحدد ما إذا كانت البكسلات خارج إطار الاقتصاص تُحتفظ بها أم تُحذف
 	Developing {name}	جارٍ معالجة {name}
 	Diagonal	قطري
 	Diagonal (Descending)	قطري (تنازلي)
@@ -918,6 +922,7 @@ cameraData	Date Taken	تاريخ الالتقاط
 	Display p3	Display P3
 	Display Text	نص العرض
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	يعرض تعليمات منبثقة عن طرق الملء
 	Dissolve	ذوبان
 	Dissolve is approximated: it blends without Photoshop's dither.	التحلل تقريبي: يمزج دون ترقيش Photoshop.
 	Distort	تشويه
@@ -1132,10 +1137,12 @@ cameraData	F-Stop	فتحة العدسة
 	Fill Layer	طبقة تعبئة
 	Fill new type layers with placeholder	تعبئة طبقات النص الجديدة بنص نائب
 	Fill Opacity	عتامة التعبئة
+	Fill options	خيارات الملء
 	Fill Path	تعبئة المسار
 	Fill path with foreground color	تعبئة المسار بلون المقدمة
 	Fill Screen	ملء الشاشة
 	Fill Settings	إعدادات التعبئة
+	Fill the expanded area with your background color or transparent pixels	املأ المنطقة الموسعة بلون الخلفية أو بكسلات شفافة
 	Fill with Background Color	تعبئة بلون الخلفية
 	Fill with Background Color, Preserve Transparency	تعبئة بلون الخلفية مع الحفاظ على الشفافية
 	Fill with Foreground Color	تعبئة بلون المقدمة
@@ -1415,6 +1422,7 @@ cameraData	Focal Length (35 mm)	البعد البؤري (35 مم)
 	Horizontal type	نص أفقي
 	Horizontal Type Mask Tool	أداة قناع النص الأفقي
 	Horizontal Type Tool	أداة النص الأفقي
+	How expanded crop area gets filled	كيفية ملء منطقة الاقتصاص الموسعة
 	How often fastening points are placed by themselves	عدد مرات وضع نقاط التثبيت تلقائيًا
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	طريقة ملء فسيفساء مرشح الألوان في الكاميرا. تُطبَّق عند فتح الملف؛ وتعرض المعاينة الطريقة التي فُتح بها.
 	Hsb	HSB
@@ -2420,6 +2428,7 @@ fontWeight	Regular	عادي
 	Reset Section	إعادة تعيين القسم
 	Reset Swatches	إعادة تعيين عينات الألوان
 	Reset the brush to the defaults	إعادة تعيين الفرشاة إلى الإعدادات الافتراضية
+	Reset the crop box, image rotation, and aspect ratio settings	إعادة ضبط إطار الاقتصاص ودوران الصورة ونسبة الأبعاد
 	Reset to Default	إعادة تعيين إلى الافتراضي
 	Reset to defaults	إعادة تعيين إلى الافتراضيات
 	Reset Tool	إعادة تعيين الأداة
@@ -2493,6 +2502,7 @@ fontWeight	Regular	عادي
 	Same folder	المجلد نفسه
 	Sample a pixel anywhere on the screen	أخذ عينة من بكسل في أي مكان على الشاشة
 	Sample All Layers	أخذ عينات من كل الطبقات
+	Sample content from part of the image and use it to fill a small area	خذ محتوى من جزء من الصورة لملء منطقة صغيرة
 	Sample Size:	حجم العينة:
 	Sample:	العينة:
 	Sample: foreground color	العينة: لون المقدمة
@@ -2581,6 +2591,7 @@ fontWeight	Regular	عادي
 	Search…	بحث…
 	seconds	ثانية
 	Seed	البذرة
+	Select a preset aspect ratio or crop size	اختر نسبة أبعاد أو حجم اقتصاص مسبق الضبط
 	Select a type layer or click into text to insert glyphs	حدد طبقة نص أو انقر داخل النص لإدراج رموز
 	Select a type layer to edit its character and paragraph settings.	حدد طبقة نص لتحرير إعدادات الحرف والفقرة الخاصة بها.
 	Select an action first	حدد إجراءً أولًا
@@ -2633,6 +2644,8 @@ fontWeight	SemiBold	شبه غامق
 	Set saved.	تم حفظ المجموعة.
 	Set shape fill type	تعيين نوع تعبئة الشكل
 	Set shape stroke type	تعيين نوع حدود الشكل
+	Set the aspect ratio for the crop box	اضبط نسبة أبعاد إطار الاقتصاص
+	Set the overlay options for the Crop Tool	اضبط خيارات تراكب الاقتصاص
 	Set the overlay options for the Crop tool	تعيين خيارات التراكب لأداة الاقتصاص
 	Set the text color	تعيين لون النص
 	Set the tone sliders from the image	ضبط منزلقات النغمة من الصورة

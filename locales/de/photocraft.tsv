@@ -249,6 +249,7 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Hintergrund (Standard)
 	Background (default)	Hintergrund (Standard)
+	Background (default):	Hintergrund (Standard):
 	Background Contents	Hintergrundinhalte
 	Background Eraser	Hintergrund-Radiergummi
 	Background Eraser Tool	Hintergrund-Radiergummi-Werkzeug
@@ -431,6 +432,7 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Cleanliness	Sauberkeit
 	Clear	Löschen
 	Clear All	Alle löschen
+	Clear aspect ratio values	Seitenverhältniswerte löschen
 	Clear Brush Controls	Pinselsteuerungen löschen
 	Clear Brush Strokes	Pinselstriche löschen
 	Clear Canvas Guides	Zeichenflächen-Hilfslinien löschen
@@ -557,6 +559,7 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Contact Sheet II…	Kontaktabzug II…
 	Content-Aware	Inhaltsbasiert
 	Content-Aware Fill	Inhaltsbasiert füllen
+	Content-aware fill	Inhaltsbasiert füllen
 	Content-Aware Fill needs a selection on a pixel layer	Inhaltsbasiertes Füllen braucht eine Auswahl auf einer Pixelebene
 	Content-Aware Fill…	Inhaltsbasiert füllen…
 	Content-Aware Move Tool	Inhaltsbasiert-verschieben-Werkzeug
@@ -797,6 +800,7 @@ cameraData	Date Taken	Aufnahmedatum
 	Despeckle	Flecken entfernen
 	Detail	Details
 	Detailed	Detailliert
+	Determines if pixel data outside the crop box is retained or deleted	Legt fest, ob Bilddaten außerhalb des Zuschnittrahmens erhalten oder gelöscht werden
 	Developing {name}	{name} wird entwickelt
 	Diagonal (Descending)	Diagonal (absteigend)
 	Diamond Gradient	Rautenverlauf
@@ -819,6 +823,7 @@ cameraData	Date Taken	Aufnahmedatum
 	Display p3	Display P3
 	Display Text	Text anzeigen
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Zeigt Pop-up-Hilfe zu den Füllmethoden an
 	Dissolve	Sprenkeln
 	Dissolve is approximated: it blends without Photoshop's dither.	Sprenkeln wird nur angenähert: Es wird ohne das Dithering von Photoshop gemischt.
 	Distribute Heights	Höhen verteilen
@@ -1006,10 +1011,12 @@ cameraData	F-Stop	Blende
 	Fill Layer	Füllebene
 	Fill new type layers with placeholder	Neue Textebenen mit Platzhalter füllen
 	Fill Opacity	Füll-Deckkraft
+	Fill options	Fülloptionen
 	Fill Path	Pfad füllen
 	Fill path with foreground color	Pfad mit Vordergrundfarbe füllen
 	Fill Screen	Bildschirm ausfüllen
 	Fill Settings	Füllungseinstellungen
+	Fill the expanded area with your background color or transparent pixels	Den erweiterten Bereich mit der Hintergrundfarbe oder transparenten Pixeln füllen
 	Fill with Background Color	Mit Hintergrundfarbe füllen
 	Fill with Background Color, Preserve Transparency	Mit Hintergrundfarbe füllen, Transparenz erhalten
 	Fill with Foreground Color	Mit Vordergrundfarbe füllen
@@ -1244,6 +1251,7 @@ cameraData	Focal Length (35 mm)	Brennweite (35 mm)
 	Horizontal type	Horizontaler Text
 	Horizontal Type Mask Tool	Horizontales Textmaskierungswerkzeug
 	Horizontal Type Tool	Horizontales Text-Werkzeug
+	How expanded crop area gets filled	Wie der erweiterte Zuschnittbereich gefüllt wird
 	How often fastening points are placed by themselves	Wie oft Ankerpunkte automatisch gesetzt werden
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Wie das Farbfiltermosaik der Kamera aufgefüllt wird. Es wird beim Öffnen der Datei angewendet; die Vorschau zeigt die Methode, mit der sie geöffnet wurde.
 	Hsb	HSB
@@ -2098,6 +2106,7 @@ fontWeight	Regular	Normal
 	Reset Section	Abschnitt zurücksetzen
 	Reset Swatches	Farbfelder zurücksetzen
 	Reset the brush to the defaults	Pinsel auf Standardwerte zurücksetzen
+	Reset the crop box, image rotation, and aspect ratio settings	Zuschnittrahmen, Bilddrehung und Seitenverhältniseinstellungen zurücksetzen
 	Reset to Default	Auf Standard zurücksetzen
 	Reset to defaults	Auf Standardwerte zurücksetzen
 	Reset Tool	Werkzeug zurücksetzen
@@ -2163,6 +2172,7 @@ fontWeight	Regular	Normal
 	Same folder	Gleicher Ordner
 	Sample a pixel anywhere on the screen	Ein Pixel an beliebiger Stelle auf dem Bildschirm auswählen
 	Sample All Layers	Alle Ebenen einbeziehen
+	Sample content from part of the image and use it to fill a small area	Inhalte aus einem Teil des Bildes entnehmen und damit einen kleinen Bereich füllen
 	Sample Size:	Aufnahmebereich:
 	Sample:	Probe:
 	Sample: foreground color	Abtasten: Vordergrundfarbe
@@ -2241,6 +2251,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	seconds	Sekunden
 	Seed	Startwert
 	Select	Auswahl
+	Select a preset aspect ratio or crop size	Voreingestelltes Seitenverhältnis oder Zuschnittgröße wählen
 	Select a type layer or click into text to insert glyphs	Wähle eine Textebene aus oder klicke in den Text, um Glyphen einzufügen
 	Select a type layer to edit its character and paragraph settings.	Wähle eine Textebene, um ihre Zeichen- und Absatzeinstellungen zu bearbeiten.
 	Select an action first	Wählen Sie zuerst eine Aktion aus
@@ -2289,6 +2300,8 @@ fontWeight	SemiBold	Halbfett
 	Set saved.	Satz gespeichert.
 	Set shape fill type	Fülltyp der Form festlegen
 	Set shape stroke type	Konturtyp der Form festlegen
+	Set the aspect ratio for the crop box	Seitenverhältnis für den Zuschnittrahmen festlegen
+	Set the overlay options for the Crop Tool	Optionen für die Zuschnittüberlagerung festlegen
 	Set the overlay options for the Crop tool	Überlagerungsoptionen für das Freistellungswerkzeug festlegen
 	Set the text color	Textfarbe festlegen
 	Set the tone sliders from the image	Tonwert-Regler aus dem Bild setzen

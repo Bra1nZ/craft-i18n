@@ -291,6 +291,7 @@ cameraRaw	Amount	適用量
 	Avoid Widows/Orphans	ウィドウ/オーファンを回避
 	Background (Default)	背景（既定）
 	Background (default)	背景（既定）
+	Background (default):	背景 (既定):
 	Background Contents	背景の内容
 	Background Eraser	背景消しゴム
 	Background Eraser Tool	背景消しゴムツール
@@ -499,6 +500,7 @@ fontWeight	Bold	太字
 	Clear	消去
 	Clear All	すべて消去
 	Clear Amount	クリアの量
+	Clear aspect ratio values	アスペクト比の値をクリア
 	Clear Brush Controls	ブラシのコントロールを消去
 	Clear Brush Strokes	ブラシストロークを消去
 	Clear Canvas Guides	カンバスガイドを消去
@@ -653,6 +655,7 @@ cameraRaw	Color	カラー
 	Contact Sheet II…	コンタクトシート II…
 	Content-Aware	コンテンツに応じる
 	Content-Aware Fill	コンテンツに応じた塗りつぶし
+	Content-aware fill	コンテンツに応じた塗りつぶし
 	Content-Aware Fill needs a selection on a pixel layer	コンテンツに応じた塗りつぶしには、ピクセルレイヤー上の選択範囲が必要です
 	Content-Aware Fill…	コンテンツに応じた塗りつぶし…
 	Content-Aware Move	コンテンツに応じた移動
@@ -942,6 +945,7 @@ cameraData	Date Taken	撮影日時
 	Detail	ディテール
 	Detailed	詳細
 	Detect Faces	顔を検出
+	Determines if pixel data outside the crop box is retained or deleted	切り抜き枠の外側のピクセルを保持するか削除するかを指定
 	Developing {name}	{name} を現像中
 	Diagonal (Descending)	斜め (下降)
 	Diamond	ダイヤモンド形
@@ -968,6 +972,7 @@ cameraData	Date Taken	撮影日時
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	表示テキスト
+	Displays pop-up help for the fill methods	塗りつぶし方法のポップアップヘルプを表示
 	Dissolve	ディザ合成
 	Dissolve is approximated: it blends without Photoshop's dither.	ディザ合成は近似です。Photoshop のディザなしでブレンドします。
 	Distortion	ゆがみ
@@ -1188,10 +1193,12 @@ cameraData	F-Stop	絞り値
 	Fill Light	フィルライト
 	Fill new type layers with placeholder	新規文字レイヤーにプレースホルダーを入れる
 	Fill Opacity	塗りの不透明度
+	Fill options	塗りつぶしオプション
 	Fill Path	パスを塗りつぶし
 	Fill path with foreground color	パスを描画色で塗りつぶす
 	Fill Screen	画面いっぱいに表示
 	Fill Settings	塗りつぶし設定
+	Fill the expanded area with your background color or transparent pixels	拡張領域を背景色または透明ピクセルで塗りつぶす
 	Fill with {mode}-neutral color (50% gray)	{mode} の中間色で塗りつぶす (50% グレー)
 	Fill with {mode}-neutral color (black)	{mode} の中間色で塗りつぶす (黒)
 	Fill with {mode}-neutral color (white)	{mode} の中間色で塗りつぶす (白)
@@ -1481,6 +1488,7 @@ cameraData	Focal Length (35 mm)	焦点距離 (35 mm 換算)
 	Horizontal Type Mask Tool	横書き文字マスクツール
 	Horizontal Type Tool	横書き文字ツール
 	Hotspot	ホットスポット
+	How expanded crop area gets filled	拡張された切り抜き領域の塗りつぶし方法
 	How often fastening points are placed by themselves	固定ポイントが自動で置かれる頻度
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	カメラのカラーフィルター配列をどのように補間するか。ファイルを開くときに適用されます。プレビューは開いたときの方式で表示されます。
 	Hsb	HSB
@@ -2499,6 +2507,7 @@ fontWeight	Regular	標準
 	Reset Section	セクションをリセット
 	Reset Swatches	スウォッチを初期化
 	Reset the brush to the defaults	ブラシを既定に戻す
+	Reset the crop box, image rotation, and aspect ratio settings	切り抜き枠、画像の回転、アスペクト比をリセット
 	Reset to Default	既定値に戻す
 	Reset to defaults	既定に戻す
 	Reset Tool	ツールをリセット
@@ -2574,6 +2583,7 @@ fontWeight	Regular	標準
 	Same folder	同じフォルダー
 	Sample a pixel anywhere on the screen	画面上の任意のピクセルから色を取得
 	Sample All Layers	すべてのレイヤーをサンプル
+	Sample content from part of the image and use it to fill a small area	画像の一部から内容をサンプリングして小さな領域を塗りつぶす
 	Sample Size:	サンプルサイズ:
 	Sample:	サンプル:
 	Sample: foreground color	サンプル: 描画色
@@ -2665,6 +2675,7 @@ fontWeight	Regular	標準
 	Second Color Readout	2 番目のカラー読み取り
 	seconds	秒
 	Seed	シード
+	Select a preset aspect ratio or crop size	プリセットのアスペクト比または切り抜きサイズを選択
 	Select a type layer or click into text to insert glyphs	文字レイヤーを選択するか、テキスト内をクリックして字形を挿入します
 	Select a type layer to edit its character and paragraph settings.	文字レイヤーを選択すると、文字と段落の設定を編集できます。
 	Select All	すべてを選択
@@ -2726,6 +2737,8 @@ fontWeight	SemiBold	中太
 	Set shape fill type	シェイプの塗りの種類を設定
 	Set shape stroke type	シェイプの線の種類を設定
 	Set Start Timecode…	開始タイムコードを設定…
+	Set the aspect ratio for the crop box	切り抜き枠のアスペクト比を設定
+	Set the overlay options for the Crop Tool	切り抜きオーバーレイのオプションを設定
 	Set the overlay options for the Crop tool	切り抜きツールのオーバーレイオプションを設定
 	Set the text color	文字色を設定
 	Set the tone sliders from the image	画像からトーンスライダーを設定

@@ -298,6 +298,7 @@ cameraRaw	Aqua	Turkuaz
 	Back	Geri
 	Background (Default)	Arka plan (varsayılan)
 	Background (default)	Arka plan (varsayılan)
+	Background (default):	Arka plan (varsayılan):
 	Background Eraser Tool	Arka Plan Silgisi Aracı
 	Background From Layer	Katmandan Arka Plan
 	Background from Layer	Katmandan Arka Plan
@@ -512,6 +513,7 @@ smartSvg	Choose the application used to edit this SVG:	Bu SVG'yi düzenlemek iç
 	Clean the brush after each stroke	Her vuruştan sonra fırçayı temizle
 	Cleanliness	Temizlik
 	Clear Amount	Temizleme Miktarı
+	Clear aspect ratio values	En-boy oranı değerlerini temizleyin
 	Clear Brush Controls	Fırça Denetimlerini Temizle
 	Clear Brush Strokes	Fırça Vuruşlarını Temizle
 	Clear Canvas Guides	Tuval Kılavuzlarını Temizle
@@ -666,6 +668,7 @@ cameraRaw	Color Grading	Renk Derecelendirme
 	Contact Sheet II…	Kontak Sayfası II…
 	Content-Aware	İçeriğe Duyarlı
 	Content-Aware Fill	İçeriğe Duyarlı Dolgu
+	Content-aware fill	İçeriğe göre doldurma
 	Content-Aware Fill needs a selection on a pixel layer	İçeriğe Duyarlı Dolgu, piksel katmanında seçim yapılmasını gerektirir
 	Content-Aware Fill…	İçeriğe Duyarlı Dolgu…
 	Content-Aware Move	İçeriğe Duyarlı Taşıma
@@ -952,6 +955,7 @@ cameraData	Date Taken	Çekim Tarihi
 	Detail	Ayrıntı
 	Detailed	Ayrıntılı
 	Detect Faces	Yüzleri Algıla
+	Determines if pixel data outside the crop box is retained or deleted	Kırpma çerçevesinin dışındaki piksellerin korunup silineceğini belirler
 	Developing {name}	{name} geliştiriliyor
 	Diagonal	Çapraz
 	Diagonal (Descending)	Çapraz (Azalan)
@@ -982,6 +986,7 @@ cameraData	Date Taken	Çekim Tarihi
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	Metni Görüntüle
+	Displays pop-up help for the fill methods	Dolgu yöntemleri için açılır yardımı gösterir
 	Dissolve	Eritme
 	Dissolve is approximated: it blends without Photoshop's dither.	Eritme yaklaşık olarak uygulanır: Photoshop'un dither'ı olmadan karıştırır.
 	Distribute Heights	Yükseklikleri Dağıt
@@ -1215,10 +1220,12 @@ cameraData	F-Stop	Diyafram
 	Fill Light	Dolgu Işığı
 	Fill new type layers with placeholder	Yeni metin katmanlarını yer tutucuyla doldur
 	Fill Opacity	Dolgu Opaklığı
+	Fill options	Dolgu seçenekleri
 	Fill Path	Yolu Doldur
 	Fill path with foreground color	Yolu ön plan rengiyle doldur
 	Fill Screen	Ekranı Doldur
 	Fill Settings	Dolgu Ayarları
+	Fill the expanded area with your background color or transparent pixels	Genişletilmiş alanı arka plan rengiyle veya saydam piksellerle doldurun
 	Fill with {mode}-neutral color (50% gray)	{mode} nötr rengiyle doldur (%50 gri)
 	Fill with {mode}-neutral color (black)	{mode} nötr rengiyle doldur (siyah)
 	Fill with {mode}-neutral color (white)	{mode} nötr rengiyle doldur (beyaz)
@@ -1511,6 +1518,7 @@ cameraRaw	Green	Yeşil
 	Horizontal Type Tool	Yatay Metin Aracı
 	Horizontally	Yatay Olarak
 	Hotspot	Sıcak nokta
+	How expanded crop area gets filled	Genişletilmiş kırpma alanının nasıl doldurulacağı
 	How often fastening points are placed by themselves	Sabitleme noktalarının kendi başlarına ne sıklıkla yerleştirildiği
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Kameranın renk filtresi mozaiğinin nasıl doldurulduğu. Dosya açılırken uygulanır; önizleme dosyanın açıldığı yöntemi gösterir.
 	Hsb	HSB
@@ -2583,6 +2591,7 @@ fontWeight	Regular	Normal
 	Reset Section	Bölümü Sıfırla
 	Reset Swatches	Renk Örneklerini Sıfırla
 	Reset the brush to the defaults	Fırçayı varsayılanlara sıfırla
+	Reset the crop box, image rotation, and aspect ratio settings	Kırpma çerçevesini, görüntü döndürmesini ve en-boy oranını sıfırlayın
 	Reset to Default	Varsayılana Sıfırla
 	Reset to defaults	Varsayılanlara sıfırla
 	Reset Tool	Aracı Sıfırla
@@ -2662,6 +2671,7 @@ cameraRaw	Roughness	Pürüzlülük
 	Same folder	Aynı klasör
 	Sample a pixel anywhere on the screen	Ekranın herhangi bir yerinde bir pikseli örnekleyin
 	Sample All Layers	Tüm Katmanları Örnekle
+	Sample content from part of the image and use it to fill a small area	Küçük bir alanı doldurmak için görüntünün bir bölümünden içerik örnekleyin
 	Sample Size:	Örnek Boyutu:
 	Sample:	Örnek:
 	Sample: foreground color	Örnek: ön plan rengi
@@ -2758,6 +2768,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Second Color Readout	İkinci Renk Okuması
 	seconds	saniye
 	Seed	Tohum
+	Select a preset aspect ratio or crop size	Ön ayarlı bir en-boy oranı veya kırpma boyutu seçin
 	Select a type layer or click into text to insert glyphs	Bir metin katmanı seçin veya glif eklemek için metne tıklayın
 	Select a type layer to edit its character and paragraph settings.	Karakter ve paragraf ayarlarını düzenlemek için bir metin katmanı seçin.
 	Select All Layers	Tüm Katmanları Seç
@@ -2820,6 +2831,8 @@ fontWeight	SemiBold	Yarı Kalın
 	Set shape fill type	Şekil doldurma türünü ayarla
 	Set shape stroke type	Şekil kontur türünü ayarla
 	Set Start Timecode…	Başlangıç Zaman Kodunu Ayarla…
+	Set the aspect ratio for the crop box	Kırpma çerçevesinin en-boy oranını ayarlayın
+	Set the overlay options for the Crop Tool	Kırpma yer paylaşımı seçeneklerini ayarlayın
 	Set the overlay options for the Crop tool	Kırpma aracının kaplama seçeneklerini ayarla
 	Set the text color	Metin rengini ayarla
 	Set the tone sliders from the image	Ton kaydırıcılarını görüntüden ayarla

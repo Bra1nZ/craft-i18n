@@ -354,6 +354,7 @@ cameraRaw	Aqua	אקווה
 	Background	רקע
 	Background (Default)	רקע (ברירת מחדל)
 	Background (default)	רקע (ברירת מחדל)
+	Background (default):	רקע (ברירת מחדל):
 	Background Color	צבע רקע
 	Background Contents	תוכן רקע
 	Background Eraser	מחק רקע
@@ -624,6 +625,7 @@ fontWeight	Bold	מודגש
 	Clear	נקה
 	Clear All	נקה הכול
 	Clear Amount	מידת ניקוי
+	Clear aspect ratio values	נקה ערכי יחס גובה-רוחב
 	Clear Brush Controls	נקה פקדי מברשת
 	Clear Brush Strokes	נקה משיכות מברשת
 	Clear Canvas Guides	נקה קווים מנחים של הקנבס
@@ -819,6 +821,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Contact Sheet II…	גיליון מגע II…
 	Content-Aware	מודע לתוכן
 	Content-Aware Fill	מילוי מודע לתוכן
+	Content-aware fill	מילוי לפי תוכן
 	Content-Aware Fill needs a selection on a pixel layer	מילוי מודע לתוכן דורש בחירה בשכבת פיקסלים
 	Content-Aware Fill…	מילוי מודע לתוכן…
 	Content-Aware Move	הזזה מודעת לתוכן
@@ -1165,6 +1168,7 @@ cameraData	Date Taken	תאריך צילום
 	Detailed	מפורט
 	Details	פרטים
 	Detect Faces	גלה פנים
+	Determines if pixel data outside the crop box is retained or deleted	קובע אם פיקסלים מחוץ למסגרת החיתוך נשמרים או נמחקים
 	Developing {name}	מפתח את {name}
 	Diagonal (Descending)	אלכסוני (יורד)
 	Diameter	קוטר
@@ -1207,6 +1211,7 @@ cameraData	Date Taken	תאריך צילום
 	Display profiles: {reason}	פרופילי תצוגה: {reason}
 	Display Text	הצג טקסט
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	מציג עזרה קופצת על שיטות המילוי
 	Dissolve	פירוק (Dissolve)
 	Dissolve is approximated: it blends without Photoshop's dither.	פירוק (Dissolve) מקורב: הוא ממזג בלי הדיתור של Photoshop.
 	Distance	מרחק
@@ -1499,11 +1504,13 @@ cameraData	F-Stop	צמצם (F-Stop)
 	Fill Light	תאורת מילוי
 	Fill new type layers with placeholder	מלא שכבות טקסט חדשות בטקסט placeholder
 	Fill Opacity	אטימות מילוי
+	Fill options	אפשרויות מילוי
 	Fill Path	מלא נתיב
 	Fill path with foreground color	מלא נתיב בצבע חזית
 	Fill Path…	מלא נתיב…
 	Fill Screen	מלא מסך
 	Fill Settings	הגדרות מילוי
+	Fill the expanded area with your background color or transparent pixels	מלא את האזור המורחב בצבע הרקע או בפיקסלים שקופים
 	Fill with Background Color	מלא בצבע רקע
 	Fill with Background Color, Preserve Transparency	מלא בצבע רקע, שמור על שקיפות
 	Fill with Foreground Color	מלא בצבע חזית
@@ -1874,6 +1881,7 @@ cameraRaw	Green	ירוק
 	Horizontal Type Tool	כלי טקסט אופקי
 	Horizontally	אופקית
 	Hotspot	נקודת מוקד (Hotspot)
+	How expanded crop area gets filled	כיצד מתמלא אזור החיתוך המורחב
 	How often fastening points are placed by themselves	באיזו תדירות נקודות הצמדה מוצבות מעצמן
 	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	איך מוזאיקת מסנני הצבע של המצלמה ממולאת. היא מוחלת בעת פתיחת הקובץ; התצוגה המקדימה מציגה את השיטה שבה הוא נפתח.
 	Hsb	HSB
@@ -3216,6 +3224,7 @@ fontWeight	Regular	רגיל
 	Reset Section	אפס מקטע
 	Reset Swatches	אפס דוגמיות
 	Reset the brush to the defaults	אפס את המברשת לברירת המחדל
+	Reset the crop box, image rotation, and aspect ratio settings	אפס את מסגרת החיתוך, סיבוב התמונה ויחס הגובה-רוחב
 	Reset to Default	אפס לברירת המחדל
 	Reset to defaults	אפס לברירת המחדל
 	Reset Tool	אפס כלי
@@ -3311,6 +3320,7 @@ cameraRaw	Roughness	גסות
 	Same folder	אותה תיקייה
 	Sample a pixel anywhere on the screen	דגום פיקסל בכל מקום על המסך
 	Sample All Layers	דגום את כל השכבות
+	Sample content from part of the image and use it to fill a small area	דגום תוכן מחלק מהתמונה כדי למלא אזור קטן
 	Sample Size	גודל דגימה
 	Sample Size:	גודל דגימה:
 	Sample:	דגימה:
@@ -3426,6 +3436,7 @@ cameraRaw	Roughness	גסות
 	Second Color Readout	קריאת צבע שנייה
 	seconds	שניות
 	Seed	זרע (Seed)
+	Select a preset aspect ratio or crop size	בחר יחס גובה-רוחב או גודל חיתוך מוגדרים מראש
 	Select a type layer or click into text to insert glyphs	בחר שכבת טקסט או לחץ בתוך הטקסט כדי להוסיף גליפים
 	Select a type layer to edit its character and paragraph settings.	בחר שכבת טקסט כדי לערוך את הגדרות התווים והפסקה שלה.
 	Select All	בחר הכול
@@ -3520,6 +3531,8 @@ fontWeight	SemiBold	מודגש-חלקי
 	Set shape fill type	הגדר סוג מילוי צורה
 	Set shape stroke type	הגדר סוג קו מתאר צורה
 	Set Start Timecode…	הגדר קוד זמן התחלה…
+	Set the aspect ratio for the crop box	הגדר את יחס הגובה-רוחב של מסגרת החיתוך
+	Set the overlay options for the Crop Tool	הגדר אפשרויות שכבת־על לחיתוך
 	Set the overlay options for the Crop tool	הגדר את אפשרויות שכבת-העל לכלי החיתוך
 	Set the text color	הגדר את צבע הטקסט
 	Set the tone sliders from the image	הגדר את מחווני הגוון מהתמונה
@@ -3937,6 +3950,7 @@ cameraRaw	Temperature	טמפרטורה
 	The fastest and the softest, with colour fringing on fine detail.	המהירה והרכה ביותר, עם גזירת צבע בפרטים דקים.
 	The file could not be opened.	לא ניתן היה לפתוח את הקובץ.
 	The file could not be saved.	לא ניתן היה לשמור את הקובץ.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	שכבת המילוי הזו חייבת להיות מרוסטרת לפני ההמשך. תוכן המילוי שלה לא יהיה עוד עריך. לרסטר את השכבה?
 	The frame is locked	המסגרת נעולה
 	The frame is unavailable	המסגרת אינה זמינה
 	The GPU compositor is still being prepared	מרכיב ה-GPU עדיין בהכנה
@@ -3961,7 +3975,6 @@ fontWeight	Thin	דק
 	This adjustment ({key}) is kept as imported and can't be edited yet.	התאמה זו ({key}) נשמרת כמיובאת ולא ניתן עדיין לערוך אותה.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	שכבות המסמך הזה צריכות {needed} אבל עשויות להכיל {budget}: ציור מחדש של כל המסמך משתמש ב-CPU
 	This document's layers: {needed} of {budget} for layers	שכבות המסמך הזה: {needed} מתוך {budget} לשכבות
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	שכבת המילוי הזו חייבת להיות מרוסטרת לפני ההמשך. תוכן המילוי שלה לא יהיה עוד עריך. לרסטר את השכבה?
 	This layer must be rasterized before proceeding.	השכבה הזו חייבת להיות מרוסטרת לפני ההמשך.
 	This Layer:	שכבה זו:
 	This redraw took {seconds} s on the CPU.	הציור מחדש הזה לקח {seconds} שניות על ה-CPU.

@@ -308,6 +308,7 @@ cameraRaw	Aqua	Aguamarinas
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Fondo (predeterminado)
 	Background (default)	Fondo (predeterminado)
+	Background (default):	Fondo (predeterminado):
 	Background Contents	Contenido del fondo
 	Background Eraser	Borrador de fondo
 	Background Eraser Tool	Herramienta Borrador de fondos
@@ -517,6 +518,7 @@ fontWeight	Bold	Negrita
 	Clean the brush after each stroke	Limpiar el pincel después de cada trazo
 	Cleanliness	Limpieza
 	Clear Amount	Cantidad de transparencia
+	Clear aspect ratio values	Borrar los valores de proporción
 	Clear Brush Controls	Borrar controles de pincel
 	Clear Brush Strokes	Borrar trazos de pincel
 	Clear Canvas Guides	Borrar guías del lienzo
@@ -681,6 +683,7 @@ cameraRaw	Color Grading	Gradación de color
 	Contact Sheet II…	Hoja de contactos II…
 	Content-Aware	Según el contenido
 	Content-Aware Fill	Relleno según el contenido
+	Content-aware fill	Relleno según el contenido
 	Content-Aware Fill needs a selection on a pixel layer	El relleno según el contenido necesita una selección en una capa de píxeles
 	Content-Aware Fill…	Relleno según el contenido…
 	Content-Aware Move	Mover con detección de contenido
@@ -975,6 +978,7 @@ cameraData	Date Taken	Fecha de captura
 	Detail	Detalle
 	Detailed	Detallado
 	Detect Faces	Detectar caras
+	Determines if pixel data outside the crop box is retained or deleted	Determina si los píxeles fuera del cuadro de recorte se conservan o se eliminan
 	Developing {name}	Revelando {name}
 	Diagonal (Descending)	Diagonal (descendente)
 	Diamond	Diamante
@@ -1006,6 +1010,7 @@ cameraData	Date Taken	Fecha de captura
 	Display profile not used	Perfil de pantalla sin usar
 	Display profiles: {reason}	Perfiles de pantalla: {reason}
 	Display Text	Texto de visualización
+	Displays pop-up help for the fill methods	Muestra la ayuda emergente de los métodos de relleno
 	Dissolve	Disolver
 	Dissolve is approximated: it blends without Photoshop's dither.	Disolver es aproximado: se fusiona sin el tramado de Photoshop.
 	Distribute Heights	Distribuir alturas
@@ -1246,11 +1251,13 @@ cameraData	F-Stop	Número f
 	Fill Light	Luz de relleno
 	Fill new type layers with placeholder	Rellenar las capas de texto nuevas con texto de marcador
 	Fill Opacity	Opacidad del relleno
+	Fill options	Opciones de relleno
 	Fill Path	Rellenar trazado
 	Fill path with foreground color	Rellenar el trazado con el color frontal
 	Fill Path…	Rellenar trazado…
 	Fill Screen	Rellenar pantalla
 	Fill Settings	Ajustes de relleno
+	Fill the expanded area with your background color or transparent pixels	Rellenar el área ampliada con el color de fondo o píxeles transparentes
 	Fill with {mode}-neutral color (50% gray)	Rellenar con el color neutro de {mode} (gris al 50%)
 	Fill with {mode}-neutral color (black)	Rellenar con el color neutro de {mode} (negro)
 	Fill with {mode}-neutral color (white)	Rellenar con el color neutro de {mode} (blanco)
@@ -1544,6 +1551,7 @@ cameraRaw	Green	Verdes
 	Horizontal Type Mask Tool	Herramienta Máscara de texto horizontal
 	Horizontal Type Tool	Herramienta Texto horizontal
 	Hotspot	Punto focal
+	How expanded crop area gets filled	Cómo se rellena el área de recorte ampliada
 	How often fastening points are placed by themselves	Con qué frecuencia se colocan puntos de fijación automáticamente
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Cómo se completa el mosaico del filtro de color de la cámara. Se aplica al abrir el archivo; la vista previa muestra el método con el que se abrió.
 	Hsb	HSB
@@ -2636,6 +2644,7 @@ fontWeight	Regular	Normal
 	Reset Section	Restablecer sección
 	Reset Swatches	Restablecer muestras
 	Reset the brush to the defaults	Restablecer el pincel a los valores predeterminados
+	Reset the crop box, image rotation, and aspect ratio settings	Restablecer el cuadro de recorte, la rotación de la imagen y la proporción
 	Reset to Default	Restablecer valores predeterminados
 	Reset to defaults	Restablecer a los valores predeterminados
 	Reset Tool	Restablecer herramienta
@@ -2715,6 +2724,7 @@ cameraRaw	Roughness	Rugosidad
 	Same folder	Misma carpeta
 	Sample a pixel anywhere on the screen	Tomar un píxel en cualquier lugar de la pantalla
 	Sample All Layers	Muestrear todas las capas
+	Sample content from part of the image and use it to fill a small area	Tomar contenido de parte de la imagen para rellenar un área pequeña
 	Sample Size:	Tamaño de muestra:
 	Sample:	Muestra:
 	Sample: foreground color	Muestra: color frontal
@@ -2817,6 +2827,7 @@ cameraRaw	Roughness	Rugosidad
 	seconds	segundos
 	Seed	Semilla
 	Select	Selección
+	Select a preset aspect ratio or crop size	Elegir un formato de imagen o un tamaño de recorte predefinido
 	Select a type layer or click into text to insert glyphs	Seleccione una capa de texto o haga clic en el texto para insertar glifos
 	Select a type layer to edit its character and paragraph settings.	Seleccione una capa de texto para editar sus ajustes de carácter y párrafo.
 	Select All Layers	Seleccionar todas las capas
@@ -2882,6 +2893,8 @@ fontWeight	SemiBold	Seminegrita
 	Set shape fill type	Establecer el tipo de relleno de la forma
 	Set shape stroke type	Establecer el tipo de trazo de la forma
 	Set Start Timecode…	Establecer código de tiempo inicial…
+	Set the aspect ratio for the crop box	Definir la proporción del cuadro de recorte
+	Set the overlay options for the Crop Tool	Definir las opciones de superposición del recorte
 	Set the overlay options for the Crop tool	Definir las opciones de superposición de la herramienta Recortar
 	Set the text color	Establecer el color del texto
 	Set the tone sliders from the image	Ajustar los controles de tono a partir de la imagen
@@ -3210,6 +3223,7 @@ cameraRaw	Temperature	Temperatura
 	The fastest and the softest, with color fringing on fine detail.	El más rápido y el más suave, con halo de color en el detalle fino.
 	The file could not be opened.	No se pudo abrir el archivo.
 	The file could not be saved.	No se pudo guardar el archivo.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Esta capa de relleno debe rasterizarse antes de continuar. Su contenido de relleno dejará de ser editable. ¿Rasterizar la capa?
 	The frame is locked	El marco está bloqueado
 	The frame is unavailable	El marco no está disponible
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3232,7 +3246,6 @@ fontWeight	Thin	Ultrafina
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Este ajuste ({key}) se conserva como se importó y aún no puede editarse.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Las capas de este documento necesitan {needed} pero pueden ocupar {budget}: los redibujados de todo el documento usan la CPU
 	This document's layers: {needed} of {budget} for layers	Capas de este documento: {needed} de {budget} para capas
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Esta capa de relleno debe rasterizarse antes de continuar. Su contenido de relleno dejará de ser editable. ¿Rasterizar la capa?
 	This layer must be rasterized before proceeding.	Esta capa debe rasterizarse antes de continuar.
 	This Layer:	Esta capa:
 	This redraw took {seconds} s on the CPU.	Este redibujado en la CPU tardó {seconds} s.

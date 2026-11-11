@@ -271,6 +271,7 @@ cameraRaw	Aqua	Xanh ngọc
 	Autosave minutes	Phút giữa các lần tự động lưu
 	Background (Default)	Nền (mặc định)
 	Background (default)	Nền (mặc định)
+	Background (default):	Nền (mặc định):
 	Background Eraser	Tẩy nền
 	Background Eraser Tool	Công cụ Tẩy nền
 	Background From Layer	Nền từ lớp
@@ -472,6 +473,7 @@ cameraRaw	Clarity	Độ rõ
 	Clean the brush after each stroke	Làm sạch cọ sau mỗi nét vẽ
 	Cleanliness	Độ sạch
 	Clear Amount	Mức trong
+	Clear aspect ratio values	Xóa các giá trị tỷ lệ
 	Clear Brush Controls	Xóa điều khiển cọ
 	Clear Brush Strokes	Xóa nét cọ
 	Clear Canvas Guides	Xóa đường căn canvas
@@ -612,6 +614,7 @@ cameraRaw	Color Mixer	Bộ trộn màu
 	Contact Sheet II…	Contact Sheet II…
 	Content-Aware	Theo nội dung
 	Content-Aware Fill	Tô nhận biết nội dung
+	Content-aware fill	Lấp đầy theo nội dung
 	Content-Aware Fill needs a selection on a pixel layer	Tô nhận biết nội dung cần một vùng chọn trên lớp điểm ảnh
 	Content-Aware Fill…	Tô theo nội dung…
 	Content-Aware Move	Di chuyển nhận biết nội dung
@@ -886,6 +889,7 @@ cameraRaw	Dehaze	Khử sương
 	Detail	Chi tiết
 cameraRaw	Detail	Chi tiết
 	Detailed	Chi tiết
+	Determines if pixel data outside the crop box is retained or deleted	Xác định xem các điểm ảnh ngoài khung cắt được giữ lại hay xóa
 	Developing {name}	Đang xử lý {name}
 	Diagonal (Descending)	Chéo (giảm dần)
 	Diamond Gradient	Chuyển sắc hình thoi
@@ -910,6 +914,7 @@ cameraRaw	Detail	Chi tiết
 	Display p3	Display p3
 	Display Text	Hiển thị văn bản
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Hiển thị trợ giúp bật lên về các phương pháp lấp đầy
 	Dissolve	Hoà tan
 	Dissolve is approximated: it blends without Photoshop's dither.	Hoà tan chỉ được mô phỏng gần đúng: hòa trộn không có dither của Photoshop.
 	Distort	Bóp méo
@@ -1123,10 +1128,12 @@ layers	Fill	Độ tô
 	Fill Layer	Lớp tô
 	Fill new type layers with placeholder	Tô lớp chữ mới bằng nội dung tạm
 	Fill Opacity	Độ mờ tô
+	Fill options	Tùy chọn lấp đầy
 	Fill Path	Tô đường dẫn
 	Fill path with foreground color	Tô đường dẫn bằng màu nền trước
 	Fill Screen	Lấp đầy màn hình
 	Fill Settings	Cài đặt tô
+	Fill the expanded area with your background color or transparent pixels	Lấp đầy vùng mở rộng bằng màu nền hoặc điểm ảnh trong suốt
 	Fill with {mode}-neutral color (50% gray)	Tô bằng màu trung tính của {mode} (xám 50%)
 	Fill with {mode}-neutral color (black)	Tô bằng màu trung tính của {mode} (đen)
 	Fill with {mode}-neutral color (white)	Tô bằng màu trung tính của {mode} (trắng)
@@ -1400,6 +1407,7 @@ cameraRaw	Highlights	Vùng sáng
 	Horizontal Type Mask Tool	Công cụ mặt nạ chữ ngang
 	Horizontal Type Tool	Công cụ Chữ ngang
 	Hotspot	Điểm nóng
+	How expanded crop area gets filled	Cách vùng cắt mở rộng được lấp đầy
 	How often fastening points are placed by themselves	Tần suất tự đặt điểm ghim
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Cách lấp đầy khảm lọc màu của máy ảnh. Áp dụng khi mở tệp; bản xem trước hiển thị phương pháp đã dùng khi mở.
 	Hsb	Hsb
@@ -2387,6 +2395,7 @@ fontWeight	Regular	Thường
 	Reset Section	Đặt lại mục
 	Reset Swatches	Đặt lại mẫu màu
 	Reset the brush to the defaults	Đặt lại cọ về mặc định
+	Reset the crop box, image rotation, and aspect ratio settings	Đặt lại khung cắt, độ xoay ảnh và tỷ lệ
 	Reset to Default	Đặt lại mặc định
 	Reset to defaults	Đặt lại mặc định
 	Reset Tool	Đặt lại công cụ
@@ -2456,6 +2465,7 @@ cameraRaw	Roundness	Độ tròn
 	Same folder	Cùng thư mục
 	Sample a pixel anywhere on the screen	Lấy mẫu một điểm ảnh bất kỳ trên màn hình
 	Sample All Layers	Lấy mẫu mọi lớp
+	Sample content from part of the image and use it to fill a small area	Lấy nội dung từ một phần của ảnh để lấp đầy vùng nhỏ
 	Sample Size:	Kích thước mẫu:
 	Sample:	Lấy mẫu:
 	Sample: foreground color	Mẫu: màu nền trước
@@ -2543,6 +2553,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Search…	Tìm…
 	seconds	giây
 	Seed	Hạt giống
+	Select a preset aspect ratio or crop size	Chọn tỷ lệ khung hình hoặc kích thước cắt đặt trước
 	Select a type layer or click into text to insert glyphs	Chọn lớp chữ hoặc bấm vào văn bản để chèn glyph
 	Select a type layer to edit its character and paragraph settings.	Chọn lớp chữ để chỉnh thiết lập ký tự và đoạn văn.
 	Select All Layers	Chọn tất cả lớp
@@ -2598,6 +2609,8 @@ fontWeight	SemiBold	Nửa đậm
 	Set saved.	Đã lưu bộ.
 	Set shape fill type	Đặt kiểu tô hình
 	Set shape stroke type	Đặt kiểu nét hình
+	Set the aspect ratio for the crop box	Đặt tỷ lệ khung hình cho khung cắt
+	Set the overlay options for the Crop Tool	Đặt tùy chọn lớp phủ cắt
 	Set the overlay options for the Crop tool	Đặt tùy chọn lớp phủ cho công cụ Cắt
 	Set the text color	Đặt màu chữ
 	Set the tone sliders from the image	Đặt các thanh trượt tông từ ảnh
